@@ -12,6 +12,7 @@ length(specieslist)
 # Note: these for-loops will take a long time to run if looking at more than 1000 species in specieslist
 # Task: How to make this process efficient?
 
+library(rentrez)
 
 # looking at the first 200 species 
 # when running the following lines of code, R will give error message that the vector ids is empty
