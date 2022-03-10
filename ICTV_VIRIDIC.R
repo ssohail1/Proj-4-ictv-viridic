@@ -10,29 +10,16 @@ specieslist <- ictvxl$Species
 length(specieslist)
 
 # Note: these for-loops will take a long time to run if looking at more than 1000 species in specieslist
-# Task: How to make this process efficient?
+# To-do: How to make this process efficient?
 
 library(rentrez)
 
-# looking at the first 200 species 
 # when running the following lines of code, R will give error message that the vector ids is empty
 # and at that point accnsp/entrez_search returns 0 hits - stops at Icerudivirus SIRV3
 # after specieslist[19] there are "0" values in tax_lineagsp
-# this for-loop will extract the taxonomic lineage of a given species - necessary for when start working with VIRIDIC
 # if accnsp$count == 0 then that means there were no hits found for that specific species - these also will be in tax_lineagsp
 # and will not start with Viruses as they did not go through the entrez_fetch function
-tax_lineagsp <- rep(0,24)
-for (i in 1:24) {
-  accnsp <- entrez_search(db="taxonomy", term=specieslist[i])
-  if (accnsp$count != 0) {
-    tax_recsp <- entrez_fetch(db="taxonomy", id=accnsp$ids, rettype="xml", parsed=TRUE)
-    #class(tax_recsp)
-    tax_listsp <- XML::xmlToList(tax_recsp)
-    tax_lineagsp[i] <- tax_listsp$Taxon[["Lineage"]]
-  } else {
-    tax_lineagsp[i] <- specieslist[i]
-  }
-}
+# There are species in the ICTV master species list that result in no hits found when running entrez_search()
 
 # writing out the fasta files for specieslist[1] and specieslist[2]
 # if accnsp$count == 0 then that means there were no hits found for that specific species
