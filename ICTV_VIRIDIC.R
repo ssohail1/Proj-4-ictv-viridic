@@ -23,6 +23,11 @@ library(rentrez)
 
 # writing out the fasta files for specieslist[1] and specieslist[2]
 # if accnsp$count == 0 then that means there were no hits found for that specific species
+
+accnsplist <- rep(0,length(specieslist))
+for (i in 1:length(specieslist)) {
+  accnsplist[i] <- entrez_search(db="nucleotide", term=specieslist[i], retmax=length(specieslist))}
+
 for (i in 1:2) {
   accnsp <- entrez_search(db="nucleotide", term=specieslist[i])
   if (accnsp$count != 0) {
