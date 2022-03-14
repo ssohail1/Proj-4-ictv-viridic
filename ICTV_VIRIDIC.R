@@ -24,9 +24,33 @@ library(rentrez)
 # writing out the fasta files for specieslist[1] and specieslist[2]
 # if accnsp$count == 0 then that means there were no hits found for that specific species
 
+''' jacob code - not functional
 accnsplist <- rep(0,length(specieslist))
 for (i in 1:length(specieslist)) {
   accnsplist[i] <- entrez_search(db="nucleotide", term=specieslist[i], retmax=length(specieslist))}
+
+ictvxl <- read.csv("/Users/jgrandinetti/Downloads/ICTV.csv")
+View(ictvxl)
+specieslist <- ictvxl$Species
+length(specieslist)
+
+accnsplist <- rep(0,length(specieslist))
+count = 0
+
+for (i in 1:length(specieslist)) {
+  accnsplist[i] <- entrez_search(db="nuccore", term=specieslist[i], retmax=length(specieslist))
+     
+    efetch.batch(id, chunk_size = 200, rettype = NULL,
+                   retmode = NULL, retmax = NULL, strand = NULL,
+                   seq_start = NULL, seq_stop = NULL, complexity = NULL)
+
+  if (accnsplist[i]$count != 0) {
+    count + 1
+    tax_recsplist <- rep(0,count)
+    tax_recsp <- entrez_link(dbfrom="nucleotide", id=accnsp$ids, rettype="fasta",db="nuccore")
+  }
+}
+'''
 
 for (i in 1:2) {
   accnsp <- entrez_search(db="nucleotide", term=specieslist[i])
