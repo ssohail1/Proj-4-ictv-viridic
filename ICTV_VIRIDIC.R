@@ -35,6 +35,7 @@ for (i in 1:length(specieslist)) {
     }
   }
 }
+# Sidra: Ran above for-loop to count zero species - it ran 30 mins before I exited and 1951 were hits and 14 were no hits
 
 # this is test code to see if able to retrieve fasta sequences from NCBI
 # this looks at the first two species in the specieslist
