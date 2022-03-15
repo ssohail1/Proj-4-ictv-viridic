@@ -21,6 +21,7 @@ library(rentrez)
 # if accnsp$count == 0 then that means there were no hits found for that specific species
 # There are species in the ICTV master species list that result in no hits found when running entrez_search()
 
+# this is the count function
 # this is a loop to see how many of the 9110 species give out 0 hits from NCBI
 # and how many species have hits from NCBI
 count <- 0
@@ -36,6 +37,8 @@ for (i in 1:length(specieslist)) {
   }
 }
 # Sidra: Ran above for-loop to count zero species - it ran 30 mins before I exited and 1951 were hits and 14 were no hits
+
+# this is writing out the fasta sequences - modify this to write out the tax_recsp IDs to a text file where each species accession IDs is a new line
 
 # this is test code to see if able to retrieve fasta sequences from NCBI
 # this looks at the first two species in the specieslist
