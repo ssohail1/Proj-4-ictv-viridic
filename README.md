@@ -4,4 +4,4 @@
 2. Open the downloaded xlsx file and go to the third sheet
 3. Save the third sheet as a csv file 
 4. This csv file will be input to R for retrieval of sequences from NCBI using the rentrez package
-5. Save the ICTV R script and run it to see if everything runs on your local computer or class machine
+5. Save the ICTV_VIRIDIC R script and run it to see if everything runs on your local computer or class machine
