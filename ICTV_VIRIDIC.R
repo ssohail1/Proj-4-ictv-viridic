@@ -39,6 +39,8 @@ for (i in 1:length(specieslist)) {
 # Sidra: Ran above for-loop to count zero species - it ran 30 mins before I exited and 1951 were hits and 14 were no hits
 
 # this is writing out the fasta sequences - modify this to write out the tax_recsp IDs to a text file where each species accession IDs is a new line
+#Jacob: added above request, still getting stuck when species has 0 hits from NCBI. If we can get above for loop to run faster, then we can add in an if statement to
+#second for loop to exclude species if it has 0 matches
 
 # this is test code to see if able to retrieve fasta sequences from NCBI
 # this looks at the first two species in the specieslist
@@ -50,6 +52,7 @@ for (i in 1:2) {
     #cat(strwrap(substr(all_recs,1,2147483647)), sep="\n")
     #tax_seqssp[i] <- c(strwrap(all_recs))
     # writing out the fasta files for specieslist[1] and specieslist[2]
+    write(tax_recsp$links$nuccore_nuccore_gbrs, file='~/Documents/tax_recspID.txt', append = TRUE)
     write(all_recs, file="~/Documents/myfile.fasta",append = TRUE)
   }
 }
