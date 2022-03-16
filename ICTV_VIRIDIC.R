@@ -38,6 +38,31 @@ for (i in 1:length(specieslist)) {
 }
 # Sidra: Ran above for-loop to count zero species - it ran 30 mins before I exited and 1951 were hits and 14 were no hits
 
+# UPDATE:
+# Sidra: this accounts for the name mismatch in NCBI - for-loop seems to get stuck at random points
+# if it gets stuck after [15] (if the last thing printed is 15) then look at specieslist[16] and change for (i in 1:25) to for (i in 16) and see if it works then
+for (i in 1:25) {
+  accnsp <- entrez_search(db="nucleotide", term=specieslist[i])
+  
+  if (accnsp$count != 0) {
+    print(i)
+    tax_recsp <- entrez_link(dbfrom="nucleotide", id=accnsp$ids, rettype="fasta",db="nuccore")
+    
+    if (length(tax_recsp$links) > 0) {
+      all_recs <- entrez_fetch(db="nuccore", id=tax_recsp$links$nuccore_nuccore_gbrs, rettype="fasta")
+      write(tax_recsp$links$nuccore_nuccore_gbrs, file='~/Documents/tax_recspID.txt', append = TRUE)
+      
+    } else{
+      all_recs <- entrez_fetch(db="nucleotide", id=accnsp$ids,rettype = "fasta")
+      write(accnsp$ids, file='~/Documents/tax_recspID.txt', append = TRUE)
+      #all_recs <- entrez_fetch(db="nuccore", id=tax_recsp$links$nuccore_nuccore_gbrs, rettype="fasta")
+      #write(tax_recsp$links$nuccore_nuccore_gbrs, file='~/Documents/tax_recspID.txt', append = TRUE)
+    }
+    
+    write(all_recs, file="~/Documents/myfile.fasta",append = TRUE)
+  }
+}
+
 # this is writing out the fasta sequences - modify this to write out the tax_recsp IDs to a text file where each species accession IDs is a new line
 #Jacob: added above request, still getting stuck when species has 0 hits from NCBI. If we can get above for loop to run faster, then we can add in an if statement to
 #second for loop to exclude species if it has 0 matches
@@ -56,3 +81,4 @@ for (i in 1:2) {
     write(all_recs, file="~/Documents/myfile.fasta",append = TRUE)
   }
 }
+
