@@ -24,6 +24,9 @@ library(rentrez)
 # this is the count function
 # this is a loop to see how many of the 9110 species give out 0 hits from NCBI
 # and how many species have hits from NCBI
+
+# UPDATE this code to store species from specieslist[i] that have accnsplist$count == 0
+
 count <- 0
 countze <- 0
 for (i in 1:length(specieslist)) {
