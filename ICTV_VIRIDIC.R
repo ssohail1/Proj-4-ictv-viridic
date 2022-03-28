@@ -13,6 +13,16 @@ length(specieslist)
 # Note: entrez prints error message when loop through many species
 # To-do: How to have entrez retrieve sequences for all species
 
+#in order to install devtools
+#in command line, run the following commands -
+  #sudo apt-get install libssl-dev
+  #sudo apt-get install libxml2-dev
+  #sudo apt-get install libcurl4-openssl-dev
+  #sudo apt-get -y install libcurl4-gnutls-dev
+#to install reutils - install.packages("reutils")
+
+library(reutils)
+library(devtools)
 library(rentrez)
 
 # when running the following lines of code, R will give error message that the vector ids is empty
@@ -40,6 +50,9 @@ for (i in 1:length(specieslist)) {
   }
 }
 # Sidra: Ran above for-loop to count zero species - it ran 30 mins before I exited and 1951 were hits and 14 were no hits
+# Rhea: Attempting to use esearch (from reutils package) for this for-loop. Having issues and consistently getting errors `Warning: HTTP error: Status 500;`
+# accnsplist <- esearch(specieslist, db = "nuccore", rettype = "count", retmax=length(specieslist))
+# esearch does have 'count' funcitonality which would make this process easier (hopefully)
 
 # UPDATE:
 # Sidra: this accounts for the name mismatch in NCBI - for-loop seems to get stuck at random points
