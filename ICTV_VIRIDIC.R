@@ -57,6 +57,15 @@ for (i in 1:length(specieslist)) {
 # UPDATE:
 # Sidra: this accounts for the name mismatch in NCBI - for-loop seems to get stuck at random points
 # if it gets stuck after [15] (if the last thing printed is 15) then look at specieslist[16] and change for (i in 1:25) to for (i in 16) and see if it works then
+
+# this is writing out the fasta sequences - modify this to write out the tax_recsp IDs to a text file where each species accession IDs is a new line
+#Jacob: added above request, still getting stuck when species has 0 hits from NCBI. If we can get above for loop to run faster, then we can add in an if statement to
+#second for loop to exclude species if it has 0 matches
+
+# this is test code to see if able to retrieve fasta sequences from NCBI
+# this looks at the first two species in the specieslist
+
+
 for (i in 1:25) {
   accnsp <- entrez_search(db="nucleotide", term=specieslist[i])
   
@@ -79,22 +88,8 @@ for (i in 1:25) {
   }
 }
 
-# this is writing out the fasta sequences - modify this to write out the tax_recsp IDs to a text file where each species accession IDs is a new line
-#Jacob: added above request, still getting stuck when species has 0 hits from NCBI. If we can get above for loop to run faster, then we can add in an if statement to
-#second for loop to exclude species if it has 0 matches
+# Next Steps: use NCBI created accession number list from ICTV database as batch search NCBI to get equivalent fasta and add to database
+# Next Next Steps: VIRIDIC with in-house database to run user input fasta sequence and determine similarities
 
-# this is test code to see if able to retrieve fasta sequences from NCBI
-# this looks at the first two species in the specieslist
-for (i in 1:2) {
-  accnsp <- entrez_search(db="nucleotide", term=specieslist[i])
-  if (accnsp$count != 0) {
-    tax_recsp <- entrez_link(dbfrom="nucleotide", id=accnsp$ids, rettype="fasta",db="nuccore")
-    all_recs <- entrez_fetch(db="nuccore", id=tax_recsp$links$nuccore_nuccore_gbrs, rettype="fasta")
-    #cat(strwrap(substr(all_recs,1,2147483647)), sep="\n")
-    #tax_seqssp[i] <- c(strwrap(all_recs))
-    # writing out the fasta files for specieslist[1] and specieslist[2]
-    write(tax_recsp$links$nuccore_nuccore_gbrs, file='~/Documents/tax_recspID.txt', append = TRUE)
-    write(all_recs, file="~/Documents/myfile.fasta",append = TRUE)
-  }
-}
+
 
