@@ -10,8 +10,8 @@ specieslist <- ictvxl$Species
 length(specieslist)
 
 # Moving Forward: need to address this issue when retrieving accession IDs and fasta sequences
-# Note: these for-loops will take a long time to run if looking at more than 1000 species in specieslist
-# To-do: How to make this process efficient?
+# Note: entrez prints error message when loop through many species
+# To-do: How to have entrez retrieve sequences for all species
 
 library(rentrez)
 
