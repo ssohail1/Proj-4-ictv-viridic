@@ -18,7 +18,7 @@ length(specieslist)
   #sudo apt-get install libssl-dev
   #sudo apt-get install libxml2-dev
   #sudo apt-get install libcurl4-openssl-dev
-  #sudo apt-get -y install libcurl4-gnutls-dev
+  #sudo apt install r-cran-devtools
 #to install reutils - install.packages("reutils")
 
 library(reutils)
