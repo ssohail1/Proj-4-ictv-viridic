@@ -35,10 +35,11 @@ library(rentrez)
 # this is a loop to see how many of the 9110 species give out 0 hits from NCBI
 # and how many species have hits from NCBI
 
-# UPDATE this code to store species from specieslist[i] that have accnsplist$count == 0 - completed
+# this stores species from specieslist[i] that have accnsplist$count == 0 - completed
 ictvxl <- read.csv('/home/ssohail/MasterSpeciesList2020.csv') 
 specieslist <- ictvxl$Species
-count <- 0
+# accnsplist$count is the number of IDs returned from searching a species
+# Sidra: the specieszero1.txt file has 318 species that yield 0 hits from NCBI 
 for (i in 1:length(specieslist)) {
   accnsplist <- entrez_search(db="nuccore", term=specieslist[i], retmax=length(specieslist))
   if (accnsplist$count == 0) {
@@ -46,7 +47,6 @@ for (i in 1:length(specieslist)) {
   }
 }
 
-# Sidra: specieszero1.txt has 318 species that yield zero hits
 # Rhea: Attempting to use esearch (from reutils package) for this for-loop. Having issues and consistently getting errors `Warning: HTTP error: Status 500;`
 # accnsplist <- esearch(specieslist, db = "nuccore", rettype = "count", retmax=length(specieslist))
 # esearch does have 'count' funcitonality which would make this process easier (hopefully)
