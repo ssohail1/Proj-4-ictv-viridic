@@ -35,21 +35,18 @@ library(rentrez)
 # this is a loop to see how many of the 9110 species give out 0 hits from NCBI
 # and how many species have hits from NCBI
 
-# UPDATE this code to store species from specieslist[i] that have accnsplist$count == 0
-
+# UPDATE this code to store species from specieslist[i] that have accnsplist$count == 0 - completed
+ictvxl <- read.csv('/home/ssohail/MasterSpeciesList2020.csv') 
+specieslist <- ictvxl$Species
 count <- 0
-countze <- 0
 for (i in 1:length(specieslist)) {
   accnsplist <- entrez_search(db="nuccore", term=specieslist[i], retmax=length(specieslist))
-  if (accnsplist$count != 0) {
-    count <- count + 1
-  } else {
-    if (accnsplist$count == 0) {
-      countze <- countze + 1
-    }
+  if (accnsplist$count == 0) {
+      write(specieslist[i], file='/home/ssohail/specieszero1.txt', append = TRUE)
   }
 }
-# Sidra: Ran above for-loop to count zero species - it ran 30 mins before I exited and 1951 were hits and 14 were no hits
+
+# Sidra: specieszero1.txt has 318 species that yield zero hits
 # Rhea: Attempting to use esearch (from reutils package) for this for-loop. Having issues and consistently getting errors `Warning: HTTP error: Status 500;`
 # accnsplist <- esearch(specieslist, db = "nuccore", rettype = "count", retmax=length(specieslist))
 # esearch does have 'count' funcitonality which would make this process easier (hopefully)
@@ -61,10 +58,6 @@ for (i in 1:length(specieslist)) {
 # this is writing out the fasta sequences - modify this to write out the tax_recsp IDs to a text file where each species accession IDs is a new line
 #Jacob: added above request, still getting stuck when species has 0 hits from NCBI. If we can get above for loop to run faster, then we can add in an if statement to
 #second for loop to exclude species if it has 0 matches
-
-# this is test code to see if able to retrieve fasta sequences from NCBI
-# this looks at the first two species in the specieslist
-
 
 for (i in 1:25) {
   accnsp <- entrez_search(db="nucleotide", term=specieslist[i])
