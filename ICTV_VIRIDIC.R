@@ -38,12 +38,15 @@ library(rentrez)
 # this stores species from specieslist[i] that have accnsplist$count == 0 - completed
 ictvxl <- read.csv('/home/ssohail/MasterSpeciesList2020.csv') 
 specieslist <- ictvxl$Species
+
 # accnsplist$count is the number of IDs returned from searching a species
-# Sidra: the specieszero1.txt file has 318 species that yield 0 hits from NCBI 
+# Sidra: this loops through the specieslist and if the count of ids is 0 then it appends the species to the specieszero12.txt file
+# The specieszero12.txt file has 318 species and can use this to filter out/remove species from the specieslist so that we don't
+# have to search for the species that yield 0 hits from NCBI
 for (i in 1:length(specieslist)) {
   accnsplist <- entrez_search(db="nuccore", term=specieslist[i], retmax=length(specieslist))
   if (accnsplist$count == 0) {
-      write(specieslist[i], file='/home/ssohail/specieszero1.txt', append = TRUE)
+      write(specieslist[i], file='/home/ssohail/specieszero12.txt', append = TRUE)
   }
 }
 
@@ -59,27 +62,27 @@ for (i in 1:length(specieslist)) {
 #Jacob: added above request, still getting stuck when species has 0 hits from NCBI. If we can get above for loop to run faster, then we can add in an if statement to
 #second for loop to exclude species if it has 0 matches
 
-for (i in 1:25) {
-  accnsp <- entrez_search(db="nucleotide", term=specieslist[i])
-  
-  if (accnsp$count != 0) {
-    print(i)
-    tax_recsp <- entrez_link(dbfrom="nucleotide", id=accnsp$ids, rettype="fasta",db="nuccore")
-    
-    if (length(tax_recsp$links) > 0) {
-      all_recs <- entrez_fetch(db="nuccore", id=tax_recsp$links$nuccore_nuccore_gbrs, rettype="fasta")
-      write(tax_recsp$links$nuccore_nuccore_gbrs, file='~/Documents/tax_recspID.txt', append = TRUE)
-      
-    } else{
-      all_recs <- entrez_fetch(db="nucleotide", id=accnsp$ids,rettype = "fasta")
-      write(accnsp$ids, file='~/Documents/tax_recspID.txt', append = TRUE)
-      #all_recs <- entrez_fetch(db="nuccore", id=tax_recsp$links$nuccore_nuccore_gbrs, rettype="fasta")
-      #write(tax_recsp$links$nuccore_nuccore_gbrs, file='~/Documents/tax_recspID.txt', append = TRUE)
-    }
-    
-    write(all_recs, file="~/Documents/myfile.fasta",append = TRUE)
-  }
+
+for (i in 1:4) {
+  #  for (j in accnsp[,i]) {
+  accnsp <- entrez_search(db="nucleotide", term=specieslist[i])$ids
+  write.table(accnsp,file="~/Downloads/COMP_383-483_compbio/accessionidsfirst4.txt",append=TRUE,row.names = FALSE,col.names = FALSE)
 }
+accsnids <- read.table("~/Downloads/COMP_383-483_compbio/accessionidsfirst4.txt")
+
+# the function fastaseqretrieval will retrieve fasta sequences for each accession id (s) that is passed through the id= parameter
+# for some species there are multiple accession ids that are returned so there will be repeats and other sequences that are retrieved 
+fastaseqretrieval <- function(search_term){
+  return(sapply(search_term, function(s) entrez_fetch(db="nucleotide",id=s,rettype="fasta")))
+}
+                
+# mstore will have all the fasta sequences stored
+mstore <- list()
+mstore <- fastaseqretrieval(accsnids[1:16,])
+accsnids[1:16,]
+write.table(mstore,file="~/Downloads/COMP_383-483_compbio/first4species16fasta.fasta",row.names = FALSE,col.names = FALSE)
+
+
 
 # Next Steps: use NCBI created accession number list from ICTV database as batch search NCBI to get equivalent fasta and add to database
 # Next Next Steps: VIRIDIC with in-house database to run user input fasta sequence and determine similarities
