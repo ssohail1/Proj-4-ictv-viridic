@@ -64,7 +64,6 @@ for (i in 1:length(specieslist)) {
 # this for loop will take the filtered out specieslist file that does not have species that yield 0 hits
 # as a trial run I have set the range to be the first 4 entries of specieslist
 for (i in 1:4) {
-  #  for (j in accnsp[,i]) {
   accnsp <- entrez_search(db="nucleotide", term=specieslist[i])$ids
   write.table(accnsp,file="~/Downloads/COMP_383-483_compbio/accessionidsfirst4.txt",append=TRUE,row.names = FALSE,col.names = FALSE)
 }
