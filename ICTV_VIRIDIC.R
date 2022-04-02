@@ -61,6 +61,41 @@ for (i in 1:length(specieslist)) {
   }
 }
 
+# modified species list so that removed 318 species that yielded 0 hits:
+# speciescsv is file output from running the pandas.py script with ICTV .xlsx file as input
+speciescsv <- read.csv(file="~/Downloads/COMP_383-483_compbio/species.csv")
+
+# this file is from the above command that saves the species that yield 0 hits
+spzero <- read.table(file="~/Downloads/COMP_383-483_compbio/specieszero12.txt",header = FALSE,sep = "\n")
+
+count <- vector()
+for (i in 1:length(speciescsv$Species)) {
+  for (j in 1:length(spzero$species)) {
+    if (speciescsv$Species[i] == spzero$species[j]) {
+      print(i)
+      # count has the indices of the species that yields 0 hits from speciescsv
+      count <- c(count,i)
+    } 
+  }
+}
+
+# this will change the speciescsv type from list to character object
+# so that do not have problem in the next command
+# count[1] = 19th item in speciescsv 
+speciescsv <- speciescsv[-count[1],]
+
+# matching the species in both lists and removing them from speciescsv
+for (i in 1:length(speciescsv)) {
+  for (j in 1:length(spzero$species)) {
+    if (speciescsv[i] == spzero$species[j]) {
+      speciescsv <- speciescsv[-i]
+    }
+  }
+}
+length(speciescsv)
+write.table(speciescsv, file = "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.txt", row.names = FALSE, col.names = FALSE)
+
+
 # this for loop will take the filtered out specieslist file that does not have species that yield 0 hits
 # as a trial run I have set the range to be the first 4 entries of specieslist
 for (i in 1:4) {
