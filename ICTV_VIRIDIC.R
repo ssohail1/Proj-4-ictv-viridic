@@ -62,7 +62,8 @@ for (i in 1:length(specieslist)) {
 #Jacob: added above request, still getting stuck when species has 0 hits from NCBI. If we can get above for loop to run faster, then we can add in an if statement to
 #second for loop to exclude species if it has 0 matches
 
-
+# Sidra: this for loop will take the filtered out specieslist file that does not have species that yield 0 hits
+# as a trial run I have set the range to be the first 4 entries of specieslist
 for (i in 1:4) {
   #  for (j in accnsp[,i]) {
   accnsp <- entrez_search(db="nucleotide", term=specieslist[i])$ids
@@ -72,18 +73,25 @@ accsnids <- read.table("~/Downloads/COMP_383-483_compbio/accessionidsfirst4.txt"
 
 # the function fastaseqretrieval will retrieve fasta sequences for each accession id (s) that is passed through the id= parameter
 # for some species there are multiple accession ids that are returned so there will be repeats and other sequences that are retrieved 
+# this function was adapted from here: https://github.com/ropensci/rentrez/
 fastaseqretrieval <- function(search_term){
   return(sapply(search_term, function(s) entrez_fetch(db="nucleotide",id=s,rettype="fasta")))
 }
                 
-# mstore will have all the fasta sequences stored
+# mstore will have all the fasta sequences stored including repeats and other sequences
 mstore <- list()
-mstore <- fastaseqretrieval(accsnids[1:16,])
-accsnids[1:16,]
+mstore <- fastaseqretrieval(accsnids[1:16,]) # change 16 to the number that is the length of accsnids
+# accsnids[1:16,]
+
+# write out the mstore variable as a fasta file before any filtering/removing/modifying
 write.table(mstore,file="~/Downloads/COMP_383-483_compbio/first4species16fasta.fasta",row.names = FALSE,col.names = FALSE)
 
+# this mstoremodify variable will need to be filtered to remove repeats of sequences and remove sequences that do not have the header ">NC_number "
+mstoremodify <- read.table(file="~/Downloads/COMP_383-483_compbio/first4species16fasta.fasta")
 
-
+# Next Steps: modify the mstoremodify variable so to remove repeat sequences and remove sequences that do not have header ">NC_number " OR
+                # can create a function similar to fastaseqretrieval that implements entrez_link instead of entrez_fetch to retrieve accession ids 
+                # that will retrieve fasta sequences with ">NC_number" header
 # Next Steps: use NCBI created accession number list from ICTV database as batch search NCBI to get equivalent fasta and add to database
 # Next Next Steps: VIRIDIC with in-house database to run user input fasta sequence and determine similarities
 
