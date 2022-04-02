@@ -19,4 +19,4 @@ header = ['Species']
 
 # This will write the data frame to a csv file without the index
 # Each species name will be in an individual row with `Species` as the header
-csv_data = data.to_csv("/home/rprag/species1.csv", index = False)
+csv_data = data.to_csv("/home/rprag/species.csv", index = False)
