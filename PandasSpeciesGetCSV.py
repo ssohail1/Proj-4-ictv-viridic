@@ -11,10 +11,12 @@ import csv
 #df = pd.read_excel(fileName, SheetName)
 df= pd.read_excel(r'ICTV Master Species List 2020.v1.xlsx', 'ICTV2020 Master Species List#36')
 
-#make list of species data using tolist (method)
-data = df['Species'].tolist()
+# In order to get the number of the `Species` column, 
+print(df.columns)
+# This shows that the `Species` column is the 16th column
+data = df.iloc[:,15]
+header = ['Species']
 
-#write to Species.csv file to be used in our for loop 
-with open ('species.csv', 'w') as f:
-    writer = csv.writer(f)
-    writer.writerow(data)
+# This will write the data frame to a csv file without the index
+# Each species name will be in an individual row with `Species` as the header
+csv_data = data.to_csv("/home/rprag/species1.csv", index = False)
