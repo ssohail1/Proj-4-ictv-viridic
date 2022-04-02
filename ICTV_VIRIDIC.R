@@ -94,12 +94,13 @@ for (i in 1:length(speciescsv)) {
 }
 length(speciescsv)
 write.table(speciescsv, file = "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.txt", row.names = FALSE, col.names = FALSE)
-
+spmod <- read.table(file= "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.txt")
+spmod[1,]
 
 # this for loop will take the filtered out specieslist file that does not have species that yield 0 hits
 # as a trial run I have set the range to be the first 4 entries of specieslist
 for (i in 1:4) {
-  accnsp <- entrez_search(db="nucleotide", term=specieslist[i])$ids
+  accnsp <- entrez_search(db="nucleotide", term=spmod[i,])$ids
   write.table(accnsp,file="~/Downloads/COMP_383-483_compbio/accessionidsfirst4.txt",append=TRUE,row.names = FALSE,col.names = FALSE)
 }
 accsnids <- read.table("~/Downloads/COMP_383-483_compbio/accessionidsfirst4.txt")
