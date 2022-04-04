@@ -1,7 +1,20 @@
-# can install rentrez two ways. 
-# install.packages('rentrez')  OR 
-# library(devtools)
-# install_github("ropensci/rentrez") # this way will give you the latest version
+# There are several R libraries that need to be installed for this documentation.
+# In order to install `rentrez`, there are two ways:
+  # install.packages('rentrez') OR 
+  # install_github("ropensci/rentrez")
+    # This way will provide the latest version.
+library(rentrez)
+
+# In order to install devtools, run the following commands in command line -
+  #sudo apt-get install libssl-dev
+  #sudo apt-get install libxml2-dev
+  #sudo apt-get install libcurl4-openssl-dev
+  #sudo apt install r-cran-devtools
+library(devtools)
+
+# In order to install reutils, in R - install.packages("reutils")
+library(reutils)
+
 
 # csv file is from saving the third sheet as a csv file from Microsoft Excel
 ictvxl <- read.csv('~/Documents/ICTV.csv')
@@ -12,18 +25,6 @@ length(specieslist)
 # Moving Forward: need to address this issue when retrieving accession IDs and fasta sequences
 # Note: entrez prints error message when loop through many species
 # To-do: How to have entrez retrieve sequences for all species
-
-#in order to install devtools
-#in command line, run the following commands -
-  #sudo apt-get install libssl-dev
-  #sudo apt-get install libxml2-dev
-  #sudo apt-get install libcurl4-openssl-dev
-  #sudo apt install r-cran-devtools
-#to install reutils - install.packages("reutils")
-
-library(reutils)
-library(devtools)
-library(rentrez)
 
 # when running the following lines of code, R will give error message that the vector ids is empty
 # and at that point accnsp/entrez_search returns 0 hits - stops at Icerudivirus SIRV3
