@@ -1,0 +1,5 @@
+# commands to download and install current version of BLAST for linux server
+
+wget https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/ncbi-blast-2.13.0-1.x86_64.rpm
+
+sudo rpm -i ncbi-blast-2.13.0-1.x86_64.rpm
