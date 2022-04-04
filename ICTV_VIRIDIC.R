@@ -41,6 +41,12 @@ length(specieslist)
 # accnsplist <- esearch(specieslist, db = "nuccore", rettype = "count", retmax=length(specieslist))
 # esearch does have 'count' funcitonality which would make this process easier (hopefully)
 
+# Taking the csv file created using `PandasSpeciesGetCSV.py`,
+  # This file has the list of species names from the ICTV Master Species List
+specieslist <- read.csv("/home/rprag/species.csv")
+length(specieslist[[1]])
+# This should return as 9110
+# Rhea is working on using this for the analysis
 
 # this is writing out the fasta sequences - modify this to write out the tax_recsp IDs to a text file where each species accession IDs is a new line
 #Jacob: added above request, still getting stuck when species has 0 hits from NCBI. If we can get above for loop to run faster, then we can add in an if statement to
