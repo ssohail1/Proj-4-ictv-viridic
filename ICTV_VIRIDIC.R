@@ -128,7 +128,7 @@ mstoremodify <- read.table(file="~/Downloads/COMP_383-483_compbio/first4species1
                 # can create a function similar to fastaseqretrieval that implements entrez_link instead of entrez_fetch to retrieve accession ids 
                 # that will retrieve fasta sequences with ">NC_number" header
 # Next Steps: use NCBI created accession number list from ICTV database as batch search NCBI to get equivalent fasta and add to database
-# Next Next Steps: VIRIDIC with in-house database to run user input fasta sequence and determine similarities
+# Next Next Steps: VIRIDIC with in-house database to run user input fasta sequence and determine similarities (Jacob working on figuring out VIRIDIC requirements)
 
 
 
