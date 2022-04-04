@@ -101,11 +101,15 @@ spmod <- read.table(file= "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.
 spmod[1,]
 # this for loop will take the filtered out specieslist file that does not have species that yield 0 hits
 # as a trial run I have set the range to be the first 4 entries of specieslist
-for (i in 1:4) {
-  accnsp <- entrez_search(db="nucleotide", term=spmod[i,])$ids
-  write.table(accnsp,file="~/Downloads/COMP_383-483_compbio/accessionidsfirst4.txt",append=TRUE,row.names = FALSE,col.names = FALSE)
+specieslist <- read.table(file="/home/ssohail/speciesmodifnozeros.txt")
+print(length(specieslist))
+print(specieslist[1,])
+
+for (i in 1:10) {
+  accnsp <- entrez_search(db="nucleotide", term=specieslist[i,])$ids
+  write.table(accnsp,file="/home/ssohail/accessionidsforspecies.txt",append=TRUE,row.names = FALSE,col.names = FALSE)
 }
-accsnids <- read.table("~/Downloads/COMP_383-483_compbio/accessionidsfirst4.txt")
+accsnids <- read.table("/home/ssohail/accessionidsforspecies.txt")
 # the function fastaseqretrieval will retrieve fasta sequences for each accession id (s) that is passed through the id= parameter
 # for some species there are multiple accession ids that are returned so there will be repeats and other sequences that are retrieved 
 # this function was adapted from here: https://github.com/ropensci/rentrez/
