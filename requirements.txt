@@ -1,9 +1,8 @@
 # commands to download and install current version of BLAST for linux server
 
-wget https://ftp.ncbi.nlm.nih.gov/blast/executables/LATEST/ncbi-blast-2.13.0-1.x86_64.rpm
+sudo apt-get update
+sudo apt-get install ncbi-blast+
 
-sudo apt-get install alien
+# to check that it is correctly installed type
 
-sudo alien ncbi-blast-2.13.0-1.x86_64.rpm
-
-sudo dpkg –i ncbi-blast_2.13.0-2_amd64.deb  
+blastn help
