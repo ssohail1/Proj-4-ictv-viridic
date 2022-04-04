@@ -52,11 +52,10 @@ length(specieslist[[1]])
 #Jacob: added above request, still getting stuck when species has 0 hits from NCBI. If we can get above for loop to run faster, then we can add in an if statement to
 #second for loop to exclude species if it has 0 matches
 
-# Sidra:
+
 # this stores species from specieslist[i] that have accnsplist$count == 0 - completed
 ictvxl <- read.csv('/home/ssohail/MasterSpeciesList2020.csv') 
 specieslist <- ictvxl$Species
-
 # accnsplist$count is the number of IDs returned from searching a species
 # this loops through the specieslist and if the count of ids is 0 then it appends the species to the specieszero12.txt file
 # The specieszero12.txt file has 318 species and can use this to filter out/remove species from the specieslist so that we don't
@@ -68,13 +67,12 @@ for (i in 1:length(specieslist)) {
   }
 }
 
+# Sidra:
 # modified species list so that removed 318 species that yielded 0 hits:
 # speciescsv is file output from running the pandas.py script with ICTV .xlsx file as input
 speciescsv <- read.csv(file="~/Downloads/COMP_383-483_compbio/species.csv")
-
 # this file is from the above command that saves the species that yield 0 hits
 spzero <- read.table(file="~/Downloads/COMP_383-483_compbio/specieszero12.txt",header = FALSE,sep = "\n")
-
 count <- vector()
 for (i in 1:length(speciescsv$Species)) {
   for (j in 1:length(spzero$species)) {
@@ -85,12 +83,10 @@ for (i in 1:length(speciescsv$Species)) {
     } 
   }
 }
-
 # this will change the speciescsv type from list to character object
 # so that do not have problem in the next command
 # count[1] = 19th item in speciescsv 
 speciescsv <- speciescsv[-count[1],]
-
 # matching the species in both lists and removing them from speciescsv
 for (i in 1:length(speciescsv)) {
   for (j in 1:length(spzero$species)) {
@@ -103,7 +99,6 @@ length(speciescsv)
 write.table(speciescsv, file = "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.txt", row.names = FALSE, col.names = FALSE)
 spmod <- read.table(file= "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.txt")
 spmod[1,]
-
 # this for loop will take the filtered out specieslist file that does not have species that yield 0 hits
 # as a trial run I have set the range to be the first 4 entries of specieslist
 for (i in 1:4) {
@@ -111,26 +106,22 @@ for (i in 1:4) {
   write.table(accnsp,file="~/Downloads/COMP_383-483_compbio/accessionidsfirst4.txt",append=TRUE,row.names = FALSE,col.names = FALSE)
 }
 accsnids <- read.table("~/Downloads/COMP_383-483_compbio/accessionidsfirst4.txt")
-
 # the function fastaseqretrieval will retrieve fasta sequences for each accession id (s) that is passed through the id= parameter
 # for some species there are multiple accession ids that are returned so there will be repeats and other sequences that are retrieved 
 # this function was adapted from here: https://github.com/ropensci/rentrez/
 fastaseqretrieval <- function(search_term){
   return(sapply(search_term, function(s) entrez_fetch(db="nucleotide",id=s,rettype="fasta")))
-}
-                
+}                
 # mstore will have all the fasta sequences stored including repeats and other sequences
 mstore <- list()
 mstore <- fastaseqretrieval(accsnids[1:16,]) # change 16 to the number that is the length of accsnids
 # accsnids[1:16,]
-
 # write out the mstore variable as a fasta file before any filtering/removing/modifying
 write.table(mstore,file="~/Downloads/COMP_383-483_compbio/first4species16fasta.fasta",row.names = FALSE,col.names = FALSE)
-
 # this mstoremodify variable will need to be filtered to remove repeats of sequences and remove sequences that do not have the header ">NC_number "
 mstoremodify <- read.table(file="~/Downloads/COMP_383-483_compbio/first4species16fasta.fasta")
 
-                
+
 # Next Steps: modify the mstoremodify variable so to remove repeat sequences and remove sequences that do not have header ">NC_number " OR
                 # can create a function similar to fastaseqretrieval that implements entrez_link instead of entrez_fetch to retrieve accession ids 
                 # that will retrieve fasta sequences with ">NC_number" header
