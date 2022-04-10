@@ -54,33 +54,30 @@ length(specieslist[[1]])
 
 
 # this stores species from specieslist[i] that have accnsplist$count == 0 - completed
-ictvxl <- read.csv('/home/ssohail/MasterSpeciesList2020.csv') 
-specieslist <- ictvxl$Species
 # accnsplist$count is the number of IDs returned from searching a species
 # this loops through the specieslist and if the count of ids is 0 then it appends the species to the specieszero12.txt file
 # The specieszero12.txt file has 318 species and can use this to filter out/remove species from the specieslist so that we don't
 # have to search for the species that yield 0 hits from NCBI
-for (i in 1:length(specieslist)) {
-  accnsplist <- entrez_search(db="nuccore", term=specieslist[i], retmax=length(specieslist))
+species <- read.table(file="~/Downloads/COMP_383-483_compbio/species.csv", header= TRUE, sep = "\n") # from Pandas python script
+
+for (i in 1:length(species[,1])) {
+  accnsplist <- entrez_search(db="nuccore", term=species[i,], retmax=length(species[,1]))
   if (accnsplist$count == 0) {
-      write(specieslist[i], file='/home/ssohail/specieszero12.txt', append = TRUE)
+    write(species[i,], file='~/Downloads/COMP_383-483_compbio/specieszero.txt', append = TRUE) # change directory
   }
 }
 
-# Sidra:
-# modified species list so that removed 318 species that yielded 0 hits:
-# speciescsv is file output from running the pandas.py script with ICTV .xlsx file as input
-speciescsv <- read.csv(file="~/Downloads/COMP_383-483_compbio/species.csv")
+speciescsv <- read.csv("~/Downloads/COMP_383-483_compbio/species.csv")
 # this file is from the above command that saves the species that yield 0 hits
-spzero <- read.table(file="~/Downloads/COMP_383-483_compbio/specieszero12.txt",header = FALSE,sep = "\n")
+spzero <- read.table(file="~/Downloads/COMP_383-483_compbio/specieszero.txt",header = FALSE,sep = "\n")
 count <- vector()
 for (i in 1:length(speciescsv$Species)) {
-  for (j in 1:length(spzero$species)) {
-    if (speciescsv$Species[i] == spzero$species[j]) {
+  for (j in 1:length(spzero$V1)) {
+    if (speciescsv$Species[i] == spzero$V1[j]) {
       print(i)
       # count has the indices of the species that yields 0 hits from speciescsv
       count <- c(count,i)
-    } 
+    }
   }
 }
 # this will change the speciescsv type from list to character object
@@ -89,14 +86,14 @@ for (i in 1:length(speciescsv$Species)) {
 speciescsv <- speciescsv[-count[1],]
 # matching the species in both lists and removing them from speciescsv
 for (i in 1:length(speciescsv)) {
-  for (j in 1:length(spzero$species)) {
-    if (speciescsv[i] == spzero$species[j]) {
+  for (j in 1:length(spzero$V1)) {
+    if (speciescsv[i] == spzero$V1[j]) {
       speciescsv <- speciescsv[-i]
     }
   }
 }
-length(speciescsv)
 write.table(speciescsv, file = "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.txt", row.names = FALSE, col.names = FALSE)
+
 
 specieslist <- read.table(file="/home/ssohail/speciesmodifnozeros.txt")
 print(length(specieslist[,1]))
