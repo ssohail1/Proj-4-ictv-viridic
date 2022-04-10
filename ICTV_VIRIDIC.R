@@ -97,33 +97,46 @@ for (i in 1:length(speciescsv)) {
 }
 length(speciescsv)
 write.table(speciescsv, file = "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.txt", row.names = FALSE, col.names = FALSE)
-spmod <- read.table(file= "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.txt")
-spmod[1,]
-# this for loop will take the filtered out specieslist file that does not have species that yield 0 hits
-# as a trial run I have set the range to be the first 4 entries of specieslist
-specieslist <- read.table(file="/home/ssohail/speciesmodifnozeros.txt")
-print(length(specieslist))
-print(specieslist[1,])
 
-for (i in 1:10) {
-  accnsp <- entrez_search(db="nucleotide", term=specieslist[i,])$ids
-  write.table(accnsp,file="/home/ssohail/accessionidsforspecies.txt",append=TRUE,row.names = FALSE,col.names = FALSE)
+specieslist <- read.table(file="/home/ssohail/speciesmodifnozeros.txt")
+print(length(specieslist[,1]))
+print(specieslist[1,])
+# retrieving all accession ids through entrez_search
+accessids <- function(search_term){
+  return(sapply(search_term, function(s) entrez_search(db="nucleotide", term=s)$ids))
 }
-accsnids <- read.table("/home/ssohail/accessionidsforspecies.txt")
-# the function fastaseqretrieval will retrieve fasta sequences for each accession id (s) that is passed through the id= parameter
-# for some species there are multiple accession ids that are returned so there will be repeats and other sequences that are retrieved 
-# this function was adapted from here: https://github.com/ropensci/rentrez/
+mstore1 <- list()
+mstore1 <- accessids(specieslist[1:length(specieslist[,1]),])
+write.table(mstore1, file="/home/ssohail/accessionidsspno0.txt",row.names = FALSE,col.names = FALSE)
+
+# retrieving accession ids for fasta seq retrieval using entrez_link with all accession ids as input
+accsnids <- read.table("/home/ssohail/accessionidsspno0.txt")
 fastaseqretrieval <- function(search_term){
-  return(sapply(search_term, function(s) entrez_fetch(db="nucleotide",id=s,rettype="fasta")))
-}                
-# mstore will have all the fasta sequences stored including repeats and other sequences
+  return(sapply(search_term, function(s) entrez_link(dbfrom="nucleotide", id=s, rettype="fasta",db="nuccore")$links$nuccore_nuccore_gbrs))
+}
 mstore <- list()
-mstore <- fastaseqretrieval(accsnids[1:16,]) # change 16 to the number that is the length of accsnids
-# accsnids[1:16,]
-# write out the mstore variable as a fasta file before any filtering/removing/modifying
-write.table(mstore,file="~/Downloads/COMP_383-483_compbio/first4species16fasta.fasta",row.names = FALSE,col.names = FALSE)
-# this mstoremodify variable will need to be filtered to remove repeats of sequences and remove sequences that do not have the header ">NC_number "
-mstoremodify <- read.table(file="~/Downloads/COMP_383-483_compbio/first4species16fasta.fasta")
+mstore1 <- list()
+mstore <- fastaseqretrieval(accsnids[1:16,])
+for (i in 1:length(mstore)) {
+  if (as.character(mstore[i]) == "NULL") {
+    print(i)
+    # mstore <- mstore[-i]
+    #mstore1 <- c(mstore1, mstore[i])
+  } else if (as.character(mstore[i]) != "NULL") {
+    mstore1 <- c(mstore1, mstore[i])
+  }
+}
+write.table(mstore1, file="/home/ssohail/entrezlinkidsfull.txt",row.names = FALSE,col.names = FALSE)
+
+# retrieving fasta sequences using entrezlink accession ids as input
+entrlinkids <- read.table("/home/ssohail/entrezlinkidsfull.txt")
+fastaseqretrieval1 <- function(search_term){
+  return(sapply(search_term, function(s) entrez_fetch(db="nucleotide", id=s,rettype = "fasta")))
+}
+mstore12 <- list()
+mstore12 <- fastaseqretrieval1(entrlinkids[1:length(entrlinkids)])
+write.table(mstore12, file="/home/ssohail/fastaseqfull.fasta",row.names = FALSE,col.names = FALSE)
+
 
 
 # Next Steps: modify the mstoremodify variable so to remove repeat sequences and remove sequences that do not have header ">NC_number " OR
