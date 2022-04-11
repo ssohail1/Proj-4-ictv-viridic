@@ -8,5 +8,5 @@ sudo apt-get install ncbi-blast+
 blastn help
 
 Run Commands:
-makeblastdb -in fastaseq.fasta -dbtype nucl -out customdb.fasta
-blastn -db fastaseq.fasta -query myfile1.fasta
+makeblastdb -in fastaseq.fasta -dbtype nucl -out results/customdb
+blastn -db results/customdb -query myfile1.fasta -out results/blastout.txt
