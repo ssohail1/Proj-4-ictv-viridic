@@ -36,11 +36,6 @@ length(specieslist)
 # this is a loop to see how many of the 9110 species give out 0 hits from NCBI
 # and how many species have hits from NCBI
 
-
-# Rhea: Attempting to use esearch (from reutils package) for this for-loop. Having issues and consistently getting errors `Warning: HTTP error: Status 500;`
-# accnsplist <- esearch(specieslist, db = "nuccore", rettype = "count", retmax=length(specieslist))
-# esearch does have 'count' funcitonality which would make this process easier (hopefully)
-
 # Taking the csv file created using `PandasSpeciesGetCSV.py`,
   # This file has the list of species names from the ICTV Master Species List
 specieslist <- read.csv("/home/rprag/species.csv")
