@@ -9,4 +9,4 @@ blastn help
 
 Run Commands:
 makeblastdb -in fastaseq.fasta -dbtype nucl -out results/customdb
-blastn -db results/customdb -query myfile1.fasta -out results/blastout.txt
+blastn -db results/customdb -query SIRV3.fasta -out results/blastout.txt -evalue 1 -num_threads 6 -word_size 7 -reward 2 -penalty -3 -gapopen 5 -gapextend 2
