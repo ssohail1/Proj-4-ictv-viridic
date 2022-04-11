@@ -139,3 +139,8 @@ write.table(mstore12, file="/home/ssohail/fastaseqfull.fasta",row.names = FALSE,
 
 
 
+                
+#next steps as of 4/11/2022: we are no longer using VIRIDIC. We will utilize the VICTOR web service from https://ggdc.dsmz.de/victor.php# 
+                
+                
+            
