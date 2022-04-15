@@ -48,13 +48,62 @@ length(specieslist[[1]])
 #second for loop to exclude species if it has 0 matches
 
 
-# this stores species from specieslist[i] that have accnsplist$count == 0 - completed
-# accnsplist$count is the number of IDs returned from searching a species
-# this loops through the specieslist and if the count of ids is 0 then it appends the species to the specieszero12.txt file
-# The specieszero12.txt file has 318 species and can use this to filter out/remove species from the specieslist so that we don't
-# have to search for the species that yield 0 hits from NCBI
+# Test this chunk of code - change the directories to your local directory
+################################
+# Sidra
+library(rentrez)
+
+# Need to write a python script that will parse through the above excel file (using pandas) and extract the columns with the ICTV names, NCBI names, GenBank and RefSeq accession ids, and EorA labels
+
+speciesexcel <- read.csv(file= "~/Downloads/VMR 18-191021 MSL36.xlsx", sep= '\t') # VMR 18-191021 MSL36.xlsx is the excel file - Virus Metadata Repository from October 19 2021
+speciesinfo <- read.table(file="~/Downloads/COMP_383-483_compbio/ICTVspeciesinfo.txt",header = TRUE,sep = '\n') # ICTVspeciesinfo.txt has the ICTV names from excel file
+speciesinfo <- data.frame(speciesinfo)
+speciesNCBI <- read.csv(file = "~/Downloads/COMP_383-483_compbio/ncbinames.txt",sep = '\n') # ncbinames.txt has ncbi names from excel file
+speciesinfoaccessions <- read.csv(file = "~/Downloads/COMP_383-483_compbio/accessionidslist.txt",sep = '\t') # accessionidslist.txt has GenBank and RefSeq ids from excel file
+
+# additionally need to parse through the RefSeq id accessions to replace the blank column entries with "zero"
+
+speciesexemplaroraddnl <- read.table(file = "~/Downloads/eora.txt",header = FALSE, sep = '\n') # eora.txt has exemplar or additional labels for each species from the excel file
+
+# combine the previous datasets into one dataframe
+speciesinfocomplete <- cbind(speciesinfo,speciesNCBI,speciesinfoaccessions,speciesexemplaroraddnl)
+colnames(speciesinfocomplete) <- c("ICTVnames", "NCBInames", "GenBankIDs", "RefSeqIDs","ExemplarOrAdditional")
+
+zerospecies <- list()
+for (i in 1:length(speciesinfocomplete$RefSeqIDs)) {
+  if (speciesinfocomplete$RefSeqIDs[i] == "zero") {
+    zerospecies <- c(zerospecies, speciesinfocomplete[i,])
+  }
+}
+length(zerospecies) # 18515 total -> 5 columns so 18515/5 = 3703 species do not have the associated RefSeq accession id
+
+speciesinforemovezero <- cbind(speciesinfo,speciesNCBI,speciesinfoaccessions,speciesexemplaroraddnl)
+colnames(speciesinforemovezero) <- c("ICTVnames", "NCBInames", "GenBankIDs", "RefSeqIDs","ExemplarOrAdditional")
+
+# run this until length of speciesinforemovezero$RefSeqIDs is 3703 and the error message stops
+for (i in 1:length(speciesinforemovezero$RefSeqIDs)) {
+  if (speciesinforemovezero$RefSeqIDs[i] != "zero") {
+    speciesinforemovezero <- speciesinforemovezero[-i,]
+  }
+}
+length(speciesinforemovezero$RefSeqIDs)
+
+# Removing "A" or additional species because they are repeats and not present in the ICTV Master Species List excel file
+
+# run this until count1 is 1246 and the error message stops
+count1 <- 0
+for (i in 1:length(speciesinforemovezero$ExemplarOrAdditional)) {
+  if (speciesinforemovezero$ExemplarOrAdditional[i] == "A") {
+    count1 <- count1 + 1
+    speciesinforemovezero <- speciesinforemovezero[-i,]
+  }
+}
+count1 # there are 1246 "A" in virus metadata
+
+# modifying the pandas python species output to exclude species that give zero hits
 species <- read.table(file="~/Downloads/COMP_383-483_compbio/species.csv", header= TRUE, sep = "\n") # from Pandas python script
 
+# run once
 for (i in 1:length(species[,1])) {
   accnsplist <- entrez_search(db="nuccore", term=species[i,], retmax=length(species[,1]))
   if (accnsplist$count == 0) {
@@ -66,20 +115,25 @@ speciescsv <- read.csv("~/Downloads/COMP_383-483_compbio/species.csv")
 # this file is from the above command that saves the species that yield 0 hits
 spzero <- read.table(file="~/Downloads/COMP_383-483_compbio/specieszero.txt",header = FALSE,sep = "\n")
 count <- vector()
+
+# Run once
 for (i in 1:length(speciescsv$Species)) {
   for (j in 1:length(spzero$V1)) {
     if (speciescsv$Species[i] == spzero$V1[j]) {
-      print(i)
+      #  print(i)
       # count has the indices of the species that yields 0 hits from speciescsv
       count <- c(count,i)
     }
   }
 }
+length(speciescsv[,1]) # 9110
 # this will change the speciescsv type from list to character object
 # so that do not have problem in the next command
 # count[1] = 19th item in speciescsv 
 speciescsv <- speciescsv[-count[1],]
 # matching the species in both lists and removing them from speciescsv
+
+# run this until length of speciescsv is 8792 and the error message stops
 for (i in 1:length(speciescsv)) {
   for (j in 1:length(spzero$V1)) {
     if (speciescsv[i] == spzero$V1[j]) {
@@ -87,47 +141,35 @@ for (i in 1:length(speciescsv)) {
     }
   }
 }
+length(speciescsv)
 write.table(speciescsv, file = "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.txt", row.names = FALSE, col.names = FALSE)
 
+species <- read.csv(file = "~/Downloads/COMP_383-483_compbio/speciesmodifnozeros.txt",header = FALSE) # where the species with zero hits are removed
+species <- data.frame(species)
+speciesaccession <- list()
+inds <- list()
+# notmatch <- list()
 
-specieslist <- read.table(file="/home/ssohail/speciesmodifnozeros.txt")
-print(length(specieslist[,1]))
-print(specieslist[1,])
-# retrieving all accession ids through entrez_search
-accessids <- function(search_term){
-  return(sapply(search_term, function(s) entrez_search(db="nucleotide", term=s)$ids))
-}
-mstore1 <- list()
-mstore1 <- accessids(specieslist[1:length(specieslist[,1]),])
-write.table(mstore1, file="/home/ssohail/accessionidsspno0.txt",row.names = FALSE,col.names = FALSE)
-
-# retrieving accession ids for fasta seq retrieval using entrez_link with all accession ids as input
-accsnids <- read.table("/home/ssohail/accessionidsspno0.txt")
-fastaseqretrieval <- function(search_term){
-  return(sapply(search_term, function(s) entrez_link(dbfrom="nucleotide", id=s, rettype="fasta",db="nuccore")$links$nuccore_nuccore_gbrs))
-}
-mstore <- list()
-mstore1 <- list()
-mstore <- fastaseqretrieval(accsnids[1:16,])
-for (i in 1:length(mstore)) {
-  if (as.character(mstore[i]) == "NULL") {
-    print(i)
-    # mstore <- mstore[-i]
-    #mstore1 <- c(mstore1, mstore[i])
-  } else if (as.character(mstore[i]) != "NULL") {
-    mstore1 <- c(mstore1, mstore[i])
+# Run once
+for (i in 1:length(species$V1)) {
+  for (j in 1:length(speciesinforemovezero$ICTVnames)) {
+    if (species$V1[i] == speciesinforemovezero$ICTVnames[j]) {
+      inds <- c(inds,i)
+      speciesaccession <- c(speciesaccession, species$V1[i])
+    } #else {
+      #notmatch <- c(notmatch, speciesinforemovezero$ICTVnames[j])
+    #}
   }
 }
-write.table(mstore1, file="/home/ssohail/entrezlinkidsfull.txt",row.names = FALSE,col.names = FALSE)
 
-# retrieving fasta sequences using entrezlink accession ids as input
-entrlinkids <- read.table("/home/ssohail/entrezlinkidsfull.txt")
-fastaseqretrieval1 <- function(search_term){
-  return(sapply(search_term, function(s) entrez_fetch(db="nucleotide", id=s,rettype = "fasta")))
-}
-mstore12 <- list()
-mstore12 <- fastaseqretrieval1(entrlinkids[1:length(entrlinkids)])
-write.table(mstore12, file="/home/ssohail/fastaseqfull.fasta",row.names = FALSE,col.names = FALSE)
+length(speciesinforemovezero$ICTVnames) # 2457
+length(inds) # 2216
+length(speciesinforemovezero$ICTVnames) == length(inds) # FALSE
+length(speciesaccession) == length(inds) # TRUE
+
+write.table(speciesaccession, file = "~/Downloads/COMP_383-483_compbio/speciestolookfor.txt",row.names = FALSE, col.names = FALSE)
+
+################################
 
 
 
@@ -137,9 +179,7 @@ write.table(mstore12, file="/home/ssohail/fastaseqfull.fasta",row.names = FALSE,
 # Next Steps: use NCBI created accession number list from ICTV database as batch search NCBI to get equivalent fasta and add to database
 # Next Next Steps: VIRIDIC with in-house database to run user input fasta sequence and determine similarities (Jacob working on figuring out VIRIDIC requirements)
 
-
-
-                
+            
 #next steps as of 4/11/2022: we are no longer using VIRIDIC. We will utilize the VICTOR web service from https://ggdc.dsmz.de/victor.php# 
                 
                 
