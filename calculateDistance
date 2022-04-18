@@ -21,3 +21,40 @@ CODE:
 # then read the sampleblastoutB.txt file 
 
 
+#text file A and text file B
+
+
+
+
+#r = open ("sampleblastoutB.txt", 'r')
+#for line in r:
+
+# dictionary w/ tuples as keys
+
+# ex-     dictionary1 = {(g1,g2):id ; (g2,g1): id)}
+
+
+    # k1 and k2 are seq ids
+
+    # v = integer 
+
+# make dictionary
+dictionary1 = {}
+
+with open ("sampleblastoutB.txt") as f:
+    for line in f: 
+        k1,k2,v,r = line.split()
+        dictionary1[(k1,k2)] = int(v)  
+
+    print (dictionary1)
+
+    f.close()
+
+with open ("sampleblastoutA.txt") as r:
+    for line in r:
+        k1,k2,v= line.split()
+        dictionary1[(k1,k2)]= int(v)
+
+    print(dictionary1)
+
+    r.close()
