@@ -6,7 +6,7 @@
 4. This csv file will be input to R for retrieval of sequences from NCBI using the rentrez package
 5. Steps 2 - 4 will be completed using the pandas python script
 6. BLASTn the user fasta with inhouse database
-- Explanation for sampleblastout A and B, such as column information can be found in terminalblast.txt
+- Explanation for sampleblastout A and B, such as column information, can be found in terminalblast.txt
 8. Figure out intergenomic similarity distance from BLAST output
 9. Next Steps: 
     - We can have the class machine run this Rscript in the background with nohup and using the & option
