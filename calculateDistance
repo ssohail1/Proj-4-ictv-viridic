@@ -1,2 +1,15 @@
-#intergenomic distance calculation 
-#
+
+# note: this calculation formula is taken from VIRIDC
+#intergenomic distance calculation
+# idAB = identical bases when genome A is aligned to genome B
+# idBA = identical bases when genome B is aligned to genome A 
+# lA = length genome A 
+# lB = length genome B
+# simAB = intergenomic similarity between genomes A and B
+# distAB =  intergenomic distance between genomes A and B
+
+
+#simAB = ((idAB + idBA) * 100)/(lA + lB)
+# distAB = 100 - simAB
+# in order to calcualte intergenomic distance we need the following from our blast output:
+# output need: 
