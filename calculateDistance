@@ -14,13 +14,7 @@
 # in order to calcualte intergenomic distance we need the following from our blast output:
 # output need: 
 
-
-CODE:
-
-# first we want to read the sampleblastoutA.txt file 
-# then read the sampleblastoutB.txt file 
-
-
+#CODE:
 #text file A and text file B
 
 
@@ -39,22 +33,32 @@ CODE:
     # v = integer 
 
 # make dictionary
+#dictionary1 will be our main dictionary which will have tuples as keys
+#dictionary 2 will simply be to store the length of each seqID because seq length
+#will be necessary to calculate the intergenomic distance. 
 dictionary1 = {}
+dictionary2= {}
 
 with open ("sampleblastoutB.txt") as f:
     for line in f: 
-        k1,k2,v,r = line.split()
-        dictionary1[(k1,k2)] = int(v)  
+        k1,k2,i,i2,v,m = line.split()
+        dictionary1[(k1,k2)] = int(v)
+        dictionary2[k1]=int(m)
 
-    print (dictionary1)
+    #print (dictionary1)
 
     f.close()
 
 with open ("sampleblastoutA.txt") as r:
     for line in r:
-        k1,k2,v= line.split()
+        k1,k2,i,i2,v,m= line.split()
         dictionary1[(k1,k2)]= int(v)
+        dictionary2[k1]=int(m)
 
     print(dictionary1)
+    print(dictionary2)
 
     r.close()
+#perfect, now we have our dictionary which we will work with in order
+#to calculate our intergenomic distances 
+
