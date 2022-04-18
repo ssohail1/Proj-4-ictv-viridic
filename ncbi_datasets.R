@@ -30,7 +30,6 @@ if (!require(DT)) {
 #Then create an instance for GeneApi to manage the http1 service calls to NCBI
 api.gene_instance <- GeneApi$new()
 
-
 #Retrieve metadata list using taxonomic name
 
 species <- read.csv("species.csv")
@@ -38,6 +37,9 @@ result <- api.gene_instance$GeneMetadataByTaxAndSymbol(
   paste(species, collapse = ','), 
   species[1:10,]
 )
+
+#RETURNS ERROR
+  #Error in curl::curl_fetch_memory(url, handle = handle) : Out of memory
 
 #organize the data into a table
 metadata_tbl <- t(sapply(result$genes ,
@@ -64,5 +66,3 @@ if (require(DT)) {
 } else {
   print(metadata_tbl)
 }
-#RETURNS ERROR
-  #Error in curl::curl_fetch_memory(url, handle = handle) : Out of memory
