@@ -13,3 +13,11 @@
 # distAB = 100 - simAB
 # in order to calcualte intergenomic distance we need the following from our blast output:
 # output need: 
+
+
+CODE:
+
+# first we want to read the sampleblastoutA.txt file 
+# then read the sampleblastoutB.txt file 
+
+
