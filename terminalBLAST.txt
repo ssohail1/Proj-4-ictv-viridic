@@ -9,12 +9,12 @@ blastn help
 
 Run Commands:
 
-makeblastdb -in fastaseq.fasta -dbtype nucl -out results/customdb
+makeblastdb -in fasta27.fasta -dbtype nucl -out results/customdb
 
 makeblastdb -in SIRV3.fasta -dbtype nucl -out results/inputdb
 
 blastn -db results/customdb -query SIRV3.fasta -out results/blastoutA.csv -evalue 1 -num_threads 6 -word_size 7 -reward 2 -penalty -3 -gapopen 5 -gapextend 2 -outfmt "6 qseqid sseqid nident qlen" 
 
-blastn -db results/inputdb -query fastaseq.fasta -out results/blastoutB.csv -evalue 1 -num_threads 6 -word_size 7 -reward 2 -penalty -3 -gapopen 5 -gapextend 2 -outfmt "6 qseqid sseqid nident qlen" 
+blastn -db results/inputdb -query fasta27.fasta -out results/blastoutB.csv -evalue 1 -num_threads 6 -word_size 7 -reward 2 -penalty -3 -gapopen 5 -gapextend 2 -outfmt "6 qseqid sseqid nident qlen" 
 
 # columns in blast output are input_accessionID, database_accessionID, nident, and input_length
