@@ -49,22 +49,37 @@ for key in dictionary1:
     seqID = key
 
 #access the dictionary by key (A,B), then index the list/tuple you'd like to use next 
-    recipID = seqID[0]
+    recipIDone = seqID[0]
+    recipIDtwo = seqID[1]
 
     #because value of the key is the nident :)
+
+
     idAB = dictionary1[key] #idAB should be set equal to the value of a certain tuple key
-
-    #now, find the reciprocal seqID in the same dictionary1
-    #key is A,B.. search dictionary for its reciprocal key which is B,A
-    idBA = 
-
-
+     
     
+    for key2 in dictionary1:
+
+        if key2[0] == recipIDtwo: #looking for  reciprocal so now the key[0] must be key2[1]
+            if key2[1]== recipIDone:
+                idBA=dictionary1[key2]#reciprocal seqID in same dictionary1
+                #logic goes- key is A,B... search dictionary for its reciprocal key which is B,A
+                break
+            else:
+                print ("No reciprocal found")
+
+    targetTuple= recipIDtwo,recipIDone)
+
+    idBA = dictionary1.get(targetTuple)
+    print(idBA)
+            
+
 #idAB, idBA, lA, lB, simAB, distAB
 #simAB = ((idAB +idBA) * 100)/ (lA/lB)
 #distAB = 100 - simAB
 #perfect, now we have our dictionary which we will work with in order
 #to calculate our intergenomic distances 
+
 
 
 
