@@ -8,7 +8,9 @@
 6. BLASTn the user fasta with inhouse database
 - Explanation for sampleblastout A and B, such as column information, can be found in terminalblast.txt
 8. Figure out intergenomic similarity distance from BLAST output
-9. Next Steps: 
+- Get total nident by removing overlapping HSPs in BLAST output
+- Use total nident and other variables output from BLAST to calculate intergenomic similarity distance
+10. Next Steps: 
     - We can have the class machine run this Rscript in the background with nohup and using the & option
     - Retrieve the accession ids for all species that yield greater than 0 hits from NCBI searches
     - Retrieve the fasta sequences by doing a search with all accession ids as input
