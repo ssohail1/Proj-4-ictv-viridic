@@ -1,20 +1,3 @@
-
-# note: this calculation formula is taken from VIRIDC
-#intergenomic distance calculation
-# idAB = identical bases when genome A is aligned to genome B
-# idBA = identical bases when genome B is aligned to genome A 
-# lA = length genome A 
-# lB = length genome B
-# simAB = intergenomic similarity between genomes A and B
-# distAB =  intergenomic distance between genomes A and B
-
-
-#simAB = ((idAB + idBA) * 100)/(lA + lB)
-# distAB = 100 - simAB
-# in order to calcualte intergenomic distance we need the following from our blast output:
-# output need: 
-
-#CODE:
 #text file A and text file B
 
 
@@ -34,6 +17,8 @@
 
 # make dictionary
 #dictionary1 will be our main dictionary which will have tuples as keys
+#note- dictionary1 holds the nident (number identities) as values paired with the 2 keys
+#the two keys being query + subject
 #dictionary 2 will simply be to store the length of each seqID because seq length
 #will be necessary to calculate the intergenomic distance. 
 dictionary1 = {}
@@ -59,6 +44,27 @@ with open ("sampleblastoutA.txt") as r:
     print(dictionary2)
 
     r.close()
+
+for key in dictionary1:
+    seqID = key
+
+#access the dictionary by key (A,B), then index the list/tuple you'd like to use next 
+    recipID = seqID[0]
+
+    #because value of the key is the nident :)
+    idAB = dictionary1[key] #idAB should be set equal to the value of a certain tuple key
+
+    #now, find the reciprocal seqID in the same dictionary1
+    #key is A,B.. search dictionary for its reciprocal key which is B,A
+    idBA = 
+
+
+    
+#idAB, idBA, lA, lB, simAB, distAB
+#simAB = ((idAB +idBA) * 100)/ (lA/lB)
+#distAB = 100 - simAB
 #perfect, now we have our dictionary which we will work with in order
 #to calculate our intergenomic distances 
+
+
 
