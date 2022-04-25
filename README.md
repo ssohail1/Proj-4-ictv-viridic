@@ -18,4 +18,5 @@
 
 # User Instructions
 1. Download all files from github
-2. ```python3 run.py```
+2. Edit run.py with path of input fasta
+3. ```python3 run.py```
