@@ -1,77 +1,79 @@
-#text file A and text file B
+#text file A, text file B (has reciprocal of A)
 
+#we want dictionary w/ tuples as keys
 
+#example: dictionary1= {(g1,g2): nident ; (g2,g1): nident)}
 
+    #g1 and g2 are sequence ids
 
-#r = open ("sampleblastoutB.txt", 'r')
-#for line in r:
+    #nident = integer
 
-# dictionary w/ tuples as keys
+#now, make dictionary
 
-# ex-     dictionary1 = {(g1,g2):id ; (g2,g1): id)}
-
-
-    # k1 and k2 are seq ids
-
-    # v = integer 
-
-# make dictionary
 #dictionary1 will be our main dictionary which will have tuples as keys
-#note- dictionary1 holds the nident (number identities) as values paired with the 2 keys
-#the two keys being query + subject
-#dictionary 2 will simply be to store the length of each seqID because seq length
-#will be necessary to calculate the intergenomic distance. 
+
+#note: dictionary1 holds the nident (number of identities) as values paired with
+# the 2 keys which the keys are query and subject.
+
+#note: dictionary2 will simply be to store the length of each seqID because seq
+# length is necessary to calculate intergenomic distance
+
+
+#step1: make dictionary1 and dictionary2
 dictionary1 = {}
 dictionary2= {}
 
+#step2: add to dictionary1 the keys as tuples and values the nident
+  #also, add to dictionary2 the key as seqid, the the value as length
 with open ("sampleblastoutB.txt") as f:
     for line in f: 
         k1,k2,i,i2,v,m = line.split()
         dictionary1[(k1,k2)] = int(v)
         dictionary2[k1]=int(m)
-
-    #print (dictionary1)
-
     f.close()
 
+#repeat step2 for second text file
 with open ("sampleblastoutA.txt") as r:
     for line in r:
         k1,k2,i,i2,v,m= line.split()
         dictionary1[(k1,k2)]= int(v)
         dictionary2[k1]=int(m)
-
-    print(dictionary1)
-    print(dictionary2)
-
     r.close()
 
+#step3 now we are going to try and get each reciprocal pair in order to
+     # do our intergenomic distance calculation! 
 for key in dictionary1:
     seqID = key
 
-#access the dictionary by key (A,B), then index the list/tuple you'd like to use next 
+    #access the dictionary by key (A,B), then index the list/tuple you'd like to use next 
     recipIDone = seqID[0]
     recipIDtwo = seqID[1]
 
-    #because value of the key is the nident :)
+    #because value of the key is the nident
 
-
+    
+        
+    #first value we'll need for calculations
     idAB = dictionary1[key] #idAB should be set equal to the value of a certain tuple key
      
     
     for key2 in dictionary1:
 
-        if key2[0] == recipIDtwo: #looking for  reciprocal so now the key[0] must be key2[1]
-            if key2[1]== recipIDone:
+        if key2[0] == recipIDtwo and key2[1]==recipIDone: #looking for  reciprocal so now the key[0] must be key2[1]
                 idBA=dictionary1[key2]#reciprocal seqID in same dictionary1
                 #logic goes- key is A,B... search dictionary for its reciprocal key which is B,A
+                #print(idBA)
+
+                
+                
                 break
-            else:
-                print ("No reciprocal found")
+        else:
+            pass
 
-    targetTuple= recipIDtwo,recipIDone)
+   # targetTuple= (recipIDtwo,recipIDone)
 
-    idBA = dictionary1.get(targetTuple)
-    print(idBA)
+   # idBA = dictionary1.get(targetTuple)
+   # print(idBA)
             
 
 #idAB, idBA, lA, lB, simAB, distAB
@@ -79,7 +81,5 @@ for key in dictionary1:
 #distAB = 100 - simAB
 #perfect, now we have our dictionary which we will work with in order
 #to calculate our intergenomic distances 
-
-
 
 
