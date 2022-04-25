@@ -16,6 +16,6 @@
     - Retrieve the fasta sequences by doing a search with all accession ids as input
     - Parse through the fasta sequence output to only save fasta sequences that start with ">NC_" in the header
 
-"User Instructions"
-1. Download github
-2. python3 run.py
+#User Instructions
+1. Download all files from github
+2. ```python3 run.py```
