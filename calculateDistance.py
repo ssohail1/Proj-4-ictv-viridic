@@ -64,7 +64,14 @@ for key in dictionary1:
                 #logic goes- key is A,B... search dictionary for its reciprocal key which is B,A
                 #print(idBA)
 
-                
+                #now you need to get the length of each sequence  because we need them for lA and lB for simAB calculation
+
+                lA= dictionary2.get(seqID)
+
+                lB=dictionary2.get(key2)
+
+                simAB= ((idAB+idBA) * 100)/(lA/lB)
+                distAB = 100- simAB
                 
                 break
         else:
