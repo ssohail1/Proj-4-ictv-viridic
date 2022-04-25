@@ -13,7 +13,7 @@ makeblastdb -in fasta27.fasta -dbtype nucl -out results/customdb
 
 makeblastdb -in SIRV3.fasta -dbtype nucl -out results/inputdb
 
-blastn -db results/customdb -query SIRV3.fasta -out results/blastoutA.csv -evalue 1 -num_threads 6 -word_size 7 -reward 2 -penalty -3 -gapopen 5 -gapextend 2 -outfmt "6 qseqid sseqid qstart qend nident qlen" -hsp discrete
+blastn -db results/customdb -query SIRV3.fasta -out results/blastoutA.csv -evalue 1 -num_threads 6 -word_size 7 -reward 2 -penalty -3 -gapopen 5 -gapextend 2 -outfmt "6 qseqid sseqid qstart qend nident qlen"
 
 blastn -db results/inputdb -query fasta27.fasta -out results/blastoutB.csv -evalue 1 -num_threads 6 -word_size 7 -reward 2 -penalty -3 -gapopen 5 -gapextend 2 -outfmt "6 qseqid sseqid qstart qend nident qlen" 
 
