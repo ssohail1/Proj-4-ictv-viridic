@@ -3,9 +3,11 @@
   
 # Import necessary libraries
 from Bio import SeqIO
+import pandas as pd
 
-# Create fasta output file
+df = pd.read_csv("/home/rprag/speciesaccessions.csv")
 
+#need to match id in fasta file with to accessionIDs and correlate it with ICTVnames and then print fasta header with ICTV name
 
 # Open fasta input file and create fasta output file
 with open("/home/rprag/finfasta3.fasta", 'r') as inputs, open("/home/rprag/finfasta3_mod.fasta", 'w') as outputs:
