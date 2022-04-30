@@ -92,6 +92,10 @@ def filetofasta(file):
     totxtcmmd = 'cp '+ file + '.txt ' + file + '.fasta'
     os.system(totxtcmmd)
 filetofasta('sequences')
-filetofasta('sequences2')
+filetofasta('sequences2') # lesser memory size than sequences
+
+# add the sequences in sequences2.fasta to the end of sequences.fasta
+concat = 'cat sequences2.fasta >> sequences.fasta'
+os.system(concat)
 
 
