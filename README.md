@@ -21,4 +21,4 @@
 - ```sudo apt install subversion```
 - ```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/run```
 2. Once in the downloaded folder, run the line code below
--```python3 run.py```
+- ```python3 run.py```
