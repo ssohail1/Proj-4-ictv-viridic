@@ -4,7 +4,7 @@ Created on Fri Apr 29 21:51:48 2022
 @author: jgrandinetti
 """
 
-your_path = '/home/jgrandinetti/Proj-4-ictv-viridic/run' # change this to whatever folder you have your files downloaded to
+your_path = '/home/jgrandinetti/run' # change this to whatever folder you have your files downloaded to
 your_fasta = 'SIRV3.fasta' #change the name of this to the fasta you are using as input
 
 import os
