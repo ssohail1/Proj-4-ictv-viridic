@@ -1,3 +1,9 @@
+'''
+This code assembles the speciesaccessions.csv file. The speciesaccessions.csv file will be input to fullfastadownload.R. 
+The paths in this code need to be changed to your local paths.
+'''
+
+
 # There are several R libraries that need to be installed for this documentation.
 # In order to install `rentrez`, there are two ways:
   # install.packages('rentrez') OR 
