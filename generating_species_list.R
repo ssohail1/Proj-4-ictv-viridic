@@ -22,7 +22,6 @@ View(ictvxl)
 specieslist <- ictvxl$Species
 length(specieslist)
 
-# Moving Forward: need to address this issue when retrieving accession IDs and fasta sequences
 # Note: entrez prints error message when loop through many species
 # To-do: How to have entrez retrieve sequences for all species
 
@@ -153,13 +152,7 @@ for (i in 1:length(speciesinfo1[,1])) {
     coun <- coun + 1   # 73
   }
 }
-# for (i in 1:length(speciesinfo1[,1])) {
-#   for (j in 1:length(rownames(species1))) {
-#   if (speciesinfo1$GenBankIDs[i] == "zero") {
-#     species1[j,] <- speciesinfo1[i,]
-#   }
-#   }
-# }
+
 colnames(species1) <- colnames(speciesinfo1)
 speciesacc <- data.frame(matrix(ncol = 2, nrow = 8792))
 
