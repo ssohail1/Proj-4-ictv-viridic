@@ -57,7 +57,7 @@ with open('speciesaccessions.csv', 'r') as file:
 #multifasta = open('ictvheadermultifasta.txt','r').read().split('">')
 outfile = open('accessionsandnameandseqs.txt','w')
 ictvaccession = open("test_ictv_.txt","r").read().split('\n')
-for i in range(0,len(ictvaccession)-1):
+for i in range(0,len(ictvaccession)-1): # the end of the ictvaccession is a blank/extra space
     a1 = ictvaccession[i].split('\t')
     for i in range(1,len(a1)):
         for j in range(0,len(multifasta)):
