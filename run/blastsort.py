@@ -7,8 +7,8 @@ Created on Mon Apr 18 17:30:35 2022
 import pandas as pd
 import numpy as np
 
-fileA = pd.read_csv('blastoutA.csv', sep = '\t')
-fileB = pd.read_csv('blastoutB.csv', sep = '\t')
+fileA = pd.read_csv('/results/blastoutA.csv', sep = '\t')
+fileB = pd.read_csv('/results/blastoutB.csv', sep = '\t')
 
 fileA.columns = ['input_accessionID', 'database_accessionID', 'qstart', 'qend', 'nident','input_length']
 fileB.columns = ['input_accessionID', 'database_accessionID', 'qstart', 'qend', 'nident','input_length']
@@ -86,10 +86,10 @@ def totident(df):
     return(pd.merge(left=max_only, right=df_new[[accessionID,'totident']], how='right', on=accessionID))
 
 
-with open('totidentA.csv','w') as f: #open csv file to write
+with open('/results/totidentA.csv','w') as f: #open csv file to write
     totident(fileA).to_csv(f) #write dataframe from list to csv
     f.write("\n") # newline between dataframes
 
-with open('totidentB.csv','w') as f: #open csv file to write
+with open('results/totidentB.csv','w') as f: #open csv file to write
     totident(fileB).to_csv(f) #write dataframe from list to csv
     f.write("\n") # newline between dataframes
