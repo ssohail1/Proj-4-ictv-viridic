@@ -20,5 +20,5 @@
 1. Run below code to download necessary run files from github
 - ```sudo apt install subversion```
 -```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/run```
-4. Once in the downloaded folder, run the line code below
+2. Once in the downloaded folder, run the line code below
 -```python3 run.py```
