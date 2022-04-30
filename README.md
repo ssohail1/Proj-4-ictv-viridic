@@ -20,5 +20,7 @@
 1. Run below code to download necessary run files from github
 - ```sudo apt install subversion```
 - ```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/run```
-2. Once in the downloaded folder, run the line code below
+2. Copy/move your input fasta into the run folder, and modify the user path in the run.py code
+- A sample input fasta is included, so by default the code will be run with that data
+4. Once in the downloaded folder, run the line code below
 - ```python3 run.py```
