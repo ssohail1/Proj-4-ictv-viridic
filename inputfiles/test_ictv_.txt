@@ -1,0 +1,1188 @@
+Campylobacter virus IBB35	NC_027989; NC_041833; NC_041831; NC_041832; NC_041834
+Bombyx mori bidensovirus	NC_038377; NC_038376
+Abaca bunchy top virus	NC_010318; NC_010317; NC_010314; NC_010319; NC_010316; NC_010315
+Banana bunchy top virus	NC_003477; NC_003474; NC_003476; NC_003479; NC_003473; NC_003475
+Cardamom bushy dwarf virus	NC_038809; NC_038815; NC_038808; NC_038816; NC_038810; NC_038813
+Black medic leaf roll virus	NC_023300; NC_023305; NC_023301; NC_023299; NC_023304; NC_023306; NC_023307; NC_023302
+Cow vetch latent virus	NC_040751; NC_040745; NC_040746; NC_040747; NC_040748; NC_040749; NC_040744; NC_040750
+Faba bean necrotic stunt virus	NC_013096; NC_013097; NC_013098; NC_013094; NC_013095; NC_013099; NC_013100; NC_013101
+Faba bean necrotic yellows virus	NC_003559; NC_003562; NC_003566; NC_003560; NC_003563; NC_003561; NC_003564; NC_024457
+Faba bean yellow leaf virus	NC_038907; NC_038904; NC_038911; NC_038909; NC_038910; NC_038905; NC_038908; NC_038906
+Milk vetch dwarf virus	NC_003641; NC_003645; NC_003643; NC_003648; NC_003646; NC_003642; NC_003644; NC_023626
+Parsley severe stunt associated virus	MK039132; MK039135; MK039134; MK039133; MK039130; MK039129; MK039128
+Pea necrotic yellow dwarf virus	NC_023158; NC_023156; NC_023159; NC_023154; NC_023155; NC_023160; NC_023157; NC_023161
+Pea yellow stunt virus	NC_023309; NC_023297; NC_023310; NC_023296; NC_023308; NC_023303; NC_023298; NC_023311
+Sophora yellow stunt virus	MH048849; MH048848; MH048847; MH048846; MH048844; MH048843; MH048845; MH048842
+Subterranean clover stunt virus	MK035730; MK035731; MK035732; MK035728; MK035729; MK035733; MK035734; MK035735
+Abutilon golden mosaic virus	NC_038438
+Abutilon mosaic Bolivia virus	NC_015045; NC_015048
+Abutilon mosaic Brazil virus	NC_016574; NC_016577
+Abutilon mosaic virus	NC_001928; NC_001929
+African cassava mosaic Burkina Faso virus	HE616777; HE616778
+African cassava mosaic virus	NC_001467; NC_001468
+Ageratum yellow vein Hualian virus	NC_038913
+Ageratum yellow vein Sri Lanka virus	NC_002981
+Ageratum yellow vein virus	NC_004090
+Allamanda leaf curl virus	NC_010947
+Allamanda leaf mottle distortion virus	NC_024009
+Alternanthera yellow vein virus	NC_007211
+Asystasia mosaic Madagascar virus	NC_026514; NC_026513
+Bean bushy stunt virus	MN414067; MN414068
+Bean calico mosaic virus	NC_003504; NC_003505
+Bean chlorosis virus	NC_019569; NC_019568
+Bean dwarf mosaic virus	NC_001931; NC_001930
+Bean golden mosaic virus	NC_004042; NC_004043
+Bean golden yellow mosaic virus	NC_038791; NC_038790
+Bean latent virus	MN158325; MN158326
+Bean white chlorosis mosaic virus	NC_022005; NC_022003
+Bean yellow mosaic Mexico virus	NC_015487
+Bhendi yellow vein Bhubhaneswar virus	NC_012041
+Bhendi yellow vein mosaic virus	NC_003418
+Bitter gourd yellow mosaic virus	MH481856; MK116876
+Blainvillea yellow spot virus	NC_010837; NC_010838
+Blechum interveinal chlorosis virus	NC_019035; NC_019036
+Boerhavia yellow spot virus	NC_038439
+Cabbage leaf curl Jamaica virus	NC_038792; NC_038793
+Cabbage leaf curl virus	NC_003866; NC_003887
+Capraria yellow spot virus	NC_022007; NC_022008
+Cassava mosaic Madagascar virus	NC_017004; NC_017005
+Centrosema yellow spot virus	NC_016998
+Chayote yellow mosaic virus	NC_004618
+Chilli leaf curl India virus	NC_038875
+Chilli leaf curl Kanpur virus	NC_038441
+Chilli leaf curl Vellanad virus	NC_038442
+Chilli leaf curl virus	NC_004628
+Chino del tomate Amazonas virus	NC_038443
+Chino del tomate virus	NC_003830; NC_003831
+Cleome golden mosaic virus	NC_015397
+Cleome leaf crumple virus	NC_016578; NC_016572
+Clerodendron golden mosaic virus	NC_010713; NC_010714
+Clerodendrum golden mosaic China virus	NC_011346; NC_011347
+Clerodendrum golden mosaic Jiangsu virus	NC_038876
+Cnidoscolus mosaic leaf deformation virus	NC_038982
+Coccinia mosaic Tamil Nadu virus	NC_024810; NC_024809
+Common bean mottle virus	NC_038988
+Common bean severe mosaic virus	NC_040190
+Corchorus golden mosaic virus	NC_009644; NC_009646
+Corchorus yellow spot virus	NC_008492; NC_008493
+Corchorus yellow vein Cuba virus	MF773912; MF773902
+Corchorus yellow vein virus	NC_006358; NC_006359
+Cotton chlorotic spot virus	NC_038794; NC_038795
+Cotton leaf crumple virus	NC_004580; NC_004581
+Cotton leaf curl Alabad virus	NC_004582
+Cotton leaf curl Bangalore virus	NC_007290
+Cotton leaf curl Gezira virus	NC_038444
+Cotton leaf curl Kokhran virus	NC_004583
+Cotton leaf curl Multan virus	NC_011804
+Cotton yellow mosaic virus	KU683748; KU683750
+Cowpea bright yellow mosaic virus	MH469731; MH469732
+Cowpea golden mosaic virus	NC_038445
+Croton golden mosaic virus	KX156613; KX156614
+Cucumber chlorotic leaf virus	MN013786; MN013787
+Cucurbit leaf crumple virus	NC_002984; NC_002985
+Dalechampia chlorotic mosaic virus	NC_018716; NC_018718
+Datura leaf distortion virus	NC_018717; NC_018715
+Deinbollia mosaic virus	NC_029804; NC_029803
+Desmodium leaf distortion virus	NC_008494; NC_008495
+Desmodium mottle virus	NC_039001
+Dicliptera yellow mottle Cuba virus	AJ549960
+Dicliptera yellow mottle virus	NC_003856; NC_003857
+Dolichos yellow mosaic virus	AY271891
+Duranta leaf curl virus	NC_038980
+East African cassava mosaic Cameroon virus	NC_004625; NC_004630
+East African cassava mosaic Kenya virus	NC_011583; NC_011584
+East African cassava mosaic Malawi virus	NC_038877
+East African cassava mosaic virus	NC_004674; NC_004676
+East African cassava mosaic Zanzibar virus	NC_004655; NC_004656
+Erectites yellow mosaic virus	NC_009549
+Euphorbia leaf curl virus	NC_005319
+Euphorbia mosaic Peru virus	NC_039082
+Euphorbia mosaic virus	NC_008304; NC_008305
+Euphorbia yellow mosaic virus	NC_012553; NC_012554
+French bean leaf curl virus	NC_018090
+Hedyotis uncinella yellow mosaic virus	NC_038448
+Hemidesmus yellow mosaic virus	NC_022073
+Hibiscus golden mosaic virus	MK558061; MK558062
+Horsegram yellow mosaic virus	NC_005635; NC_005636
+Hybanthus yellow mosaic virus	KX156609; KX156610
+Indian cassava mosaic virus	NC_001932; NC_001933
+Jacquemontia mosaic Yucatan virus	NC_038796; NC_038797
+Jacquemontia yellow mosaic virus	NC_038960
+Jatropha leaf curl virus	NC_011268
+Jatropha leaf yellow mosaic virus	NC_038956
+Jatropha mosaic India virus	NC_038449
+Jatropha mosaic Nigeria virus	NC_019034
+Jatropha mosaic virus	NC_024012; NC_024013
+Jatropha yellow mosaic virus	NC_011309
+Kudzu mosaic virus	NC_009645; NC_009647
+Leonurus mosaic virus	NC_038450
+Lindernia anagallis yellow vein virus	NC_009550
+Lisianthus enation leaf curl virus	NC_031466
+Ludwigia yellow vein Vietnam virus	NC_038451
+Ludwigia yellow vein virus	NC_007210
+Luffa yellow mosaic virus	NC_004824; NC_004825
+Lycianthes yellow mosaic virus	NC_038978
+Macroptilium bright mosaic virus	NC_031452
+Macroptilium common mosaic virus	NC_031448; NC_031453
+Macroptilium golden mosaic virus	NC_010952; NC_010953
+Macroptilium mosaic Puerto Rico virus	NC_004097; NC_004098
+Macroptilium yellow mosaic Florida virus	NC_004099; NC_004100
+Macroptilium yellow mosaic virus	NC_010647; NC_010648
+Macroptilium yellow spot virus	NC_016999
+Macroptilium yellow vein virus	NC_017000
+Malvastrum bright yellow mosaic virus	NC_031458; NC_031459
+Malvastrum leaf curl Philippines virus	NC_021245
+Malvastrum leaf curl virus	NC_007724
+Malvastrum yellow mosaic Helshire virus	NC_038452
+Malvastrum yellow mosaic Jamaica virus	NC_038798; NC_038799
+Malvastrum yellow mosaic virus	NC_008559
+Malvastrum yellow vein Cambodia virus	NC_026763
+Malvastrum yellow vein Honghe virus	NC_030749
+Melochia mosaic virus	NC_028140; NC_028141
+Melochia yellow mosaic virus	NC_028142; NC_028143
+Melon chlorotic leaf curl virus	NC_003865; NC_003860
+Melon chlorotic mosaic virus	NC_014380; NC_014381
+Merremia mosaic Puerto Rico virus	NC_015490; NC_015491
+Merremia mosaic virus	NC_007965; NC_007966
+Mesta yellow vein mosaic Bahraich virus	NC_010818
+Mimosa yellow leaf curl virus	NC_009546
+Mungbean yellow mosaic India virus	NC_004608; NC_004609
+Mungbean yellow mosaic virus	NC_001983; NC_001984
+Ocimum golden mosaic virus	MN313661; MN313660
+Ocimum mosaic virus	MN313669; MN313668
+Ocimum yellow vein virus	MN313667; MN313666
+Okra enation leaf curl virus	NC_014894
+Okra mottle virus	NC_011181; NC_011182
+Okra yellow crinkle virus	NC_008377
+Okra yellow mosaic Mexico virus	NC_014066; NC_014067
+Oxalis yellow vein virus	NC_026253
+Papaya leaf crumple virus	NC_014707
+Papaya leaf curl China virus	NC_005321
+Papaya leaf curl Guandong virus	NC_005844
+Passionfruit leaf distortion virus	NC_031764; NC_031765
+Passionfruit severe leaf distortion virus	NC_012786; NC_012787
+Pavonia mosaic virus	NC_038981
+Pavonia yellow mosaic virus	NC_029105; NC_037611
+Pea leaf distortion virus	NC_033554
+Pepper blistering leaf virus	MN518737; MN518739
+Pepper golden mosaic virus	NC_004101; NC_004096
+Pepper huasteco yellow vein virus	NC_001359; NC_001369
+Pepper leaf curl Bangladesh virus	NC_004192
+Pepper leaf curl Lahore virus	JN135234
+Pepper yellow leaf curl Aceh virus	LC387327; LC387329
+Pepper yellow leaf curl Indonesia virus	NC_008283; NC_008284
+Pepper yellow leaf curl Thailand virus	NC_040186
+Potato yellow mosaic Panama virus	NC_002048; NC_002049
+Potato yellow mosaic virus	NC_001934; NC_001935
+Pouzolzia golden mosaic virus	NC_023849
+Pouzolzia mosaic Guangdong virus	NC_038453
+Premna leaf curl virus	NC_038454
+Pumpkin yellow mosaic virus	NC_010946
+Ramie mosaic Yunnan virus	NC_030699
+Rhynchosia golden mosaic Havana virus	NC_038800; NC_038801
+Rhynchosia golden mosaic Sinaloa virus	NC_038802; NC_038803
+Rhynchosia golden mosaic virus	NC_037306; NC_037305
+Rhynchosia mild mosaic virus	NC_015488; NC_015489
+Rhynchosia rugose golden mosaic virus	NC_038805; NC_038804
+Rhynchosia yellow mosaic India virus	NC_014902; NC_014903
+Rhynchosia yellow mosaic virus	NC_038885; NC_038886
+Sauropus leaf curl virus	NC_038455
+Sida angular mosaic virus	NC_031456; NC_031457
+Sida bright yellow mosaic virus	NC_038991
+Sida chlorotic leaf virus	MN013784; MN013785
+Sida chlorotic mottle virus	NC_038990
+Sida chlorotic vein virus	NC_031455; NC_031454
+Sida ciliaris golden mosaic virus	NC_038456; NC_049200
+Sida golden mosaic Brazil virus	NC_038887
+Sida golden mosaic Buckup virus	NC_014794; NC_014795
+Sida golden mosaic Costa Rica virus	NC_004657; NC_004658
+Sida golden mosaic Florida virus	NC_014446; NC_014447
+Sida golden mosaic Lara virus	NC_038459
+Sida golden mosaic virus	NC_002046; NC_002047
+Sida golden mottle virus	NC_014130; NC_014128
+Sida interveinal bright yellow virus	MN746033; MN419243
+Sida micrantha mosaic virus	NC_005330; NC_005331
+Sida mosaic Alagoas virus	NC_016573; NC_016579
+Sida mosaic Bolivia virus 1	NC_015046; NC_015044
+Sida mosaic Bolivia virus 2	NC_015043; NC_015047
+Sida mosaic Sinaloa virus	NC_008059; NC_008056
+Sida mottle Alagoas virus	NC_020256
+Sida mottle virus	AJ557450; AJ557454
+Sida yellow blotch virus	NC_020254
+Sida yellow golden mosaic virus	MF163258; MF163259
+Sida yellow leaf curl virus	NC_038461
+Sida yellow mosaic Alagoas virus	NC_020255
+Sida yellow mosaic virus	NC_004639
+Sida yellow mosaic Yucatan virus	NC_008779; NC_008780
+Sida yellow mottle virus	NC_016082; NC_016083
+Sida yellow net virus	NC_020253
+Sida yellow vein Vietnam virus	NC_009547
+Sida yellow vein virus	NC_004661; NC_004662
+Sidastrum golden leaf spot virus	NC_038462
+Solanum mosaic Bolivia virus	NC_024304; NC_024305
+South African cassava mosaic virus	NC_003803; NC_003804
+Soybean blistering mosaic virus	NC_038463
+Soybean chlorotic blotch virus	NC_014141; NC_014142
+Spilanthes yellow vein virus	NC_009545
+Squash leaf curl China virus	NC_007339; NC_007338
+Squash leaf curl Philippines virus	NC_005845; NC_005846
+Squash leaf curl virus	NC_001936; NC_001937
+Squash mild leaf curl virus	NC_004645; NC_004646
+Sri Lankan cassava mosaic virus	NC_003861; NC_003862
+Stachytarpheta leaf curl virus	NC_004091
+Sunn hemp leaf distortion virus	NC_013019
+Sweet potato leaf curl China virus	NC_038464
+Sweet potato leaf curl Georgia virus	NC_004640
+Sweet potato leaf curl virus	NC_004650
+Synedrella yellow vein clearing virus	NC_038994
+Telfairia golden mosaic virus	NC_030403
+Tobacco curly shoot virus	NC_003722
+Tobacco leaf curl Cuba virus	NC_035887; NC_035888
+Tobacco leaf curl Dominican Republic virus	MH514011; MH514012
+Tobacco leaf curl Pusa virus	NC_014596
+Tobacco leaf rugose virus	NC_038890
+Tobacco yellow crinkle virus	NC_015627; NC_015628
+Tomato bright yellow mosaic virus	NC_038467
+Tomato bright yellow mottle virus	NC_038468
+Tomato chino La Paz virus	NC_005843
+Tomato chlorotic leaf curl virus	MK558058; MK558059
+Tomato chlorotic leaf distortion virus	NC_015962; NC_015961
+Tomato chlorotic mottle Guyane virus	NC_038965
+Tomato chlorotic mottle virus	NC_003664; NC_003665
+Tomato common mosaic virus	NC_010835; NC_010836
+Tomato curly stunt virus	NC_004675
+Tomato dwarf leaf virus	NC_016580; NC_016581
+Tomato enation leaf curl virus	NC_026761
+Tomato golden leaf distortion virus	NC_043122
+Tomato golden leaf spot virus	NC_021579
+Tomato golden mosaic virus	NC_001507; NC_001508
+Tomato golden mottle virus	NC_008058; NC_008057
+Tomato golden vein virus	NC_038807; NC_038806
+Tomato interveinal chlorosis virus	NC_038469
+Tomato leaf curl Arusha virus	NC_009030
+Tomato leaf curl Cebu virus	NC_010439
+Tomato leaf curl China virus	NC_005320
+Tomato leaf curl Ghana virus	NC_010313
+Tomato leaf curl Guangdong virus	NC_008373
+Tomato leaf curl Gujarat virus	NC_004558; NC_004559
+Tomato leaf curl Hsinchu virus	NC_010791; NC_010792
+Tomato leaf curl Joydebpur virus	HM991146
+Tomato leaf curl Kerala virus	NC_011135
+Tomato leaf curl Malaysia virus	NC_004648
+Tomato leaf curl New Delhi virus	NC_004611; NC_004612
+Tomato leaf curl New Delhi virus 4	NC_038471
+Tomato leaf curl Palampur virus	NC_010840; NC_010839
+Tomato leaf curl Patna virus	NC_012492
+Tomato leaf curl Rajasthan virus	NC_038472
+Tomato leaf curl Sinaloa virus	NC_009606; NC_009605
+Tomato leaf curl Sri Lanka virus	NC_004647
+Tomato leaf curl Sulawesi virus	NC_013413
+Tomato leaf curl Uganda virus	NC_038473
+Tomato leaf curl Vietnam virus	NC_004153
+Tomato leaf deformation virus	NC_014510
+Tomato leaf distortion virus	NC_038474
+Tomato mild mosaic virus	NC_010833; NC_010834
+Tomato mild yellow leaf curl Aragua virus	NC_009490; NC_009491
+Tomato mosaic Havana virus	NC_003867; NC_003868
+Tomato mosaic severe dwarf virus	MN147863; MN147864
+Tomato mottle leaf curl virus	KC706615; JF803264
+Tomato mottle Taino virus	NC_001828; NC_001917
+Tomato mottle virus	NC_001938; NC_001939
+Tomato mottle wrinkle virus	NC_025265; NC_025266
+Tomato rugose mosaic virus	NC_002555; NC_002556
+Tomato rugose yellow leaf curl virus	NC_020257; NC_038234
+Tomato severe leaf curl virus	NC_004642
+Tomato severe rugose virus	NC_009607; NC_009616
+Tomato vein clearing leaf deformation virus	MK423208; MK423207
+Tomato wrinkled mosaic virus	KY449275; KY449276
+Tomato yellow leaf curl China virus	NC_004044
+Tomato yellow leaf curl Guangdong virus	NC_008374
+Tomato yellow leaf curl Indonesia virus	NC_008267
+Tomato yellow leaf curl Kanchanaburi virus	NC_005812; NC_005811
+Tomato yellow leaf curl Thailand virus	NC_000869; NC_000870
+Tomato yellow leaf curl Vietnam virus	NC_009548
+Tomato yellow leaf curl Yunnan virus	NC_021341
+Tomato yellow leaf deformation dwarf virus	MN145942; MN145943
+Tomato yellow leaf distortion virus	NC_011348; NC_017913
+Tomato yellow margin leaf curl virus	NC_005852; NC_005853
+Tomato yellow mottle virus	NC_019946; NC_019947
+Tomato yellow spot virus	NC_007726; NC_007727
+Tomato yellow vein streak virus	NC_010949; NC_010950
+Triumfetta yellow mosaic virus	NC_038983
+Velvet bean severe mosaic virus	NC_013414; NC_013415
+Verbena mottle virus	KX156611; KX156612
+Vernonia yellow vein virus	NC_007730
+Vigna yellow mosaic virus	NC_038475
+Watermelon chlorotic stunt virus	NC_003708; NC_003709
+West African Asystasia virus 1	NC_016575; NC_016576
+West African Asystasia virus 2	NC_038476
+West African Asystasia virus 3	KT444609; KT444610
+Whitefly-associated begomovirus 1	NC_038967
+Whitefly-associated begomovirus 2	NC_038968
+Whitefly-associated begomovirus 3	NC_038969
+Whitefly-associated begomovirus 4	NC_038970
+Whitefly-associated begomovirus 6	NC_038971
+Wissadula golden mosaic virus	NC_010948; NC_010951
+Wissadula yellow mosaic virus	NC_031451
+Gemytripvirus fugra1	MK430076; MK430077; MK430078
+Amasya cherry disease associated chrysovirus	NC_009947; NC_009946; NC_009945; NC_009944
+Anthurium mosaic-associated chrysovirus	NC_043676; NC_043677; NC_043678
+Aspergillus fumigatus chrysovirus	NC_038872; NC_038873; NC_038871; NC_038874
+Brassica campestris chrysovirus	NC_043660; NC_043659; NC_043661
+Chrysothrix chrysovirus 1	MN625832; MN625833; MN625834; MN625835
+Colletotrichum gloeosporioides chrysovirus	NC_043666; NC_043668; NC_043667
+Cryphonectria nitschkei chrysovirus 1	NC_038778; NC_038779; NC_038781; NC_038780
+Fusarium oxysporum chrysovirus 1	NC_043218; NC_043219; NC_043220
+Helminthosporium victoriae virus 145S	NC_005978; NC_005979; NC_005980; NC_005981
+Isaria javanica chrysovirus	NC_033277; NC_033317; NC_033318; NC_033278
+Macrophomina phaseolina chrysovirus	NC_043662; NC_043664; NC_043663; NC_043665
+Penicillium chrysogenum virus	NC_007539; NC_007540; NC_007541; NC_007542
+Persea americana chrysovirus	NC_043506; NC_043508; NC_043507
+Raphanus sativus chrysovirus	NC_043657; NC_043656; NC_043658
+Salado alphachrysovirus	MN661047; MN661048; MN661049; MN661050
+Shuangao insect-associated chrysovirus	MF176340; MF176341; MF176342; MF176343
+Verticillium dahliae chrysovirus 1	NC_038784; NC_038782; NC_038785; NC_038783
+Zea mays chrysovirus 1	NC_040510; NC_040509; NC_040911
+Alternaria alternata chrysovirus	NC_040738; NC_040739; NC_040736; NC_040740; NC_040737
+Aspergillus thermomutatus chrysovirus 1	MF045841; MF045842; MF045843; MF045844
+Botryosphaeria dothidea chrysovirus	KF688736; KF688737; KF688738; KF688739
+Colletotrichum fructicola chrysovirus 1	NC_040485; NC_040491; NC_040487; NC_040488; NC_040486; NC_040489; NC_040490
+Coniothyrium diplodiella chrysovirus 1	MK584812; MK584813; MK584814; MK584815
+Fusarium graminearum chrysovirus	HQ343295; HQ343296; HQ343297; HQ343298; HQ343299
+Fusarium oxysporum chrysovirus 2	NC_027563; NC_027564; NC_027565; NC_027566
+Magnaporthe oryzae chrysovirus	NC_014462; NC_014465; NC_014463; NC_014464; NC_038011
+Neofusicoccum parvum chrysovirus 1	MK584816; MK584817; MK584818; MK584819
+Penicillium janczewskii chrysovirus 1	NC_028495; NC_ 028500; NC_028496; NC_028497
+Penicillium janczewskii chrysovirus 2	NC_043672; NC_043669 ; NC_043670; NC_043671
+Rosellinia necatrix megabirnavirus 1	NC_013462; NC_013463
+Rosellinia necatrix quadrivirus 1	NC_016757; NC_016759; NC_016760; NC_016758
+Eriocheir sinensis reovirus	NC_043180; NC_043185; NC_042183; NC_043184; NC_043190; NC_043182; NC_043186; NC_043187; NC_043188; NC_043181; NC_043191; NC_043189
+Micromonas pusilla reovirus	NC_008171; NC_008172; NC_008173; NC_008174; NC_008175; NC_008176; NC_008177; NC_008178; NC_008179; NC_008180; NC_008181
+African horse sickness virus	NC_006021; NC_005996; NC_006017; NC_006012; NC_006020; NC_006018; NC_006011; NC_006016; NC_006019; NC_006009
+Bluetongue virus	NC_006023; NC_006013; NC_006014; NC_006024; NC_006025; NC_006010; NC_006022; NC_006007; NC_006008; NC_006015
+Changuinola virus	NC_022639; NC_022633; NC_022634; NC_022640; NC_022635; NC_022641; NC_022636; NC_022637; NC_022642; NC_022638
+Chenuda virus	NC_027534; NC_027535; NC_027536; NC_027537; NC_027538; NC_027548; NC_027549; NC_027550; NC_027551; NC_027552
+Chobar Gorge virus	NC_027553; NC_027554; NC_027555; NC_027556; NC_027557; NC_027558; NC_027559; NC_027560; NC_027561; NC_027562
+Corriparta virus	NC_038568; NC_038564; NC_038570; NC_038565; NC_038566; NC_038571; NC_038572; NC_038573; NC_038567; NC_038569
+Epizootic hemorrhagic disease virus	NC_013396; NC_013397; NC_013398; NC_013399; NC_013400; NC_013401; NC_013402; NC_013403; NC_013404; NC_013405
+Equine encephalosis virus	NC_038574; NC_038582; NC_038575; NC_038581; NC_038576; NC_038577; NC_038578; NC_038583; NC_038579; NC_038580
+Eubenangee virus	NC_038592; NC_038588; NC_038584; NC_038591; NC_038585; NC_038586; NC_038589; NC_038587; NC_038590; NC_038593
+Great Island virus	NC_014522; NC_014523; NC_014524; NC_014525; NC_014526; NC_014527; NC_014528; NC_014529; NC_014530; NC_014531
+Lebombo virus	NC_038594; NC_038600; NC_038595; NC_038596; NC_038601; NC_038597; NC_038599; NC_038598; NC_038603; NC_038602
+Orungo virus	NC_038604; NC_038605; NC_038610; NC_038606; NC_038611; NC_038609; NC_038607; NC_038608; NC_038612; NC_038613
+Palyam virus	NC_005990; NC_005986; NC_005989; NC_005991; NC_005993; NC_005987; NC_005988; NC_005994; NC_005992; NC_005995
+Peruvian horse sickness virus	NC_007748; NC_007749; NC_007750; NC_007751; NC_007755; NC_007752; NC_007756; NC_007754; NC_007753; NC_007757
+St Croix River virus	NC_005997; NC_005998; NC_005999; NC_006000; NC_006001; NC_006002; NC_006003; NC_006004; NC_006005; NC_006006
+Umatilla virus	NC_024503; NC_024504; NC_024505; NC_024506; NC_024507; NC_024508; NC_024509; NC_024510; NC_024499; NC_024500
+Wad Medani virus	NC_027533; NC_027539; NC_027540; NC_027541; NC_027542; NC_027543; NC_027544; NC_027545; NC_027546; NC_027547
+Wallal virus	NC_022553; NC_022554; NC_022555; NC_022560; NC_022556; NC_022561; NC_022557; NC_022562; NC_022558; NC_022559
+Warrego virus	NC_038614; NC_038620; NC_038615; NC_038616; NC_038618; NC_038621; NC_038623; NC_038622; NC_038619; NC_038617
+Yunnan orbivirus	NC_007656; NC_007657; NC_007658; NC_007659; NC_007660; NC_007661; NC_007662; NC_007663; NC_007664; NC_007665
+Rice dwarf virus	NC_003773; NC_003774; NC_003772; NC_003761; NC_003762; NC_003763; NC_003760; NC_003764; NC_003765; NC_003766; NC_003767; NC_003768
+Rice gall dwarf virus	NC_009248; NC_009244; NC_009243; NC_009249; NC_009247; NC_009251; NC_009250; NC_009241; NC_009246; NC_009242; NC_009245; NC_009252
+Wound tumor virus	NC_038945; NC_038948; NC_038946; NC_038944; NC_038949; NC_038947; NC_038950; NC_038952; NC_038951
+Rotavirus A	NC_011507; NC_011506; NC_011508; NC_011510; NC_011500; NC_011509; NC_011501; NC_011502; NC_011503; NC_011504; NC_011505
+Rotavirus B	NC_021541; NC_021545; NC_021551; NC_021543; NC_021546; NC_021544; NC_021547; NC_021548; NC_021542; NC_021550; NC_021549
+Rotavirus C	NC_007547; NC_007546; NC_007572; NC_007574; NC_007570; NC_007543; NC_007544; NC_007571; NC_007545; NC_007569; NC_007573
+Rotavirus D	NC_014511; NC_014512; NC_014513; NC_014514; NC_014515; NC_014516; NC_014517; NC_014518; NC_014519; NC_014520; NC_014521
+Rotavirus F	NC_021625; NC_021626; NC_021631; NC_021630; NC_021632; NC_021635; NC_021633; NC_021628; NC_021627; NC_021629; NC_021634
+Rotavirus G	NC_021590; NC_021580; NC_021581; NC_021589; NC_021583; NC_021588; NC_021585; NC_021584; NC_021582; NC_021586; NC_021587
+Rotavirus H	NC_007548; NC_007549; NC_007551; NC_007550; NC_007552; NC_007553; NC_007555; NC_007554; NC_007556; NC_007557; NC_007558
+Rotavirus I	NC_026825; NC_026826; NC_026827; NC_026828; NC_026820; NC_026829; NC_026822; NC_026821; NC_026830; NC_026823; NC_026824
+Rotavirus J	KX756624; KX756625; KX756627; KX756626; KX756619; KX756628; KX756621; KX756620; KX756629; KX756622; KX756623
+Banna virus	NC_004211; NC_004217; NC_004218; NC_004219; NC_004220; NC_004221; NC_004204; NC_004203; NC_004202; NC_004201; NC_004200; NC_004198
+Kadipiro virus	NC_004210; NC_004212; NC_004213; NC_004214; NC_004215; NC_004216; NC_004209; NC_004208; NC_004207; NC_004206; NC_004205; NC_004199
+Liao ning virus	NC_007736; NC_007737; NC_007738; NC_007739; NC_007740; NC_007741; NC_007742; NC_007743; NC_007744; NC_007745; NC_007746; NC_007747
+Aquareovirus A	NC_007582; NC_007583; NC_007584; NC_007585; NC_007586; NC_007592; NC_007587; NC_007588; NC_007589; NC_007590; NC_007591
+Aquareovirus B	NC_038630; NC_038633; NC_038629; NC_038624; NC_038625; NC_038631; NC_038626; NC_038627; NC_038632; NC_038628
+Aquareovirus C	NC_005166; NC_005167; NC_005168; NC_005169; NC_005170; NC_005171; NC_005172; NC_005173; NC_005174; NC_005175; NC_005176
+Aquareovirus E	NC_038640; NC_038634; NC_038635; NC_038641; NC_038636; NC_038637; NC_038643; NC_038639; NC_038638; NC_038642; NC_038644
+Aquareovirus G	NC_010584; NC_010585; NC_010586; NC_010587; NC_010588; NC_010589; NC_010590; NC_010591; NC_010592; NC_010593; NC_010594
+Colorado tick fever coltivirus	NC_004181; NC_004182; NC_004183; NC_004184; NC_004185; NC_004186; NC_004187; NC_004188; NC_004180; NC_004189; NC_004191; NC_004190
+Eyach coltivirus	NC_003696; NC_003697; NC_003698; NC_003699; NC_003700; NC_003701; NC_003702; NC_003703; NC_003704; NC_003705; NC_003706; NC_003707
+Kundal coltivirus	MH327935; MH327936; MH327937; MH327938; MH327939; MH327940; MH327941; MH327942; MH327943; MH327944; MH327945; MH327946
+Tai Forest coltivirus	KX989543; KX989544; KX989545; MF511051; MF511052; MF511053; MF511054; KX989546; MF511055; MF511056
+Tarumizu coltivirus	LC275156; LC275157; LC275158; LC275159; LC275160; LC275161; LC275162; LC275163; LC275164; LC275165; LC275166; LC275167
+Cypovirus 1	NC_003016; NC_003017; NC_003018; NC_003019; NC_003020; NC_003021; NC_003022; NC_003023; NC_003024; NC_003025
+Cypovirus 2	NC_023491; NC_023486; NC_023492; NC_023487; NC_023488; NC_023493; NC_023489; NC_023494; NC_023490; NC_023495
+Cypovirus 5	NC_010670; NC_010669; NC_010668; NC_010667; NC_010666; NC_010665; NC_010662; NC_010664; NC_010663; NC_010661
+Cypovirus 14	NC_003006; NC_003007; NC_003008; NC_003009; NC_003010; NC_003011; NC_003012; NC_003013; NC_003014; NC_003015
+Cypovirus 15	NC_002557; NC_002558; NC_002559; NC_002567; NC_002560; NC_002561; NC_002562; NC_002563; NC_002564; NC_002565; NC_002566
+Cypovirus 16	NC_038648; NC_038649; NC_038652; NC_038645; NC_038651; NC_038646; NC_038647; NC_038650
+Aedes pseudoscutellaris reovirus	NC_007666; NC_007667; NC_007668; NC_007669; NC_007670; NC_007671; NC_007672; NC_007673; NC_007674
+Fiji disease virus	NC_007159; NC_007154; NC_007158; NC_007155; NC_007160; NC_007157; NC_007163; NC_007161; NC_007156; NC_007162
+Maize rough dwarf virus	KU984966; KU984967; KU984968; KU984969; KU984970; KU984971; KU984972; KU984973; KU984974; KU984975;
+
+Mal de Rio Cuarto virus	NC_008733; NC_008730; NC_008732; NC_008729; NC_008735; NC_008731; NC_008736; NC_008728; NC_008737; NC_008734
+Nilaparvata lugens reovirus	NC_003654; NC_003655; NC_003656; NC_003657; NC_003658; NC_003659; NC_003660; NC_003653; NC_003661; NC_003652
+Oat sterile dwarf virus	NC_038655; NC_038656; NC_038653; NC_038654
+Rice black streaked dwarf virus	NC_003729; NC_003734; NC_003728; NC_003735; NC_003736; NC_003737; NC_003730; NC_003732; NC_003731; NC_003733
+Southern rice black-streaked dwarf virus	NC_014714; NC_014715; NC_014716; NC_014717; NC_014708; NC_014709; NC_014710; NC_014711; NC_014712; NC_014713
+Idnoreovirus 1	NC_043372; NC_043371; NC_043367; NC_043373; NC_043368; NC_043370; NC_043369
+Mycoreovirus 1	NC_010743; NC_010744; NC_010745; NC_010746; NC_010747; NC_010748; NC_010749; NC_010750; NC_010751; NC_010752; NC_010753
+Mycoreovirus 3	NC_007535; NC_007533; NC_007536; NC_007524; NC_007534; NC_007525; NC_007526; NC_007527; NC_007528; NC_007529; NC_007531; NC_007532
+Avian orthoreovirus	NC_015126; NC_015127; NC_015128; NC_015129; NC_015130; NC_015131; NC_015132; NC_015133; NC_015134; NC_015135
+Baboon orthoreovirus	NC_015877; NC_015878; NC_015879; NC_015880; NC_015881; NC_015882; NC_015883; NC_015884; NC_015886; NC_015885
+Broome orthoreovirus	NC_014236; NC_014237; NC_014238; NC_014239; NC_014240; NC_014241; NC_014242; NC_014243; NC_014244; NC_014245
+Mahlapitsi orthoreovirus	NC_029917; NC_029911; NC_029912; NC_029913; NC_029918; NC_029914; NC_029915; NC_029919; NC_029916; NC_029920
+Mammalian orthoreovirus	HM159613; HM159614; HM159615; HM159616; HM159617; HM159618; HM159619; HM159620; HM159621; HM159622
+Nelson Bay orthoreovirus	NC_038665; NC_038660; NC_038662; NC_038661; NC_038664; NC_038666; NC_038667; NC_038659; NC_038663; NC_038658
+Neoavian orthoreovirus	KF741756; KF741757; KF741758; KF741759; KF741760; KF741761; KF741762; KF741763; KF741764; KF741765
+Piscine orthoreovirus	NC_036476; NC_036468; NC_036477; NC_036469; NC_036470; NC_036471; NC_036472; NC_036473; NC_036474; NC_036475
+Reptilian orthoreovirus	NC_023813; NC_023814; NC_023819; NC_023816; NC_023815; NC_023820; NC_023822; NC_023821; NC_023817; NC_023818
+Rice ragged stunt virus	NC_003749; NC_003750; NC_003751; NC_003771; NC_003759; NC_003752; NC_003770; NC_003758; NC_003757; NC_003769
+Pseudomonas virus phi6	NC_003715; NC_003716; NC_003714
+Pseudomonas virus phi8	NC_003299; NC_003300; NC_003301
+Pseudomonas virus phi12	NC_004173; NC_004175; NC_004174
+Pseudomonas virus phi13	NC_004172; NC_004171; NC_004170
+Pseudomonas virus phi2954	NC_012091; NC_012092; NC_012093
+Pseudomonas virus phiNN	NC_042068; NC_042069; NC_042070
+Pseudomonas virus phiYY	NC_042071; NC_042072; NC_042073
+Dendrolimus punctatus virus	NC_005898; NC_005899
+Helicoverpa armigera stunt virus	NC_001981; NC_001982
+Beet necrotic yellow vein virus	NC_003514; NC_003515; NC_003516; NC_003517; NC_003513
+Beet soil-borne mosaic virus	NC_039226; NC_039225; NC_029224; NC_039227
+Burdock mottle virus	NC_021735; NC_021736
+Rice stripe necrosis virus	NC_038775; NC_038774
+Alfalfa mosaic virus	NC_001495; NC_002024; NC_002025
+Amazon lily mild mottle virus	NC_018402; NC_018403; NC_018404
+Pelargonium zonate spot virus	NC_003649; NC_003650; NC_003651
+Broad bean mottle virus	NC_004008; NC_004007; NC_004006
+Brome mosaic virus	NC_002026; NC_002027; NC_002028
+Cassia yellow blotch virus	NC_006999; NC_007000; NC_007001
+Cowpea chlorotic mottle virus	NC_003543; NC_003541; NC_003542
+Melandrium yellow fleck virus	NC_013266; NC_013267; NC_013268
+Spring beauty latent virus	NC_004120; NC_004121; NC_004122
+Cucumber mosaic virus	NC_002034; NC_002035; NC_001440
+Gayfeather mild mottle virus	NC_012134; NC_012135; NC_012136
+Peanut stunt virus	NC_002038; NC_002039; NC_002040
+Tomato aspermy virus	NC_003837; NC_003838; NC_003836
+Ageratum latent virus	NC_022127; NC_022128; NC_022129
+American plum line pattern virus	NC_003451; NC_003452; NC_003453
+Apple mosaic virus	NC_003464; NC_003465; NC_003480
+Asparagus virus 2	NC_011808; NC_011809; NC_011807
+Blackberry chlorotic ringspot virus	NC_011553; NC_011554; NC_011555
+Blueberry shock virus	NC_022250; NC_022251; NC_022252
+Citrus leaf rugose virus	NC_003548; NC_003547; NC_003546
+Citrus variegation virus	NC_009537; NC_009538; NC_009536
+Elm mottle virus	NC_003569; NC_003568; NC_003570
+Fragaria chiloensis latent virus	NC_006566; NC_006567; NC_006568
+Humulus japonicus latent virus	NC_006064; NC_006065; NC_006066
+Lilac leaf chlorosis virus	NC_025477; NC_025478; NC_025481
+Lilac ring mottle virus	NC_038777; NC_038776
+Parietaria mottle virus	NC_005848; NC_005849; NC_005854
+Privet ringspot virus	NC_027928; NC_027929; NC_027930
+Prune dwarf virus	NC_008039; NC_008037; NC_008038
+Prunus necrotic ringspot virus	NC_004362; NC_004363; NC_004364
+Spinach latent virus	NC_003808; NC_003809; NC_003810
+Strawberry necrotic shock virus	NC_008708; NC_008707; NC_008706
+Tobacco streak virus	NC_003844; NC_003842; NC_003845
+Tomato necrotic streak virus	NC_039074; NC_039075; NC_039076
+Tulare apple mosaic virus	NC_003833; NC_003834; NC_003835
+Olive latent virus 2	NC_003673; NC_003674; NC_003671
+Abutilon yellows virus	NC_043221; NC_043222
+Bean yellow disorder virus	NC_010560; NC_010561
+Beet pseudoyellows virus	NC_005209; NC_005210
+Blackberry yellow vein-associated virus	NC_006962; NC_006963
+Cucurbit yellow stunting disorder virus	NC_004809; NC_004810
+Diodia vein chlorosis virus	NC_038786; NC_038787
+Lettuce chlorosis virus	NC_012909; NC_012910
+Lettuce infectious yellows virus	NC_003617; NC_003618
+Potato yellow vein virus	NC_006062; NC_006063; NC_006061
+Strawberry pallidosis-associated virus	NC_005895; NC_005896
+Sweet potato chlorotic stunt virus	NC_004123; NC_004124
+Tetterwort vein chlorosis virus	NC_038788; NC_038789
+Tomato chlorosis virus	NC_007340; NC_007341
+Tomato infectious chlorosis virus	NC_013258; NC_013259
+Blueberry necrotic ring blotch virus	NC_016084; NC_016085; NC_016086; NC_016087
+Tea plant necrotic ring blotch virus	NC_040401; NC_040404; NC_040403; NC_040402
+Tomato fruit blotch virus	MK517477; MK517478; MK517479; RNA4 MK517480
+Citrus leprosis virus C	NC_008169; NC_008170
+Citrus leprosis virus C2	NC_038848; NC_038849
+Passion fruit green spot virus	MK804171; MK804172
+Hibiscus green spot virus 2	NC_016141; NC_016143; NC_016142
+Privet idaeovirus	NC_031341; NC_031342
+Raspberry bushy dwarf virus	NC_003739; NC_003740
+Japanese holly fern mottle pteridovirus	NC_013133; NC_013134
+Maize associated pteridovirus	MK112502; MK112503
+Chinese wheat mosaic virus	NC_002359; NC_002356
+Japanese soil-borne wheat mosaic virus	NC_038850; NC_038851
+Oat golden stripe virus	NC_002358; NC_002357
+Soil-borne cereal mosaic virus	NC_002351; NC_002330
+Soil-borne wheat mosaic virus	NC_002041; NC_002042
+Sorghum chlorotic spot virus	NC_004014; NC_004015
+Drakaea virus A	NC_043398; NC_043399
+Gentian ovary ringspot virus	NC_024501; NC_024502
+Barley stripe mosaic virus	NC_003469; NC_003481; NC_003478
+Lychnis ringspot virus	NC_038932; NC_038933
+Poa semilatent virus	NC_043400; NC_043401
+Indian peanut clump virus	NC_004729; NC_004730
+Peanut clump virus	NC_003672; NC_003668
+Beet soil-borne virus	NC_003520; NC_003518; NC_003519
+Beet virus Q	NC_003510; NC_003511; NC_003512
+Broad bean necrosis virus	NC_004423; NC_004424; NC_004425
+Colombian potato soil-borne virus	NC_029034; NC_029035; NC_029037
+Potato mop-top virus	NC_003723; NC_003724; NC_003725
+Sunn-hemp mosaic virus	NC_043383; NC_043384
+Pea early-browning virus	NC_002036; NC_001368
+Pepper ringspot virus	NC_003669; NC_003670
+Tobacco rattle virus	NC_003805; NC_003811
+Black beetle virus	NC_001411; NC_002037
+Boolarra virus	NC_004142; NC_004145
+Flock House virus	NC_004146; NC_004144
+Nodamura virus	NC_002690; NC_002691
+Pariacoto virus	NC_003691; NC_003692
+Barfin flounder nervous necrosis virus	NC_011063; NC_011064
+Redspotted grouper nervous necrosis virus	NC_008040; NC_008041
+Striped jack nervous necrosis virus	NC_003448; NC_003449
+Tiger puffer nervous necrosis virus	NC_013460; NC_013461
+Carnation ringspot virus	NC_003530; NC_003531
+Red clover necrotic mosaic virus	NC_003756; NC_003775
+Sweet clover necrotic mosaic virus	NC_003806; NC_003807
+Cassava virus C	NC_013111; NC_013112; NC_013113
+Epirus cherry virus	NC_011065; NC_011066; NC_011067
+Ourmia melon virus	NC_011068; NC_011069; NC_011070
+Beihai yingvirus	NC_032272; NC_032274
+Charybdis yingvirus	NC_033296; NC_033297
+Hubei yingvirus	NC_033282; NC_033283
+Sanxia yingvirus	NC_033284; NC_033285
+Shahe yingvirus	NC_033287; NC_033288
+Wenzhou yingvirus	NC_033298; NC_033299
+Wuhan yingvirus	NC_033490; NC_033484
+Xinzhou yingvirus	NC_033753; NC_033754
+Blueberry mosaic associated ophiovirus	NC_036635; NC_024476; NC_036634
+Citrus psorosis ophiovirus	NC_006314; NC_006315; NC_006316
+Freesia sneak ophiovirus	DQ885455
+Lettuce ring necrosis ophiovirus	NC_006051; NC_006052; NC_006053; NC_006054
+Mirafiori lettuce big-vein ophiovirus	NC_004779; NC_004781; NC_004782; NC_004780
+Boscovirus hippoboscidae	NC_043471; NC_0433470
+Boscovirus hypoboscidae	NC_043475; NC_043476
+Chuvivirus brunnichi	NC_033291; NC_033292
+Chuvivirus canceris	KM817602; KM817601
+Scarabeuvirus blattae	NC_043472; NC_043473
+Scarabeuvirus hubeiense	NC_033327; NC_033328
+Scarabeuvirus lishiense	KM817597; KM817596
+Tapeworm tapwovirus	NC_033450; NC_033451
+Northcreek ohlsrhavirus	KF360970; KF360971; KF360972; KF360973
+Citrus chlorotic spot dichorhavirus	KY700686; KY700685
+Citrus leprosis N dichorhavirus	NC_052230; NC_052231
+Clerodendrum chlorotic spot dichorhavirus	NC_043648; NC_043649
+Coffee ringspot dichorhavirus	NC_038756; NC_038755
+Orchid fleck dichorhavirus	NC_009608; NC_009609
+Alopecurus varicosavirus	NC_026801; NC_026798
+Lettuce big-vein associated varicosavirus	NC_011558; NC_011568
+Trifolium varicosavirus	MF918568; MF918569
+Beihai yuyuevirus	NC_032273; NC_032275
+Shahe yuyuevirus	NC_033289; NC_033290
+Hairy antennavirus	NC_040465; NC_040466; NC_040464
+Salmon antennavirus	MK611982; MK611983; MK611984
+Striated antennavirus	NC_040428; NC_040426; NC_040427
+Haartman hartmanivirus	NC_043443; NC_043444
+Heimat hartmanivirus	MN567062; MN567061
+Muikkunen hartmanivirus	MH778629; MH483026
+Schoolhouse hartmanivirus	MH483025; MH483024
+Setpatvet hartmanivirus	MN567050; MN567048
+Zurich hartmanivirus	NC_055446; NC_055445
+Allpahuayo mammarenavirus	NC_010249; NC_010253
+Alxa mammarenavirus	KY432892; KY432893
+Argentinian mammarenavirus	NC_005080; NC_005081
+Bear Canyon mammarenavirus	NC_010255; NC_010256
+Brazilian mammarenavirus	NC_006313; NC_006317
+Cali mammarenavirus	NC_006439; NC_006447
+Chapare mammarenavirus	NC_010563; NC_010562
+Chevrier mammarenavirus	MF414201; MF414202
+Cupixi mammarenavirus	NC_010252; NC_010254
+Flexal mammarenavirus	NC_010759; NC_010757
+Gairo mammarenavirus	NC_026247; NC_026246
+Guanarito mammarenavirus	NC_005082; NC_005077
+Ippy mammarenavirus	NC_007906; NC_007905
+Kitale mammarenavirus	MK935152; MK935153
+Lassa mammarenavirus	NC_004297; NC_004296
+Latino mammarenavirus	NC_010760; NC_010758
+Loei River mammarenavirus	NC_038365; NC_038364
+Lujo mammarenavirus	NC_012777; NC_012776
+Luna mammarenavirus	NC_016153; NC_016152
+Lunk mammarenavirus	NC_018711; NC_018710
+Lymphocytic choriomeningitis mammarenavirus	NC_004291; NC_004294
+Machupo mammarenavirus	NC_005079; NC_005078
+Mariental mammarenavirus	NC_027136; NC_027134
+Merino Walk mammarenavirus	NC_023763; NC_023764
+Mobala mammarenavirus	NC_007904; NC_007903
+Mopeia mammarenavirus	NC_006574; NC_006575
+Okahandja mammarenavirus	NC_027137; NC_027135
+Oliveros mammarenavirus	NC_010250; NC_010248
+Paraguayan mammarenavirus	NC_010761; NC_010756
+Pirital mammarenavirus	NC_005897; NC_005894
+Ryukyu mammarenavirus	NC_039010; NC_039009
+Serra do Navio mammarenavirus	NC_010251; NC_010247
+Solwezi mammarenavirus	NC_038366; NC_038367
+Souris mammarenavirus	NC_039011; NC_039012
+Tacaribe mammarenavirus	NC_004292; NC_004293
+Tamiami mammarenavirus	NC_010702; NC_010701
+Wenzhou mammarenavirus	NC_026019; NC_026018
+Whitewater Arroyo mammarenavirus	NC_010703; NC_010700
+Xapuri mammarenavirus	MG976577; MG976578
+California reptarenavirus	NC_018484; NC_018481
+Giessen reptarenavirus	NC_039006; NC_039005
+Golden reptarenavirus	NC_018482; NC_018483
+Ordinary reptarenavirus	NC_039008; NC_039007
+Rotterdam reptarenavirus	NC_023762; NC_023761
+Lincruvirus europense	MK861116; MK861117; MK861118
+Lincruvirus sinense	MH717874; MH717875; MH717876
+Lincruvirus wenlingense	NC_032143; NC_032144; NC_032145
+Actinidia chlorotic ringspot-associated emaravirus	NC_038769; NC_038770; NC_038772; NC_038771; NC_038773
+Actinidia emaravirus 2	MK602171; MK602172; MK602173; MK602174; MK602175; MK602176
+Aspen mosaic-associated emaravirus	LR742461; LR742462; LR742463; LR742464; LR742465
+Blackberry leaf mottle associated emaravirus	KY056657; KY056658; KY056659; KY056660; KY056661
+Camellia japonica-associated emaravirus 1	MN385573; MN385574; MN385575; MN385576; MN557024; MN557025; MN557026; MN557027; MN557028
+Camellia japonica-associated emaravirus 2	MN385577; MN385578; MN385579; MN385580
+European mountain ash ringspot-associated emaravirus	NC_013105; NC_013106; NC_013108; NC_013107
+Fig mosaic emaravirus	NC_029562; NC_029565; NC_029563; NC_029564; NC_029566; NC_029568
+High Plains wheat mosaic emaravirus	NC_029570; NC_029549; NC_029550; NC_029551; NC_029552; NC_029553; NC_029554; NC_029555
+Jujube yellow mottle-associated emaravirus	MK305894; MK305895; MK305896; MK305897; MK305898; MK305899
+Lilac chlorotic ringspot-associated emaravirus	MT112174; MT112175; MT112176; MT112177; MT112178
+Palo verde broom emaravirus	MF766025; MF766030; MF766035; MF766040
+Pear chlorotic leaf spot-associated emaravirus	MK602177; MK602178; MK602179; MK602180; MK602181
+Perilla mosaic emaravirus	LC496090; LC496091; LC496092; LC496093; LC496094; LC496095; LC496096; LC496097; LC496098; LC496099
+Pigeonpea sterility mosaic emaravirus 1	NC_029575; NC_029556; NC_029574; NC_029557; NC_029569
+Pigeonpea sterility mosaic emaravirus 2	NC_030660; NC_030662; NC_030661; NC_030663; NC_030658; NC_030659
+Pistacia emaravirus B	MH727572; MH727573; MH727574; MH727575; MH727576; MH727577; MH727578; MH727579
+Raspberry leaf blotch emaravirus	NC_029567; NC_029558; NC_029559; NC_029560; NC_029561; NC_029571; NC_029572; NC_029573
+Redbud yellow ringspot-associated emaravirus	NC_038852; NC_038856; NC_038854; NC_038853; NC_038855
+Rose rosette emaravirus	NC_015298; NC_015299; NC_015300; NC_015301; NC_034979; NC_034980; RNA7; NC_034981
+Ti ringspot-associated emaravirus	MH223635; MH223636; MH223637; MH223638; MH223639
+Perch actinovirus	MN510769; MN510770; MN510771
+Brno loanvirus	KX845680; KX845679; KX845678
+Longquan loanvirus	NC_043125; NC_043127; NC_043126
+Laibin mobatvirus	NC_038515; NC_038513; NC_038514
+Lena mobatvirus	MH499472; MH499471; MH499470
+Nova mobatvirus	NC_034465; NC_034470; NC_034464
+Quezon mobatvirus	NC_034401; NC_034393; NC_034400
+Xuan Son mobatvirus	KY662275; KY662274; KY662273
+Andes orthohantavirus	NC_003468; NC_003467; NC_003466
+Asama orthohantavirus	NC_038274; NC_038273
+Asikkala orthohantavirus	NC_043068; NC_043069; NC_043070
+Bayou orthohantavirus	NC_038299; NC_038300; NC_038298
+Black Creek Canal orthohantavirus	NC_043074; NC_043073; NC_043075
+Bowe orthohantavirus	NC_034407; NC_034406; NC_034405
+Bruges orthohantavirus	NC_034402; NC_034395; NC_034394
+Cano Delgadito orthohantavirus	NC_034515; NC_034525; NC_034528
+Cao Bang orthohantavirus	NC_034485; NC_034474; NC_034484
+Choclo orthohantavirus	NC_038374; NC_038373
+Dabieshan orthohantavirus	NC_038383; NC_038384
+Dobrava-Belgrade orthohantavirus	NC_005235; NC_005234; NC_005233
+El Moro Canyon orthohantavirus	NC_038424; NC_038423
+Fugong orthohantavirus	NC_034467; NC_034466; NC_034473
+Fusong orthohantavirus	NC_038447; NC_038446
+Hantaan orthohantavirus	NC_005222; NC_005219; NC_005218
+Jeju orthohantavirus	NC_034399; NC_034404; NC_034398
+Kenkeme orthohantavirus	NC_034560; NC_034565; NC_034559
+Khabarovsk orthohantavirus	NC_034519; NC_034518; NC_034527
+Laguna Negra orthohantavirus	NC_038506; NC_038505
+Luxi orthohantavirus	NC_038529; NC_038528; NC_038530
+Maporal orthohantavirus	NC_034553; NC_034552; NC_034566
+Montano orthohantavirus	NC_034403; NC_034397; NC_034396
+Necocli orthohantavirus	NC_043407; NC_043408; NC_043409
+Oxbow orthohantavirus	NC_043175; NC_043176; NC_043174
+Prospect Hill orthohantavirus	NC_038939; NC_038940; NC_038938
+Puumala orthohantavirus	M63194; M29979; M32750
+Robina orthohantavirus	MK165653; MK165654; MK165655
+Rockport orthohantavirus	NC_038695; NC_038694; NC_038696
+Sangassou orthohantavirus	NC_034517; NC_034516; NC_034526
+Seoul orthohantavirus	NC_005238; NC_005237; NC_005236
+Sin Nombre orthohantavirus	L37902; L37903; L37904
+Tatenale orthohantavirus	MK883760; MK883758; MK883756
+Thailand orthohantavirus	NC_034555; NC_034563; NC_034556
+Tula orthohantavirus	NC_005226; NC_005228; NC_005227
+Yakeshi orthohantavirus	NC_038705; NC_038704
+Imjin thottimvirus	NC_034564; NC_034557; NC_034558
+Thottopalayam thottimvirus	NC_010707; NC_010708; NC_010704
+Leptomonas shilevirus	KX280012; KX280013; KX280014
+Myriapod hubavirus	NC_033761; NC_033759; NC_033760
+Grotenhout norwavirus	KY700684; KY700683
+Blattodean ocetevirus	MT153554; MT153521; MT153362
+Abu Hammad orthonairovirus	KU925434; KU925435; KU925436
+Abu Mina orthonairovirus	KU925437; KU925438; KU925439
+Artashat orthonairovirus	NC_043440; NC_043442; NC_043441
+Avalon orthonairovirus	NC_040460; NC_040459; NC_040458
+Bandia orthonairovirus	KU343148; KU343149; KU343150
+Chim orthonairovirus	NC_043434; NC_043436; NC_043435
+Congoid orthonairovirus	DQ211612; DQ211625; DQ211638
+Crimean-Congo hemorrhagic fever orthonairovirus	NC_005301; NC_005300; NC_005302
+Dera Ghazi Khan orthonairovirus	NC_034520; NC_034510; NC_034521
+Dugbe orthonairovirus	NC_004159; NC_004158; NC_004157
+Erve orthonairovirus	JF911697; JF911698; JF911699
+Estero Real orthonairovirus	MH017280; MH017286; MH017274
+Gossas orthonairovirus	KR534878; KR534877; KR534876;
+Hazara orthonairovirus	NC_038709; NC_038710; NC_038711
+Huangpi orthonairovirus	NC_031135; NC_031136; NC_031137
+Hughes orthonairovirus	NC_034502; NC_034494; NC_034503
+Issyk-kul orthonairovirus	KF892055; KF892056; KF892057
+Kasokero orthonairovirus	NC_036636; NC_029933; NC_029932
+Keterah orthonairovirus	NC_034392; NC_034388; NC_034389
+Kupe orthonairovirus	EU257628; EU257627; EU257626
+Leopards Hill orthonairovirus	AB842088; AB842089; AB842090
+Meram orthonairovirus	MN972594; MN972595; MN972596
+Nairobi sheep disease orthonairovirus	NC_034387; NC_034391; NC_034386
+Pacific Coast orthonairovirus	KU933933; KU933934; KU933935
+Punta orthonairovirus	KU925473; KU925474; KU925475
+Qalyub orthonairovirus	NC_034511; NC_034522; NC_034512
+Sakhalin orthonairovirus	NC_034561; NC_034554; NC_034562
+Scot orthonairovirus	KU343163; KU343164; KU343165
+Soldado orthonairovirus	KU925488; KU925489; KU925490
+Tacheng orthonairovirus	NC_031284; NC_031285; NC_031286
+Taggert orthonairovirus	KT820205; KT820206; KT820207
+Tamdy orthonairovirus	MN792651; MN792652; MN792653
+Thiafora orthonairovirus	NC_039220; NC_039221; NC_039222
+Tofla orthonairovirus	NC_029124; NC_029123; NC_029122
+Tunis orthonairovirus	NC_040770; NC_040771; NC_040772
+Vinegar Hill orthonairovirus	MF176881; MF176882; MF176883
+Wenzhou orthonairovirus	NC_031291; NC_031288; NC_031289
+Yogue orthonairovirus	NC_029931; NC_029935; NC_029936
+South Bay sabavirus	KJ746877; KJ746878
+Spider shaspivirus	NC_031220; NC_031218; NC_031219
+Strider striwavirus	NC_031141; NC_031142; NC_031143
+Xinzhou xinspivirus	KM817702; KM817729; KM817762
+Herbert herbevirus	NC_038714; NC_038713; NC_038712
+Kibale herbevirus	NC_034460; NC_034468; NC_034458
+Tai herbevirus	NC_034459; NC_034461; NC_034457
+Abras orthobunyavirus	MH017275; MH017281; MH017269
+Aino orthobunyavirus	NC_018465; NC_018459; NC_018460
+Akabane orthobunyavirus	NC_009894; NC_009895; NC_009896
+Alajuela orthobunyavirus	NC_038717; NC_038715; NC_038716
+Anadyr orthobunyavirus	KU159766; KU159765; KU159764
+Ananindeua orthobunyavirus	MG821226; MG821227; MG821228
+Anhembi orthobunyavirus	NC_043564; NC_043565; NC_043566
+Anopheles A orthobunyavirus	NC_038720; NC_038718; NC_038719
+Apeu orthobunyavirus	MG029269; MG029270; MG029271
+Batai orthobunyavirus	NC_043580; NC_043579; NC_043581
+Bellavista orthobunyavirus	NC_043621; NC_043623; NC_043622
+Bimiti orthobunyavirus	NC_038724; NC_038723; NC_038725
+Birao orthobunyavirus	NC_043651; NC_043652; NC_043650
+Bozo orthobunyavirus	NC_043655; NC_043653; NC_043654
+Brazoran orthobunyavirus	NC_022039; NC_022038; NC_022037
+Bruconha orthobunyavirus	KM280929; KM280924; KM280937
+Buffalo Creek orthobunyavirus	KJ481929; KJ481928; KJ481927
+Bunyamwera orthobunyavirus	NC_001925; NC_001926; NC_001927
+Buttonwillow orthobunyavirus	NC_043597; NC_043599; NC_043598
+Bwamba orthobunyavirus	NC_034479; NC_034490; NC_034480
+Cache Valley orthobunyavirus	NC_043618; NC_043619; NC_043620
+Cachoeira Porteira orthobunyavirus	NC_043575; NC_043573; NC_043574
+California encephalitis orthobunyavirus	KX817312; KX817313; KX817314
+Capim orthobunyavirus	NC_034482; NC_034493; NC_034483
+Caraparu orthobunyavirus	NC_034489; NC_034477; NC_034478
+Cat Que orthobunyavirus	NC_024076; NC_024074; NC_024075
+Catu orthobunyavirus	NC_038728; NC_038727; NC_038726
+Enseada orthobunyavirus	NC_043614; NC_043612; NC_043613
+Faceys paddock orthobunyavirus	KF697138; KF697137; KF697136
+Fort Sherman orthobunyavirus	NC_043617; NC_043615; NC_043616
+Gamboa orthobunyavirus	NC_038729; NC_038730; NC_038731
+Gan Gan orthobunyavirus	KR013232; KR013233; KR013234
+Guajara orthobunyavirus	NC_038734; NC_038733; NC_038732
+Guama orthobunyavirus	NC_038736; NC_038735; NC_038737
+Guaroa orthobunyavirus	NC_034487; NC_034506; NC_034486
+Iaco orthobunyavirus	NC_043568; NC_043567; NC_043569
+Ilesha orthobunyavirus	NC_043587; NC_043586; NC_043585
+Ingwavuma orthobunyavirus	NC_043588; NC_043589; NC_043590
+Jamestown Canyon orthobunyavirus	NC_043559; NC_043560; NC_043558
+Jatobal orthobunyavirus	NC_043578; NC_043577; NC_043576
+Kaeng Khoi orthobunyavirus	NC_034499; NC_034500; NC_034501
+Kairi orthobunyavirus	NC_038738; NC_038739; NC_038740
+Keystone orthobunyavirus	NC_043629; NC_043627; NC_043628
+Koongol orthobunyavirus	NC_038741; NC_038742; NC_038743
+La Crosse orthobunyavirus	EF485032; EF485031; EF485030
+Leanyer orthobunyavirus	NC_043563; NC_043562; NC_043561
+Lumbo orthbunyavirus	NC_043632; NC_043630; NC_043631
+Macaua orthobunyavirus	JN572068; JN572069; JN572070
+Madrid orthobunyavirus	NC_034497; NC_034505; NC_034498
+Maguari orthobunyavirus	KY910429; KY910430; KY910431
+Mahogany Hammock orthobunyavirus	KP835520; KP835519; KP835518
+Main Drain orthobunyavirus	MH484306; MH484307; MH484308
+Manzanilla orthobunyavirus	KF697150; KF697149 ; KF697148
+Mapputta orthobunyavirus	KJ481923; KJ481922; KJ481921
+Maprik orthobunyavirus	NC_026281; NC_026283; NC_026282
+Marituba orthobunyavirus	NC_034495; NC_034504; NC_034496
+Matruh orthobunyavirus	KP792693; KP792692; KP792691
+Melao orthobunyavirus	NC_043634; NC_043633; NC_043635
+Mermet orthobunyavirus	NC_043591; NC_043592; NC_043593
+Moju orthobunyavirus	KP792675; KP792674; KP792673
+Nyando orthobunyavirus	NC_034492; NC_034491; NC_034481
+Oriboca orthobunyavirus	NC_034475; NC_034488; NC_034476
+Oropouche orthobunyavirus	NC_005776; NC_005775; NC_005777
+Oyo orthobunyavirus	HM639780; HM639779; HM639778
+Patois orthobunyavirus	NC_043690; NC_043691; NC_043689
+Peaton orthobunyavirus	NC_043550; NC_043551; NC_043549
+Potosi orthobunyavirus	NC_043646; NC_043645; NC_043647
+Sabo orthobunyavirus	NC_043553; NC_043552; NC_043554
+San Angelo orthobunyavirus	NC_043637; NC_043638; NC_043636
+Sango orthobunyavirus	NC_043556; NC_043555; NC_043557
+Schmallenberg orthobunyavirus	NC_043583; NC_043584; NC_043582
+Sedlec orthobunyavirus	MH484327; MH484328; MH484329
+Serra do Navio orthobunyavirus	NC_043641; NC_043639; NC_043640
+Shark River orthobunyavirus	MH017278; MH017284; MH017271
+Shuni orthobunyavirus	NC_043699; NC_043697; NC_043698
+Simbu orthobunyavirus	NC_018476; NC_018478; NC_018477
+Snowshoe hare orthobunyavirus	EU203678; EU262553; EU294510
+Sororoca orthobunyavirus	NC_043570; NC_043571; NC_043572
+Tacaiuma orthobunyavirus	NC_043692; NC_043694; NC_043693
+Tahyna orthobunyavirus	EU665255; EU622819; EU622820
+Tataguine orthobunyavirus	NC_043607; NC_043608; NC_043606
+Tensaw orthobunyavirus	NC_043546; NC_043548; NC_043547
+Tete orthobunyavirus	NC_039184; NC_039183; NC_039185
+Thimiri orthobunyavirus	MH484336; MH484337; MH484338
+Triniti orthobunyavirus	MG792213; MG792214; MG792215
+Trivittatus orthobunyavirus	KR149249; KR149248; KR149247
+Turlock orthobunyavirus	NC_043037; NC_043036; NC_043035
+Utinga orthobunyavirus	NC_043594; NC_043595; NC_043596
+Witwatersrand orthobunyavirus	NC_043674; NC_043675; NC_043673
+Wolkberg orthobunyavirus	NC_034633; NC_034631; NC_034632
+Wyeomyia orthobunyavirus	NC_039186; NC_039187; NC_039188
+Caimito pacuvirus	MK330759; MK330760; MK330761
+Chilibre pacuvirus	MK330762; MK330763; MK330764
+Pacui pacuvirus	NC_043600; NC_043602; NC_043601
+Rio Preto da Eva pacuvirus	NC_043605; NC_043603; NC_043604
+Tapirape pacuvirus	KM225260; KM225261; KM225262
+Insect shangavirus	NC_031221; NC_031222; NC_031223
+Ferak feravirus	NC_043031; NC_043033; NC_043032
+Hemipteran feravirus	MT153364; MT153439; MT153396
+Neuropteran feravirus	MW039262; MW039263; MW039264
+Jonchet jonvirus	NC_038706; NC_038708; NC_038707
+Anopheles orthophasmavirus	MH822966; MH822967; MH822968
+Coleopteran orthophasmavirus	MT153542; MT153459; MT153483
+Culex orthophasmavirus	MF176242; MF176243; MF176244
+Ganda orthophasmavirus	NC_043642; NC_043643; NC_043644
+Kigluaik phantom orthophasmavirus	NC_034462; NC_034469; NC_034463
+Niukluk phantom orthophasmavirus	MN168168; MN168169; MN168170
+Odonate orthophasmavirus	NC_032151; NC_032153; NC_032152
+Qingling orthophasmavirus	NC_032135; NC_032136; NC_032137
+Wuchang cockroach orthophasmavirus 1	NC_031293; NC_031294; NC_031296
+Wuhan mosquito orthophasmavirus 1	NC_031307; NC_031308; NC_031310
+Wuhan mosquito orthophasmavirus 2	NC_031312; NC_031309; NC_031311
+Sanxia sawastrivirus	KM817675; KX650646; KX650647
+Insect wuhivirus	NC_030752; NC_030750; NC_030751
+Bhanja bandavirus	NC_027140; NC_027141; NC_027142
+Dabie bandavirus	NC_018136; NC_018138; NC_018137
+Guertu bandavirus	NC_043611; NC_043609; NC_043610
+Heartland bandavirus	KJ740148; KJ740147; KJ740146
+Hunter Island bandavirus	KF848980; KF848981; KF848982
+Kismaayo bandavirus	KM114252; KM114253; KM114254
+Lone star bandavirus	NC_021242; NC_021243; NC_021244
+Razdan bandavirus	NC_022630; NC_022631; NC_022632
+Dipteran beidivirus	NC_032158; NC_032159; NC_032160
+Citrus coguvirus	NC_035759; NC_035454
+Coguvirus eburi	MG764565; MG764566
+Grapevine coguvirus	MN520751; MN520752; MN520753
+Entoleuca entovirus	MF375882; MK140653
+Cumuto goukovirus	NC_043045; NC_043046; NC_043047
+Gouleako goukovirus	NC_043051; NC_043049; NC_043050
+Yichang insect goukovirus	NC_031320; NC_031321; NC_031322
+Horsefly horwuvirus	NC_031313; NC_031316; NC_031315; NC_031314
+Kimberley horwuvirus	MT498812; MT498813; MT498814; MT498815
+Dipteran hudivirus	NC_032280; NC_032278; NC_032279
+Lepidopteran hudovirus	NC_032282; NC_032257; NC_032256
+Norway ixovirus	MF141052; MF141053
+Scapularis ixovirus	KU230449; KU230450
+Grapevine laulavirus 2	MN520754; MN520755; MN520756
+Grapevine laulavirus 3	MN520757; MN520758; MN520759
+Grapevine laulavirus 4	MT353902; MT353903; MT353904
+Laurel Lake laulavirus	NC_043679; NC_043680; NC_043681
+Lentinula lentinuvirus	LC466008; LC466009
+Mothra mobuvirus	NC_043477; NC_043479; NC_043478
+Narangue mobuvirus	MN661012; MN661014; MN661013
+Badu phasivirus	NC_038257; NC_038258; NC_038259
+Dipteran phasivirus	NC_032276; NC_032277; NC_032281
+Fly phasivirus	NC_031298; NC_031295; NC_031297
+Guadeloupe phasivirus	MN053784; MN053785; MN053786
+Kimberley phasivirus	MT498816; MT498818; MT498817
+Phasi Charoen-like phasivirus	NC_038262; NC_038261; NC_038263
+Wutai mosquito phasivirus	NC_031317; NC_031318; NC_031319
+Adana phlebovirus	NC_029127; NC_129128; NC_029129
+Aguacate phlebovirus	NC_015451; NC_015450; NC_015452
+Alcube phlebovirus	KR363190; KR363191; KR363192
+Alenquer phlebovirus	HM119401; HM119402; HM119403
+Ambe phlebovirus	NC_033844; NC_033835; NC_033845
+Anhanga phlebovirus	NC_033836; NC_033846; NC_033837
+Arumowot phlebovirus	MF593931; MF593932; MF593933
+Bogoria phlebovirus	MT270828; MT270829; MT270830
+Buenaventura phlebovirus	KP272001; KP272002; KP272003
+Bujaru phlebovirus	KX611388; KX611389; KX611390
+Cacao phlebovirus	MK330756; MK330757; MK330758
+Campana phlebovirus	KP272040; KP272041; KP272042
+Candiru phlebovirus	NC_015374; NC_015373; NC_015375
+Chagres phlebovirus	HM566147; HM566146; HM566148
+Cocle phlebovirus	KP272036; KP272034; KP272035
+Corfou phlebovirus	KR106177; KR106178; KR106179
+Dashli phlebovirus	KP771821; KP771822; KP771823
+Durania phlebovirus	HM566155; HM566157; HM566156
+Echarate phlebovirus	HM119410; HM119411; HM119412
+Embossos phlebovirus	MT270825; MT270826; MT270827
+Frijoles phlebovirus	NC_043209; NC_043207; NC_043208
+Gabek phlebovirus	KF297903; KF297904; KF297905
+Gordil phlebovirus	KF297900; KF297901; KF297902
+Icoaraci phlebovirus	MK330768; MK330769; MK330770
+Itaituba phlebovirus	HM119416; HM119417; HM119418
+Itaporanga phlebovirus	MK330771; MK330772; MK330773
+Ixcanal phlebovirus	HM566162; HM566163; HM566161
+Karimabad phlebovirus	KF297909; KF297910; KF297911
+Kiborgoch phlebovirus	MT270831; MT270832; MT270833
+La Gloria phlebovirus	MK524332; MK524333; MK524334
+Leticia phlebovirus	HM566152; HM566154; HM566153
+Maldonado phlebovirus	HM119413; HM119414; HM119415
+Massilia phlebovirus	EU725771; EU725772; EU725773
+Medjerda phlebovirus	KU255114; KU255115; KU297253
+Mona Grita phlebovirus	MK524337; MK524338; MK524339
+Mukawa phlebovirus	NC_043510; NC_043509; NC_043511
+Munguba phlebovirus	NC_033830; NC_033847; NC_033831
+Naples phlebovirus	HM566172; HM566171; HM566170
+Nique phlebovirus	HM119425; HM119426; HM119427
+Ntepes phlebovirus	MF695812; MF695810; MF695811
+Odrenisrou phlebovirus	HM566174; HM566173; HM566175
+Oriximina phlebovirus	HM119434; HM119435; HM119436
+Pena Blanca phlebovirus	MK524341; MK524342; MK524343
+Penshurt phlebovirus	MN163121; MN163122; MN163123
+Perkerra phlebovirus	MT270834; MT270835; MT270836
+Punique phlebovirus	JF920133; JF920134; JF920135
+Punta Toro phlebovirus	NC_039192; NC_039191; NC_039193
+Rift Valley fever phlebovirus	NC_014397; NC_014396; NC_014395
+Rio Grande phlebovirus	MK503253; MK503254; MK503255
+Salanga phlebovirus	KC669549; KC669550; KC669551
+Salehabad phlebovirus	JX472403; JX472404; JX472405
+Salobo phlebovirus	HM627185; HM627183; HM627184
+Sicilian phlebovirus	NC_015412; NC_015411; NC_015413
+Tapara phlebovirus	NC_033848; NC_033838; NC_033839
+Tehran phlebovirus	JF939846; JF939847; JF939848
+Tico phlebovirus	MK524345; MK524346; MK524347
+Toros phlebovirus	NC_029903; NC_037614; NC_037615
+Toscana phlebovirus	NC_006319; NC_006320; NC_006318
+Tres Almendras phlebovirus	MK524348; MK524349; MK524350
+Turuna phlebovirus	HM119431; HM119432; HM119433
+Uriurana phlebovirus	HM566189; HM566188; HM566190
+Urucuri phlebovirus	NC_033841; NC_033842; NC_033843
+Viola phlebovirus	MF289183; MF289182
+Zerdali phlebovirus	NC_029901; NC_037612; NC_037613
+Pidgey pidchovirus	NC_043482; NC_043481; NC_04348
+Apple rubodvirus 1	MF062125; MF062126; MF062127
+Apple rubodvirus 2	MF062139; MF062142; MF062143; MF062140; MF062141
+Grapevine rubodvirus 1	MK728657; MK728658; MK728659
+Grapevine rubodvirus 2	MK728654; MK728655; MK728656
+Human tanzavirus	MN062090; MN062091; MN062092
+Echinochloa hoja blanca tenuivirus	NC_038934; NC_038935; NC_038936
+European wheat striate mosaic tenuivirus	MN044342; MN044343; MN044344; MN044345
+Iranian wheat stripe tenuivirus	NC_038748; NC_038750; NC_038749
+Maize stripe tenuivirus	NC_038751; NC_038754; NC_038752; NC_038753
+Melon tenuivirus	NC_040450; NC_040451; NC_040448; NC_040454; NC_040449; NC_040452; NC_040453; NC_040455
+Rice grassy stunt tenuivirus	NC_002323; NC_002324; NC_002325; NC_002326; NC_002327; NC_002328
+Rice hoja blanca tenuivirus	NC_036597; NC_036598; NC_036602; NC_036599
+Rice stripe tenuivirus	NC_003755; NC_003754; NC_003776; NC_003753
+Urochloa hoja blanca tenuivirus	NC_038757; NC_038758
+Dabieshan uukuvirus	KM817666; KM817733
+Grand Arbaud uukuvirus	JF838327; JF838328; JF838329
+Kabuto mountain uukuvirus	NC_036604; NC_036605; NC_036606
+Kaisodi uukuvirus	NC_040494; NC_040493; NC_040492
+Lihan uukuvirus	KM817672; KM817736
+Murre uukuvirus	JF838330; JF838331; JF838332
+Precarious Point uukuvirus	HM566181; HM566179; HM566180
+Rukutama uukuvirus	KF892052; KF892053; KF892054
+Silverwater uukuvirus	KM114257; KM114255; KM114256
+Tacheng uukuvirus	KM817684; KM817744
+Uukuniemi uukuvirus	NC_005214; NC_005220; NC_005221
+Yongjia uukuvirus	KM817704; KM817764
+Zaliv Terpeniya uukuvirus	HM566191; HM566193; HM566192
+Shrimp wenrivirus	NC_031287; NC_031292; NC_031290
+Alstroemeria necrotic streak orthotospovirus	MG696851; MG696852; MG696853
+Alstroemeria yellow spot orthotospovirus	NC_040742; NC_040743; NC_040741
+Bean necrotic mosaic orthotospovirus	NC_018070; NC_018072; NC_018071
+Calla lily chlorotic spot orthotospovirus	FJ822962; FJ822961; AY867502
+Capsicum chlorosis orthotospovirus	NC_008302; NC_008303; NC_008301
+Chrysanthemum stem necrosis orthotospovirus	NC_027718; NC_027720; NC_027719
+Groundnut bud necrosis orthotospovirus	NC_003614; NC_003620; NC_003619
+Groundnut chlorotic fan spot orthotospovirus	KP146140; KP146141; AF080526
+Groundnut ringspot orthotospovirus	NC_043503; NC_043502; NC_043504
+Hippeastrum chlorotic ringspot orthotospovirus	HG763861; JX833565; JX833564
+Impatiens necrotic spot orthotospovirus	NC_003625; NC_003616; NC_003624
+Iris yellow spot orthotospovirus	NC_029799; NC_038232; NC_029800
+Melon yellow spot orthotospovirus	NC_008306; NC_008307; NC_008300
+Pepper chlorotic spot orthotospovirus	NC_033774; NC_033773; NC_033772
+Polygonum ringspot orthotospovirus	NC_039204; NC_039203; NC_039205
+Soybean vein necrosis orthotospovirus	HQ728385; HQ728386; HQ728387
+Tomato spotted wilt orthotospovirus	NC_002052; NC_002050; NC_002051
+Tomato yellow ring orthotospovirus	JN560178; JN560177; AY686718
+Tomato zonate spot orthotospovirus	NC_010491; NC_010490; NC_010489
+Watermelon bud necrosis orthotospovirus	NC_038289; NC_038290; NC_038288
+Watermelon silver mottle orthotospovirus	NC_003832; NC_003841; NC_003843
+Zucchini lethal chlorosis orthotospovirus	NC_031762; NC_031758; NC_031759
+Millipede wumivirus	NC_043500; NC_043499; NC_043501
+Tilapia tilapinevirus	NC_029926; NC_029921; NC_029927; NC_029922; NC_029923; NC_029928; NC_029924; NC_029929; NC_029925; NC_029930
+Influenza A virus	NC_002023; NC_002021; NC_002022; NC_002017; NC_002019; NC_002018; NC_002016; NC_002020
+Influenza B virus	NC_002204; NC_002205; NC_002206; NC_002207; NC_002208; NC_002209; NC_002210; NC_002211
+Influenza D virus	NC_006307; NC_006308; NC_006309; NC_006310; NC_006311; NC_006312; NC_006306
+Influenza C virus	NC_036616; NC_036615; NC_036619; NC_036618; NC_036617; NC_036620; NC_036621
+Salmon isavirus	NC_006505; NC_006503; NC_006502; NC_006501; NC_006500; NC_006499; NC_006498; NC_006497
+Johnston Atoll quaranjavirus	NC_043229; NC_043230
+Quaranfil quaranjavirus	NC_038817; NC_038818; NC_038821; NC_038819; NC_038820; NC_038822
+Dhori thogotovirus	NC_034261; NC_034263; NC_034254; NC_034255; NC_034262; NC_034256
+Thogoto thogotovirus	NC_006508; NC_006495; NC_006496; NC_006506; NC_006507; NC_006504
+Curvularia orthocurvulavirus 1	NC_010985; NC_010986
+Fusarium graminearum orthocurvulavirus	NC_013470; NC_013471
+Heterobasidion orthocurvulavirus	HQ189459; MK468678
+Lactarius rufus orthocurvulavirus 1	MT130415; MT130416
+Lactarius tabidus orthocurvulavirus 1	KT733084; MG596785
+Rhizoctonia solani orthocurvulavirus 1	JX976612; JX976613
+Sclerotium hydrophilum orthocurvulavirus 1	NC_030888; NC_030891
+Trichoderma harzianum orthocurvulavirus 1	NC_040768; NC_040769
+Beet cryptic virus 1	NC_011556; NC_011557
+Carrot cryptic virus	NC_038824; NC_038823
+Cherry chlorotic rusty spot associated partitivirus	NC_006441; NC_006440
+Chondrostereum purpureum cryptic virus 1	NC_038916; NC_038915
+Flammulina velutipes browning virus	NC_038826; NC_038825
+Helicobasidium mompa partitivirus V70	NC_043392
+Heterobasidion partitivirus 1	NC_038827; NC_038828
+Heterobasidion partitivirus 3	NC_038836; NC_038835
+Heterobasidion partitivirus 12	NC_038829; NC_038830
+Heterobasidion partitivirus 13	NC_038831; NC_038832
+Heterobasidion partitivirus 15	NC_038834; NC_038833
+Rosellinia necatrix partitivirus 2	NC_020234; NC_020235
+Vicia cryptic virus	NC_007241; NC_007242
+White clover cryptic virus 1	NC_006275; NC_006276
+Atkinsonella hypoxylon virus	NC_003470; NC_003471
+Cannabis cryptic virus	JN196536; JN196537
+Ceratocystis resinifera virus 1	NC_010755; NC_010754
+Crimson clover cryptic virus 2	NC_038837; NC_038838
+Dill cryptic virus 2	NC_021147; NC_021148
+Fusarium poae virus 1	NC_003884; NC_003883
+Heterobasidion partitivirus 2	NC_038839; NC_038840
+Heterobasidion partitivirus 7	NC_035485; NC_035486
+Heterobasidion partitivirus 8	NC_038841; NC_038842
+Heterobasidion partitivirus P	NC_043393
+Hop trefoil cryptic virus 2	NC_021098; NC_021099
+Pleurotus ostreatus virus 1	NC_006961; NC_006960
+Primula malacoides virus 1	NC_013109; NC_013110
+Red clover cryptic virus 2	NC_021096; NC_021097
+Rhizoctonia solani virus 717	NC_003801; NC_003802
+Rosellinia necatrix virus 1	NC_007537; NC_007538
+White clover cryptic virus 2	NC_021094; NC_021095
+Cryptosporidium parvum virus 1	NC_038843; NC_038844
+Beet cryptic virus 2	NC_038845; NC_ 038846; NC_038847
+Beet cryptic virus 3	NC_043394
+Fig cryptic virus	NC_015494; NC_015495
+Pepper cryptic virus 1	NC_037095; NC_037096
+Pepper cryptic virus 2	NC_034159; NC_034167
+Aspergillus ochraceous virus	NC_043396; NC_043397; NC_043395
+Discula destructiva virus 1	NC_002797; NC_002800
+Discula destructiva virus 2	NC_003710; NC_003711
+Fusarium solani virus 1	NC_003885; NC_003886
+Gremmeniella abietina RNA virus MS1	NC_004018; NC_004019; NC_004020
+Ophiostoma partitivirus 1	NC_038918; NC_038917
+Penicillium stoloniferum virus F	NC_007221; NC_007222
+Penicillium stoloniferum virus S	NC_005976; NC_005977
+Beihai picobirnavirus	NC_032498; NC_032502
+Equine picobirnavirus	KR902508; KR902507
+Human picobirnavirus	NC_007026; NC_007027
+Equine torovirus	NC_043213; NC_043211; NC_043212
+Formica exsecta virus 3	LH935078; LH935077
+Bean pod mottle virus	NC_003495; NC_003496
+Bean rugose mosaic virus	NC_028139; NC_028146
+Broad bean stain virus	NC_043386; NC_043385
+Broad bean true mosaic virus	NC_022004; NC_022006
+Cowpea mosaic virus	NC_003549; NC_003550
+Cowpea severe mosaic virus	NC_003545; NC_003544
+Radish mosaic virus	NC_010709; NC_010710
+Red clover mottle virus	NC_003741; NC_003738
+Squash mosaic virus	NC_003799; NC_003800
+Broad bean wilt virus 1	NC_005289; NC_005290
+Broad bean wilt virus 2	NC_003003; NC_003004
+Cucurbit mild mosaic virus	NC_038760; NC_038759
+Gentian mosaic virus	AB084452; AB084453
+Grapevine fabavirus	NC_039073; NC_039072
+Lamium mild mosaic virus	NC_023016; NC_023017
+Prunus virus F	NC_039077; NC_039078
+Aeonium ringspot virus	NC_038762; NC_038761
+Arabis mosaic virus	NC_006057; NC_006056
+Artichoke Italian latent virus	NC_043684; NC_043685
+Beet ringspot virus	NC_003693; NC_003694
+Blackcurrant reversion virus	NC_003509; NC_003502
+Blueberry latent spherical virus	NC_038764; NC_038763
+Cherry leaf roll virus	NC_015414; NC_015415
+Cycas necrotic stunt virus	NC_003791; NC_003792
+Grapevine Anatolian ringspot virus	NC_018383; NC_018384
+Grapevine Bulgarian latent virus	NC_015492; NC_015493
+Grapevine chrome mosaic virus	NC_003622; NC_003621
+Grapevine deformation virus	NC_017939; NC_017938
+Grapevine fanleaf virus	NC_003615; NC_003623
+Melon mild mottle virus	NC_038765; NC_038766
+Mulberry mosaic leaf roll associated virus	NC_038767; NC_038768
+Peach rosette mosaic virus	NC_034214; NC_034215
+Potato black ringspot virus	NC_022798; NC_022799
+Potato virus B	NC_043447; NC_043448
+Raspberry ringspot virus	NC_005266; NC_005267
+Soybean latent spherical virus	NC_032270; NC_032271
+Tobacco ringspot virus	NC_005097; NC_005096
+Tomato black ring virus	NC_004439; NC_004440
+Tomato ringspot virus	NC_003840; NC_003839
+Apple latent spherical virus	NC_003787; NC_003788
+Arracacha virus B	NC_020898; NC_020897
+Cherry rasp leaf virus	NC_006271; NC_006272
+Currant latent virus	NC_029038; NC_029036
+Stocky prune virus	NC_043388; NC_043387
+Chocolate lily virus A	NC_016443; NC_016444
+Dioscorea mosaic associated virus	NC_031766; NC_031763
+Satsuma dwarf virus	NC_003785; NC_003786
+Black raspberry necrosis virus	NC_008182; NC_008183
+Strawberry mottle virus	NC_003445; NC_003446
+Carrot torradovirus 1	NC_025479; NC_025480
+Lettuce necrotic leaf curl virus	NC_035214; NC_035219
+Motherwort yellow mottle virus	NC_035218; NC_035220
+Squash chlorotic leaf spot virus	NC_035221; NC_035215
+Tomato marchitez virus	NC_010987; NC_010988
+Tomato torrado virus	NC_009013; NC_009032
+Strawberry latent ringspot virus	NC_006964; NC_006965
+Barley mild mosaic virus	NC_003483; NC_003482
+Barley yellow mosaic virus	NC_002990; NC_002991
+Oat mosaic virus	NC_004016; NC_004017
+Rice necrosis mosaic virus	NC_028144; NC_028145
+Wheat yellow mosaic virus	NC_002350; NC_002349
+Infectious pancreatic necrosis virus	NC_001915; NC_001916
+Tellina virus	AF342731
+Yellowtail ascites virus	NC_004168; NC_004176
+Infectious bursal disease virus	X84034; X84035
+Blotched snakehead virus	NC_005982; NC_005983
+Lates calcarifer birnavirus	MK103419; MK103420
+Drosophina B birnavirus	GQ342962; GQ342963
+Drosophila X virus	NC_004177; NC_004169
+Mosquito X virus	JX403941; JX403942
+Rotifer birnavirus	FM995220; FM995221
+Tellina virus 1	NC_038869; NC_038870
+Thosea asigna virus	NC_043231; NC_043232
+Botrytis porri botybirnavirus 1	NC_017990; NC_017991
+Aspergillus fumigatus polymycovirus 1	dsRNA HG975302; dsRNA HG975303; dsRNA HG975304; dsRNA HG975305
+Aspergillus spelaeus polymycovirus 1	dsRNA MG887754; dsRNA MG887755; dsRNA MG887756; dsRNA MG887757
+Beauveria bassiana polymycovirus 1	dsRNA NC_034260; dsRNA NC_034257; dsRNA NC_034258; dsRNA NC_034259
+Cladosporium cladosporioides polymycovirus 1	dsRNA NC_024704; dsRNA NC_024705; dsRNA NC_024706; dsRNA NC_024707; dsRNA NC_024708
+Fusarium redolens polymycovirus 1	dsRNA MK609920; dsRNA MK609921; dsRNA MK609922; dsRNA MK609923; dsRNA MK609924; dsRNA MK609925; dsRNA MK609926; dsRNA MK609927
+Magnaporthe oryzae polymycovirus 1	dsRNA MH231406; dsRNA MH231407; dsRNA MH231408; dsRNA MH231409
+Penicillium digitatum polymycovirus 1	dsRNA NC_040422; dsRNA NC_040425; dsRNA NC_040423; dsRNA NC_040424
+Penicillum brevicompactum polymycovirus 1	dsRNA MG887750; dsRNA MG887751; dsRNA MG887752; dsRNA MG887753
+Paramecium bursaria Chlorella virus NC1A	NC_043234; NC_043233
+Paramecium bursaria Chlorella virus NYs1	NC_043235; NC_043236
+Paramecium bursaria Chlorella virus SC1A	NC_043237; NC_043238; NC_043239; NC_043240; NC_043241
+Feldmannia irregularis virus a	NC_043255; NC_043245; NC_043243; NC_043242; NC_043248; NC_043247; NC_043246; NC_043244; NC_043251; NC_043250; NC_043257; NC_043249; NC_043256; NC_043252; NC_043254; NC_043253
+Trichoplusia ni ascovirus 2a	NC_043216; NC_042217
+Senegalvirus marseillevirus	NC_043225; NC_043226; NC_043224; NC_043227; NC_042228; NC_043223
+Choristoneura fumiferana entomopoxvirus	NC_043366; NC_043364; NC_043365; NC_043363
+Diachasmimorpha entomopoxvirus	NC_043465; NC_043456; NC_043463; NC_043458; NC_043455; NC_043461; NC_043462; NC_043459; NC_043460; NC_043457; NC_043454; NC_043464
+Possum atadenovirus A	NC_043214; NC_043215
+Sturgeon ichtadenovirus A	NC_043696; NC_043695
+Cardiochiles nigriceps bracovirus	Y19010; AJ440973
+Chelonus inanitus bracovirus	NC_043260; NC_043261; NC_043263; NC_043264; NC_043262; NC_043266; NC_043267; NC_043272; NC_043258; NC_043268; NC_043259; NC_043270; NC_043269; NC_043273; NC_043265; NC_043274; NC_043271; NC_005165
+Cotesia congregata bracovirus	NC_006633; NC_006634; NC_006635; NC_006636; NC_006637; NC_006638; NC_006639; NC_006640; NC_006641; NC_006642; NC_006643; NC_006644; NC_006645; NC_006646; NC_006647; NC_006648; NC_006649; NC_006650; NC_006651; NC_006652; NC_006653; NC_006654; NC_006655; NC_006656; NC_006657; NC_006658; NC_006659; NC_006660; NC_006661; NC_006662
+Cotesia flavipes bracovirus	NC_043281; NC_043276; NC_043283; NC_043279; NC_043286; NC_043280; NC_043284; NC_043285; NC_043277; NC_043275; NC_043282; NC_043278
+Cotesia glomerata bracovirus	NC_043296; NC_043295; NC_043297; NC_043294; NC_043298; NC_043288; NC_043300; NC_043291; NC_043289; NC_043293; NC_043299; NC_043290; NC_043292; NC_043287
+Cotesia marginiventris bracovirus	NC_043303; NC_043302; NC_043301; NC_043304
+Cotesia melanoscela bracovirus	NC_ 043306; NC_043305
+Cotesia rubecula bracovirus	NC_043375; NC_043378; NC_043376; NC_043377; NC_043374; NC_043380; NC_043379; NC_043381
+Diolcogaster facetosa bracovirus	NC_043333; NC_043329; NC_043332; NC_043310; NC_043331; NC_043327; NC_043322; NC_043323; NC_043335; NC_043321; NC_043324; NC_043320; NC_043312; NC_043319; NC_043330; NC_043318; NC_043311; NC_043307; NC_043317; NC_043334; NC_043328; NC_043316; NC_043326; NC_043315; NC_043309; NC_043325; NC_043308; NC_043313; NC_043314
+Glyptapanteles indiensis bracovirus	NC_043362; NC_043344; NC_043346; NC_043345; NC_043338; NC_043339; NC_043342; NC_043337; NC_043341; NC_043336; NC_043360; NC_043343; NC_043351; NC_043359; NC_043352; NC_043356; NC_043349; NC_043357; NC_043340; NC_043347; NC_043358; NC_043350; NC_043348; NC_043354; NC_043361; NC_043353; NC_043355
+Microplitis demolitor bracovirus	NC_007028; NC_007029; NC_007031; NC_007033; NC_007030; NC_007032; NC_007034; NC_007035; NC_007041; NC_007036; NC_007037; NC_007040; NC_007038; NC_007039; NC_007044
+Campoletis sonorensis ichnovirus	NC_008005; NC_007987; NC_007986; NC_008008; NC_007988; NC_008004; NC_007989; NC_007990; NC_007991; NC_007992; NC_007995; NC_007993; NC_007994; NC_007996; NC_008006; NC_007998; NC_007999; NC_007985; NC_008000; NC_008001; NC_008003; NC_008007; NC_008002
+Glypta fumiferanae ichnovirus	NC_008837; NC_008838; NC_008839; NC_008840; NC_008841; NC_008842; NC_008843; NC_008844; NC_008845; NC_008846; NC_008847; NC_008933; NC_008848; NC_008849; NC_008850; NC_008851; NC_008852; NC_008853; NC_008854; NC_008855; NC_008856; NC_008857; NC_008858; NC_008859; NC_008860; NC_008861; NC_008862; NC_008934; NC_008863; NC_008864; NC_008865; NC_008866; NC_008867; NC_008868; NC_008869; NC_008870; NC_008871; NC_008872; NC_008873; NC_008935; NC_008874; NC_008875; NC_008876; NC_008877; NC_008878; NC_008936; NC_008879; NC_008880; NC_008881; NC_008882; NC_008883; NC_008884; NC_008885; NC_008886; NC_008887; NC_008888; NC_008889; NC_008937; NC_008890; NC_008891; NC_008892; NC_008893; NC_008894; NC_008938; NC_008895; NC_008896; NC_008897; NC_008898; NC_008899; NC_008900; NC_008901; NC_008902; NC_008903; NC_008904; NC_008905; NC_008939; NC_008906; NC_008907; NC_008908; NC_008909; NC_008910; NC_008911; NC_008940; NC_008912; NC_008913; NC_008914; NC_008915; NC_008916; NC_008917; NC_008918; NC_008919; NC_008920; NC_008921; NC_008922; NC_008923; NC_008924; NC_008925; NC_008926; NC_008927; NC_008928; NC_008941; NC_008929; NC_008930; NC_008931; NC_008932
+Hyposoter fugitivus ichnovirus	NC_008947; NC_008957; NC_008958; NC_008956; NC_008959; NC_008960; NC_008961; NC_008962; NC_008999; NC_008949; NC_008955; NC_008963; NC_008964; NC_008951; NC_008965; NC_008966; NC_009000; NC_008967; NC_008968; NC_008953; NC_008969; NC_008970; NC_008952; NC_008971; NC_008972; NC_008973; NC_008976; NC_008977; NC_008978; NC_008979; NC_008954; NC_008980; NC_008948; NC_009001; NC_008981; NC_008982; NC_008946; NC_008983; NC_008984; NC_009002; NC_008985; NC_008986; NC_008987; NC_008988; NC_008989; NC_008950; NC_008990; NC_008991; NC_008992; NC_008993; NC_008994; NC_008995; NC_008996; NC_009003; NC_008997; NC_008998
