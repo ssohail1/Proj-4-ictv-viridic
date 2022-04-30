@@ -17,6 +17,8 @@
     - Parse through the fasta sequence output to only save fasta sequences that start with ">NC_" in the header
 
 # User Instructions
-1. Download all files from github
-2. Edit run.py with path of input fasta
-3. ```python3 run.py```
+1. Run below code to download necessary run files from github
+ ```sudo apt install subversion```
+ ```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/run```
+4. Once in the downloaded folder, run the line code below
+ ```python3 run.py```
