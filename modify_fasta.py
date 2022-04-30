@@ -98,4 +98,6 @@ filetofasta('sequences2') # lesser memory size than sequences
 concat = 'cat sequences2.fasta >> sequences.fasta'
 os.system(concat)
 
-
+with open('sequences.fasta', 'r') as f, open('sequencesr.fasta', 'w') as fo: #removes quotations from sequences.fasta so it can be read by blast
+    for line in f:
+        fo.write(line.replace('"', '').replace("'", ""))
