@@ -52,7 +52,7 @@ with open('speciesaccessions.csv', 'r') as file:
     out2.close()
     
 # take the test_ictv2.csv file and manually remove the text with the colons e.g. SegA: NC_...... or DNA-U2: NC_...., etc.. 
-# and save it as a test_ictv_.txt file   
+# and save it as a test_ictv_.txt file - available for ICTV Master Species List MSL #37
     
 #multifasta = open('ictvheadermultifasta.txt','r').read().split('">')
 outfile = open('accessionsandnameandseqs.txt','w')
