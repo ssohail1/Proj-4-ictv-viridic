@@ -15,6 +15,7 @@
     - Retrieve the accession ids for all species that yield greater than 0 hits from NCBI searches
     - Retrieve the fasta sequences by doing a search with all accession ids as input
     - Parse through the fasta sequence output to only save fasta sequences that start with ">NC_" in the header
+# User Requirements
 
 # User Instructions
 1. Run below code to download necessary run files from github
