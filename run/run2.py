@@ -26,6 +26,3 @@ os.system('blastn -db results/inputdb -query sequencesr.fasta -out results/blast
 os.system('python3 blastsort.py')
 
 os.system('python3 distancecalc.py')
-
-
-os.system()
