@@ -52,12 +52,12 @@ with open('speciesaccessions.csv', 'r') as file:
     out2.close()
     
 # take the test_ictv2.csv file and manually remove the text with the colons e.g. SegA: NC_...... or DNA-U2: NC_...., etc.. 
-# and save it as a test_ictv_.txt file - available for ICTV Master Species List MSL #37
+# and save it as a test_ictv_.txt file   
     
 #multifasta = open('ictvheadermultifasta.txt','r').read().split('">')
 outfile = open('accessionsandnameandseqs.txt','w')
 ictvaccession = open("test_ictv_.txt","r").read().split('\n')
-for i in range(0,len(ictvaccession)-1): # the end of the ictvaccession is a blank/extra space
+for i in range(0,len(ictvaccession)-1):
     a1 = ictvaccession[i].split('\t')
     for i in range(1,len(a1)):
         for j in range(0,len(multifasta)):
@@ -86,16 +86,43 @@ for i in range(0,len(multifasta)):
   outfile.write('>' + multifasta[i] + '\n')
 outfile.close()
 
+
+def filetotxt(file):
+    totxtcmmd = 'cp '+ file + '.fasta ' + file + '.txt'
+    os.system(totxtcmmd)
+filetotxt('fasta50_finalfin')
+
+multifasta = open('fasta50_finalfin.txt','r').read().split('">')
+namesspec = open('accessandname_finalfin.txt','r').read().split('\n')
+outfile = open('fasta50_fin.txt','w')
+for i in range(1,len(multifasta)):
+    ind = multifasta[i].index(' ')
+    multifasta[i] = '>' + multifasta[i][:ind] + namesspec[i] + '_' + multifasta[i][ind:]
+    outfile.write(multifasta[i])
+outfile.close()
+
+multifasta = open('fasta50_fin.txt','r').read().split('>')
+outfile = open('sequences3.txt','w')
+for i in range(1,len(multifasta)):
+  multifasta[i] = multifasta[i].replace(' ','_')
+  outfile.write('>' + multifasta[i] + '\n')
+outfile.close()
+
+def filetofasta(file):
+    totxtcmmd = 'cp '+ file + '.txt ' + file + '.fasta'
+    os.system(totxtcmmd)
+filetofasta('sequences3')
+
 # sequences.txt and sequences2.txt are the files with the fasta sequences
 
 def filetofasta(file):
     totxtcmmd = 'cp '+ file + '.txt ' + file + '.fasta'
     os.system(totxtcmmd)
 filetofasta('sequences')
-filetofasta('sequences2') # lesser memory size than sequences
-
-# add the sequences in sequences2.fasta to the end of sequences.fasta
+filetofasta('sequences2')
 concat = 'cat sequences2.fasta >> sequences.fasta'
+os.system(concat)
+concat = 'cat sequences3.fasta >> sequences.fasta'
 os.system(concat)
 
 with open('sequences.fasta', 'r') as f, open('sequencesr.fasta', 'w') as fo: #removes quotations from sequences.fasta so it can be read by blast
