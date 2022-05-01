@@ -11,7 +11,7 @@ i1 <- 1
 ids <- specacc[i1:(i1+17),2]
 mstore1 <- fastaseqretrieval(ids)
 # sp <- c(sp, specacc[i1:(i1+17),1])
-write.table(mstore1, file="/home/ssohail/finfasta3.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
+write.table(mstore1, file="/home/ssohail/finfasta5.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
  
 seqs <- seq(19,6319,100)
 # test: seqs <- seq(119,219,100)
@@ -19,16 +19,16 @@ for (i in seqs) {
   ids <- specacc[i:(i+99),2]
   mstore1 <- fastaseqretrieval(ids)
   # sp <- c(sp,specacc[i:(i+99),1])
-  write.table(mstore1, file="/home/ssohail/finfasta3.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
+  write.table(mstore1, file="/home/ssohail/finfasta5.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
 }
 
 ids <- specacc[6419:(6419+70),2]
 mstore1 <- fastaseqretrieval(ids)
-write.table(mstore1, file="/home/ssohail/finfasta3.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
+write.table(mstore1, file="/home/ssohail/finfasta5.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
 
 ids <- specacc[6490:(6490+28),2]
 mstore1 <- fastaseqretrieval(ids)
-write.table(mstore1, file="/home/ssohail/finfasta3.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
+write.table(mstore1, file="/home/ssohail/finfasta5.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
 
 # seqs <- seq(6719,8519,100)
 seqs <- seq(6519,8519,100)
@@ -36,20 +36,20 @@ for (i in seqs) {
   ids <- specacc[i:(i+99),2]
   mstore1 <- fastaseqretrieval(ids)
   # sp <- c(sp,specacc[i:(i+99),1])
-  write.table(mstore1, file="/home/ssohail/finfasta3.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
+  write.table(mstore1, file="/home/ssohail/finfasta5.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
 }
 
 ids <- specacc[8619:(8619+98),2]
 mstore1 <- fastaseqretrieval(ids)
 #sp <- c(sp, specacc[i1,1])
-write.table(mstore1, file="/home/ssohail/finfasta3.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
+write.table(mstore1, file="/home/ssohail/finfasta5.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
 #write.table(sp,file="/home/ssohail/listofspeciesfinfasta.txt",row.names=FALSE,col.names=FALSE)
 #end1 <- Sys.time
 #end-start
 
 library(rentrez)
 accessids <- function(search_term){
-  return(sapply(search_term, function(s) entrez_search(db="nucleotide", term=s, retmax=length(specacc[,1]))$ids))
+  return(sapply(search_term, function(s) entrez_search(db="nucleotide", term=s, retmax=length(look[,1]))$ids))
 }
 # accsns <- accessids(look$V1)
 entrlinkfasta <- function(search_term){
@@ -109,15 +109,15 @@ for (i in 1:3) {
 }
 print(length(acc50))
 for (i in 1:length(acc50)) {
-  idlinken <- entrlinkfasta(accsns[[i]])
+  idlinken <- entrlinkfasta(acc50[[i]])
   for (j in 1:length(idlinken)) {
     nullvals <- is.null(idlinken[[j]])
     if (nullvals == FALSE) {
       seqfas <- fastaseqretrieval(idlinken[[j]])
       sa <- c(names(acc50[i]))
       print(length(idlinken))
-      write.table(seqfas, file="/home/ssohail/finfasta3.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
-      write.table(sa, file="/home/ssohail/accessandname_final.txt",append=TRUE, row.names = FALSE,col.names=FALSE)
+      write.table(seqfas, file="/home/ssohail/fasta50_finalfin.fasta",append=TRUE, row.names = FALSE,col.names=FALSE)
+      write.table(sa, file="/home/ssohail/accessandname_finalfin.txt",append=TRUE, row.names = FALSE,col.names=FALSE)
     }
   }
 }
