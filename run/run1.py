@@ -12,5 +12,5 @@ runcommand = 'nohup Rscript fullfastadownload.R &'
 os.system(runcommand)
 
 
-runcommand = 'nohup python modify_fasta.py &'
+runcommand = 'nohup python3 modify_fasta.py &'
 os.system(runcommand)
