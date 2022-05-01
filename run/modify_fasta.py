@@ -12,9 +12,9 @@ import csv
 def filetotxt(file):
     totxtcmmd = 'cp '+ file + '.fasta ' + file + '.txt'
     os.system(totxtcmmd)
-filetotxt('finfasta3')
+filetotxt('finfasta5')
 
-multifasta = open('finfasta3.txt','r').read().split('">')
+multifasta = open('finfasta5.txt','r').read().split('">')
 
 '''
 outfile = open('ictvheadermultifasta.txt','w')
@@ -127,4 +127,5 @@ os.system(concat)
 
 with open('sequences.fasta', 'r') as f, open('sequencesr.fasta', 'w') as fo: #removes quotations from sequences.fasta so it can be read by blast
     for line in f:
+        fo.write(line.replace('.1"','.1_')
         fo.write(line.replace('"', '').replace("'", ""))
