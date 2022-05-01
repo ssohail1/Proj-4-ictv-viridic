@@ -1,42 +1,22 @@
-import pandas as pd
-import csv
+# To install NCBI Datasets, use the following command in terminal:
+    #curl -o datasets 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/linux-amd64/datasets'
+    #curl -o dataformat 'https://ftp.ncbi.nlm.nih.gov/pub/datasets/command-line/LATEST/linux-amd64/dataformat'
+    #chmod +x datasets dataformat
 
-species_csv = open("species.csv")
-species = csv.reader(species_csv)
-header = next(species)
-print(header)
-rows = []
-for row in species:
-    rows.append(row)
-print(rows)
-species_csv.close()
+import os
+import glob
 
-#import ncbi datasets
-try:
-    import ncbi.datasets
-except ImportError:
-    print('ncbi.datasets module not found. To install, run `pip install ncbi-datasets-pylib`.')
+def datasets():
+    command = 'datasets download genome accession --inputfile /Users/rhea/accessions.txt --filename datasets --exclude-genomic-cds --exclude-gff3 --exclude-protein --exclude-rna'
+    os.system(command)
+    os.system('cat *.fasta > sequences.fasta')
     
-api_instance = ncbi.datasets.GenomeApi(ncbi.datasets.ApiClient())
-
-
-#since documentation takes string, convert list to str?
-string = ' '.join([str(item) for item in rows])
-#print(rows)
-
-genome_summary = api_instance.assembly_descriptors_by_taxon(
-    taxon=rows,
-    page_size=1000)
-#RETURNS WITH ERROR
-
-print(f"Number of assemblies in the group '{tax_name}': {genome_summary.total_count}")
-
-
-
-#Attempt 2
-#in terminal: pip install --upgrade ncbi-datasets-pylib
-
-#To add quotes to every line
-#sed 's/\(.*\)/"\1"/g' species.txt > species1.txt
-
-
+def input():
+    with open("accessions.txt", 'r') as f:
+        sequence = f.read().strip()
+    if sequence:
+        datasets()
+    elif not glob.glob('*.fasta'):
+        print('Input Not Found')
+       
+#sometimes works?
