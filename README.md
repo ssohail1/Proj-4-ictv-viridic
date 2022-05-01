@@ -7,10 +7,10 @@
 5. Steps 2 - 4 will be completed using the pandas python script
 6. BLASTn the user fasta with inhouse database
 - Explanation for sampleblastout A and B, such as column information, can be found in terminalblast.txt
-8. Figure out intergenomic similarity distance from BLAST output
+7. Figure out intergenomic similarity distance from BLAST output
 - Get total nident by removing overlapping HSPs in BLAST output
 - Use total nident and other variables output from BLAST to calculate intergenomic similarity distance
-10. Next Steps: 
+8. Next Steps: 
     - We can have the class machine run this Rscript in the background with nohup and using the & option
     - Retrieve the accession ids for all species that yield greater than 0 hits from NCBI searches
     - Retrieve the fasta sequences by doing a search with all accession ids as input
@@ -22,5 +22,6 @@
 - ```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/run```
 2. Copy/move your input fasta into the run folder, and modify the user path in the run.py code
 - A sample input fasta is included, so by default the code will be run with that data
-3. Once in the downloaded folder, run the line code below
-- ```python3 run.py```
+3. Once in the downloaded folder, run the lines of code below
+- ```python3 run1.py```
+- ```python3 run2.py```
