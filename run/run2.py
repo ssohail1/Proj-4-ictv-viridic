@@ -13,7 +13,7 @@ os.system('cd ' + your_path)
 
 #### BLAST CODE #### MAKE SURE THAT YOU HAVE BLAST INSTALLED ON YOUR SYSTEM OR THIS WILL NOT WORK
 
-# os.sytem('makeblastdb -in sequencesr.fasta -dbtype nucl -out results/customdb')
+# os.system('makeblastdb -in sequencesr.fasta -dbtype nucl -out results/customdb')
 
 # os.system('makeblastdb -in ' + your_fasta + ' -dbtype nucl -out results/inputdb')
 
