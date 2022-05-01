@@ -1,5 +1,10 @@
 # Proj-4-ictv-viridic
 
+## Introduction
+This is a Python wrapper for a pipeline that simplifies the process of classifying new viral sequences per ICTV classifications. 
+
+## Installation
+
 1. Download the master species list from ICTV website: [Master Species List 2020](https://talk.ictvonline.org/files/master-species-lists/m/msl/12314)
 2. Open the downloaded xlsx file and go to the third sheet
 3. Save the third sheet as a csv file 
@@ -15,9 +20,9 @@
     - Retrieve the accession ids for all species that yield greater than 0 hits from NCBI searches
     - Retrieve the fasta sequences by doing a search with all accession ids as input
     - Parse through the fasta sequence output to only save fasta sequences that start with ">NC_" in the header
-# User Requirements
+## User Requirements
 
-# User Instructions
+## User Instructions
 1. Run below code to download necessary run files from github
 - ```sudo apt install subversion```
 - ```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/run```
@@ -26,3 +31,11 @@
 3. Once in the downloaded folder, run the lines of code below
 - ```python3 run1.py```
 - ```python3 run2.py```
+
+# Pipeline
+
+## Input
+
+## Output
+
+## Limitations
