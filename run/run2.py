@@ -8,8 +8,6 @@ your_fasta = 'SIRV3.fasta' #change the name of this to the fasta you are using a
 
 import os
 
-os.system('cd ' + your_path)
-
 
 #### BLAST CODE #### MAKE SURE THAT YOU HAVE BLAST INSTALLED ON YOUR SYSTEM OR THIS WILL NOT WORK
 
