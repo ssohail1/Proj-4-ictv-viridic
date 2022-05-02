@@ -21,6 +21,7 @@ fileAB = pd.merge(left = fileA, right = fileB[['database_accessionID','lenB','to
 def distance_calc(A, B, AB, BA):
     simAB = ((int(AB)+int(BA))*100)/(int(A)+int(B))
     distAB = 100 - simAB
+    distAB = round(distAB,2)
     return distAB
 
 fileAB['distanceAB'] = fileAB.apply(lambda x: distance_calc(x['lenA'], x['lenB'], x['totidentAB'], x['totidentBA']), axis=1)
