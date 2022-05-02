@@ -10,6 +10,7 @@ import os
 def datasets():
     # Command to run NCBI datasets
         # Only need RefSeqGenBankNumber_Species_PartialOrCompleteGenome
+        # https://www.biostars.org/p/344959/
     command = 'datasets download genome accession --inputfile accessions.txt --filename datasets --exclude-genomic-cds --exclude-gff3 --exclude-protein --exclude-rna'
     os.system(command)
     # Create output file in fasta format
