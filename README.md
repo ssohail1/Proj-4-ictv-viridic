@@ -27,7 +27,7 @@ ICTV publishes a Master Species List every year which includes the new additions
 ## BLAST
 
 ## User Requirements
-
+- Install seaborn package to make heatmap: ```pip install seaborn```
 ## User Instructions
 1. Run below code to download necessary run files from github
 - ```sudo apt install subversion```
