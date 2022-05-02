@@ -38,6 +38,12 @@ ICTV publishes a Master Species List every year which includes the new additions
 ## User Requirements
 - Install pandas package for dist calculations: ```sudo apt install python3-pandas```
 - Install seaborn package to make heatmap: ```pip install seaborn```
+- Install dependencies for installing rentrez
+    - ```sudo apt-get install libssl-dev```
+    - ```sudo apt-get install libxml2-dev```
+    - ```sudo apt-get install libcurl4-openssl-dev```
+    - ```sudo apt install r-cran-devtools```
+    - install_github('
 ## User Instructions
 1. Run below code to download necessary run files from github
 - ```sudo apt install subversion```
