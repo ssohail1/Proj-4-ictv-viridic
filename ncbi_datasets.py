@@ -11,15 +11,15 @@ def datasets():
     # Command to run NCBI datasets
         # Only need RefSeqGenBankNumber_Species_PartialOrCompleteGenome
         # https://www.biostars.org/p/344959/
-    command = 'datasets download genome accession --inputfile accessions.txt --filename datasets --exclude-genomic-cds --exclude-gff3 --exclude-protein --exclude-rna'
+    command = 'datasets download genome accession --inputfile accession_ids.txt --filename datasets --exclude-genomic-cds --exclude-gff3 --exclude-protein --exclude-rna'
     os.system(command)
     # Create output file in fasta format
-    os.system('cat *.fasta > sequences.fasta')
+    os.system('cat *.fasta > fasta_sequences.fasta')
     
 def input_cmmd():
     # Read input file and strip lines
         # 'accessions.txt' is a list of all the accession ids
-    with open("accessions.txt", 'r') as f:
+    with open("accession_ids.txt", 'r') as f:
         sequence = f.read().strip()
     # Use the accession ids and run them through NCBI datasets
     if sequence:
