@@ -10,8 +10,10 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from pylab import savefig
 
-fileA = pd.read_csv('/results/totidentA.csv', sep = ',')
-fileB = pd.read_csv('/results/totidentB.csv', sep = ',')
+current = os.getcwd()
+
+fileA = pd.read_csv(current + '/results/totidentA.csv', sep = ',')
+fileB = pd.read_csv(current + '/results/totidentB.csv', sep = ',')
 
 fileA.columns = ['index','input_accessionID', 'database_accessionID', 'qstart', 'qend', 'nident','lenA','totidentAB']
 fileB.columns = ['index','database_accessionID', 'input_accessionID', 'qstart', 'qend', 'nident','lenB','totidentBA']
@@ -32,4 +34,4 @@ result = fileABshort.pivot(index='input_accessionID', columns='database_accessio
 heatmap = sns.heatmap(result, annot=True, fmt="g", cmap='viridis')
 
 figure = heatmap.get_figure()
-figure.savefig('/results/heatmap.png', dpi = 600)
+figure.savefig(current + '/results/heatmap.png', dpi = 600)
