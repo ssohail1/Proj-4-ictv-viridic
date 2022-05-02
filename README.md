@@ -25,12 +25,13 @@ This is a Python wrapper for a pipeline that simplifies the process of classifyi
 ICTV publishes a Master Species List every year which includes the new additions and updates to viral taxonomy. These excel files can be found [here](https://talk.ictvonline.org/files/master-species-lists/m/msl) on the ICTV website.  
 
 ## BLAST
-# commands to download and install current version of BLAST for linux server
+-commands to download and install current version of BLAST for linux server
 
 ```sudo apt-get update```
+
 ```sudo apt-get install ncbi-blast+```
 
-# to check that it is correctly installed type
+-to check that it is correctly installed type
 
 ```blastn help```
 
