@@ -11,6 +11,8 @@ import os
 runcommand = 'nohup Rscript fullfastadownload.R &'
 os.system(runcommand)
 
+runcommand = 'nohup Rscript accessions.R &'
+os.system(runcommand)
 
 runcommand = 'nohup python3 modify_fasta.py &'
 os.system(runcommand)
