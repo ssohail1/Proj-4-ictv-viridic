@@ -7,7 +7,7 @@
 
 import os
 
-def datasets():
+def ncbi_datasets():
     # Command to run NCBI datasets
         # Only need RefSeqGenBankNumber_Species_PartialOrCompleteGenome
         # https://www.biostars.org/p/344959/
@@ -23,7 +23,7 @@ def input_cmmd():
         sequence = f.read().strip()
     # Use the accession ids and run them through NCBI datasets
     if sequence:
-        datasets()
+        ncbi_datasets()
 
 # Execute command
 input_cmmd()
