@@ -3,6 +3,10 @@ Created on Mon Apr 18 17:30:35 2022
 
 @author: jgrandinetti
 """
+## credit to JoergVanAken on Stack Overflow for sharing code to remove overlaps using depth first search in a graph
+## https://stackoverflow.com/questions/54969074/python-3-remove-overlaps-in-table/55716443#55716443?newreg=bee73dc269464a38b8b22bf3ace5549b
+## many modifications have been made to serve the project, but much of the core code remains the same
+## His code kept the smallest value in an overlapping sequence, while for our purposes we wanted the largest to be represented in total nident
 
 import pandas as pd
 import numpy as np
