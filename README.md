@@ -13,7 +13,7 @@ ICTV also publishes a developing resource that includes key pieces of informatio
 
 ### Installation and Dependencies
 
-#### User Requirements
+#### User Requirements for Linux server
 - Install [Python](https://www.python.org/downloads/)
 - Install [R](https://cran.r-project.org/) ([RStudio](https://www.rstudio.com/products/rstudio/download/) is optional)  
 - Install pandas package for distance calculations: ```sudo apt install python3-pandas```
