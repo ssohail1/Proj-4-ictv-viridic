@@ -6,7 +6,10 @@ This is a Python wrapper for a pipeline that simplifies the process of classifyi
 # Installation and Dependencies
 
 ## ICTV Master Species List
-ICTV publishes a Master Species List every year which includes the new additions and updates to viral taxonomy. These excel files can be found [here](https://talk.ictvonline.org/files/master-species-lists/m/msl) on the ICTV website.  
+ICTV publishes a Master Species List every year which includes the new additions and updates to viral taxonomy. The complete list of files can be found [here](https://talk.ictvonline.org/files/master-species-lists/m/msl) on the ICTV website. The wrapper currenty uses [ICTV Master Species List MSL #37](https://talk.ictvonline.org/files/master-species-lists/m/msl/13425) which was published in April 2022.
+
+## Virus Repository Resource
+ICTV also publishes a developing resource that includes key pieces of information such as viral taxonomy, GenBank accession numbers, RefSeq IDs, and exemplar isolates. The complete list of files can be found [here](https://talk.ictvonline.org/taxonomy/vmr/) on the ICTV website. The wrapper currently uses [Virus Metadata Repository MSL 36](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13181) which was published in October 2021. 
 
 ## BLAST
 - commands to download and install current version of BLAST for linux server
@@ -61,3 +64,8 @@ install_github("ropensci/rentrez")
 ## Output
 
 ## Limitations
+The ICTV Master Species List and Virus Metadata Resource are updated on a yearly basis. It will be integral to download and implement the **most recent** version to return an accurate output. 
+
+Furthermore, the wrapper does not include species from the Master Species List that did not return hits from NCBI. These are excluded from the tool and put into a separate text file for the user. 
+
+The tool is also limited to distance calculations. While the BLAST does alignment, anything beyond distance calculations is not explored. It will be up to the user to how they want to address their questions.
