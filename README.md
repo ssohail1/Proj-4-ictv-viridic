@@ -1,17 +1,32 @@
 # Proj-4-ictv-viridic
 
-# Introduction
-This is a Python wrapper for a pipeline that simplifies the process of classifying new viral sequences per ICTV classifications. 
+## Sidra Sohail, Rhea Prag, Jacob Grandinetti, Sabrina Lutfiyeva
 
-# Installation and Dependencies
+### Introduction
+This builds a database that simplifies the process of classifying new viral sequences per ICTV classifications. The database is a multi-fasta file with fasta sequences for each ICTV designated species.
 
-## ICTV Master Species List
-ICTV publishes a Master Species List every year which includes the new additions and updates to viral taxonomy. The complete list of files can be found [here](https://talk.ictvonline.org/files/master-species-lists/m/msl) on the ICTV website. The wrapper currenty uses [ICTV Master Species List MSL #37](https://talk.ictvonline.org/files/master-species-lists/m/msl/13425) which was published in April 2022.
+#### ICTV Master Species List
+ICTV publishes a Master Species List every year which includes the new additions and updates to viral taxonomy. The complete list of files can be found [here](https://talk.ictvonline.org/files/master-species-lists/m/msl) on the ICTV website. The database currenty uses [ICTV Master Species List MSL #37](https://talk.ictvonline.org/files/master-species-lists/m/msl/13425) which was published in April 2022.
 
-## Virus Repository Resource
-ICTV also publishes a developing resource that includes key pieces of information such as viral taxonomy, GenBank accession numbers, RefSeq IDs, and exemplar isolates. The complete list of files can be found [here](https://talk.ictvonline.org/taxonomy/vmr/) on the ICTV website. The wrapper currently uses [Virus Metadata Repository MSL 36](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13181) which was published in October 2021. 
+#### Virus Repository Resource
+ICTV also publishes a developing resource that includes key pieces of information such as viral taxonomy, GenBank accession numbers, RefSeq IDs, and exemplar isolates. The complete list of files can be found [here](https://talk.ictvonline.org/taxonomy/vmr/) on the ICTV website. The database currently uses [Virus Metadata Repository MSL 36](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13181) which was published in October 2021. 
 
-## BLAST
+### Installation and Dependencies
+
+#### User Requirements
+- Install [Python](https://www.python.org/downloads/)
+- Install [R](https://cran.r-project.org/) ([RStudio](https://www.rstudio.com/products/rstudio/download/) is optional)  
+- Install pandas package for distance calculations: ```sudo apt install python3-pandas```
+- Install seaborn package to make heatmap: ```pip install seaborn```
+- Install dependencies for installing rentrez:
+    - ```sudo apt-get install libssl-dev```
+    - ```sudo apt-get install libxml2-dev```
+    - ```sudo apt-get install libcurl4-openssl-dev```
+    - ```sudo apt install r-cran-devtools```
+- Install rentrez:
+    - ```install_github("ropensci/rentrez")``` 
+
+#### BLAST
 - commands to download and install current version of BLAST for linux server
 
 ```sudo apt-get update```
@@ -22,18 +37,7 @@ ICTV also publishes a developing resource that includes key pieces of informatio
 
 ```blastn help```
 
-## User Requirements
-- Install pandas package for dist calculations: ```sudo apt install python3-pandas```
-- Install seaborn package to make heatmap: ```pip install seaborn```
-- Install dependencies for installing rentrez:
-```
-sudo apt-get install libssl-dev
-sudo apt-get install libxml2-dev
-sudo apt-get install libcurl4-openssl-dev
-sudo apt install r-cran-devtools
-install_github("ropensci/rentrez")
-```
-## User Instructions
+#### User Instructions
 1. Run below code to download necessary run files from github
 - ```sudo apt install subversion```
 - ```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/run```
@@ -43,7 +47,7 @@ install_github("ropensci/rentrez")
 - ```python3 run1.py```
 - ```python3 run2.py```
 
-# Pipeline
+### Pipeline
 1. Download the Master Species List from ICTV website: [Master Species List 2020](https://talk.ictvonline.org/files/master-species-lists/m/msl/12314)
 2. Download the Virus Metadata Repository from ICTV website: [Virus Metadata Repository 2021](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository)
 3. Run the VMR python script for parsing the ICTV Virus Metadata Repository excel file where output is a csv file
@@ -59,11 +63,11 @@ install_github("ropensci/rentrez")
     - Retrieve the accession ids for all species that yield greater than 0 hits from NCBI searches
     - Retrieve the fasta sequences by doing a search with all accession ids as input
     - Parse through the fasta sequence output to only save fasta sequences that start with ">NC_" in the header
-## Input
+#### Input
 
-## Output
+#### Output
 
-## Limitations
+#### Limitations
 The ICTV Master Species List and Virus Metadata Resource are updated on a yearly basis. It will be integral to download and implement the **most recent** version to return an accurate output. 
 
 Furthermore, the wrapper does not include species from the Master Species List that did not return hits from NCBI. These are excluded from the tool and put into a separate text file for the user. 
