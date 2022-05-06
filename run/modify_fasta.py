@@ -127,14 +127,10 @@ os.system(concat)
 
 with open('sequences.fasta', 'r') as f, open('sequencesr.fasta', 'w') as fo: #removes quotations from sequences.fasta so it can be read by blast
     for line in f:
-        if '.1"' in line:
-            line.replace('.1"','.1_')
-            fo.write(line)
+        if '1"' in line:
+            line.replace('1"','1_')
         if '"' in line:
             line.replace('"','')
-            fo.write(line)
         elif "'" in line:
             line.replace("'", "")
-            fo.write(line)
-        else:
-            fo.write(line)
+        fo.write(line)
