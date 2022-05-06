@@ -64,7 +64,9 @@ ICTV also publishes a developing resource that includes key pieces of informatio
 9. Calculate intergenomic similarity distance from BLAST output
 - Get total nident by removing overlapping HSPs in BLAST output
 - Use total nident and other variables output from BLAST to calculate intergenomic similarity distance
-
+Using precompiled speciesaccessions.csv and speciestolookfor.txt files:
+- Run steps 6 - 9
+    - For the sample_data folder, only the fullfastadownload.R file needs to be run for step 6 and one multi-fasta file will be output from step 6
 #### Input
 
 #### Output
