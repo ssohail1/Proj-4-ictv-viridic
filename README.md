@@ -52,7 +52,7 @@ ICTV also publishes a developing resource that includes key pieces of informatio
 - ```python3 run2.py```
 
 ### Pipeline
-1. Download the Master Species List from ICTV website: [Master Species List 2020](https://talk.ictvonline.org/files/master-species-lists/m/msl/12314)
+1. Download the Master Species List from ICTV website: [Master Species List 2021](https://talk.ictvonline.org/files/master-species-lists/m/msl/13425)
 2. Download the Virus Metadata Repository from ICTV website: [Virus Metadata Repository 2021](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository)
 3. Run the VMR python script for parsing the ICTV Virus Metadata Repository excel file where output is a csv file
 4. Run the Pandas python script for parsing the ICTV Master Species List excel file where output is a csv file
