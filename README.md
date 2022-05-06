@@ -44,6 +44,7 @@ ICTV also publishes a developing resource that includes key pieces of informatio
 - For test data: ```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/sample_data```
 2. Copy/move your input fasta into the run folder, and modify the user path in the run.py code
 - A sample input fasta is included, so by default the code will be run with that data
+    - The SIRV3.fasta is the sample input multi-fasta and contains three fasta sequences (for the run folder) and two sequences (for the sample_data folder)
 3. Once in the downloaded folder, run the lines of code below
 - ```Rscript fullfastadownload.R```
 - ```Rscript accessions.R``` _(not applicable for the sample_data)_
@@ -55,17 +56,15 @@ ICTV also publishes a developing resource that includes key pieces of informatio
 2. Download the Virus Metadata Repository from ICTV website: [Virus Metadata Repository 2021](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository)
 3. Run the VMR python script for parsing the ICTV Virus Metadata Repository excel file where output is a csv file
 4. Run the Pandas python script for parsing the ICTV Master Species List excel file where output is a csv file
-5. This csv file will be input to R for retrieval of sequences from NCBI using the rentrez package
-6. BLASTn the user fasta with inhouse database
-- Explanation for sampleblastout A and B, such as column information, can be found in terminalblast.txt
-7. Calculate intergenomic similarity distance from BLAST output
+5. These csv files will be input to generating_species_list.R to output a csv file with ICTV species names and accession IDs and a text file with ICTV species names
+6. The output csv file will be input to fullfastadownload.R and text file will be input to accessions.R (_not applicable to sample_data folder_) and two multi-fasta files will be output
+7. The two multi-fasta files will be input to modify_fasta.py to modify headers and output is the database multi-fasta file
+8. BLASTn the user fasta with inhouse database
+- Explanation for BLAST output can be found in terminalblast.txt
+9. Calculate intergenomic similarity distance from BLAST output
 - Get total nident by removing overlapping HSPs in BLAST output
 - Use total nident and other variables output from BLAST to calculate intergenomic similarity distance
-8. Next Steps: 
-    - We can have the class machine run this Rscript in the background with nohup and using the & option
-    - Retrieve the accession ids for all species that yield greater than 0 hits from NCBI searches
-    - Retrieve the fasta sequences by doing a search with all accession ids as input
-    - Parse through the fasta sequence output to only save fasta sequences that start with ">NC_" in the header
+
 #### Input
 
 #### Output
