@@ -23,7 +23,7 @@ fileB.columns = ['input_accessionID', 'database_accessionID', 'qstart', 'qend', 
 fileA.name = 'blastoutA'
 fileB.name = 'blastoutB'
 
-def totident(df):
+def totident(df): #function to find totident
     
     if df.name == 'blastoutA':
         accessionID = 'database_accessionID'
@@ -34,16 +34,16 @@ def totident(df):
     #and we want the column with many accessions so that we can sort correctly
     
     df['ID'] = range(df.shape[0])
-    df['Interval'] = df.apply(lambda x: pd.Interval(x['qstart'], x['qend'], closed='both'), axis=1)
+    df['Interval'] = df.apply(lambda x: pd.Interval(x['qstart'], x['qend'], closed='both'), axis=1) # dataframe based on the hsp intervals
     
     columns = [accessionID, 'Interval', 'ID']
     connected = df[columns].merge(df[columns], on = accessionID)
     connected['Overlap'] = connected.apply(lambda x: x['Interval_x'].overlaps(x['Interval_y']), axis=1) 
     connected = connected.loc[connected['Overlap'] == True, [accessionID, 'ID_x', 'ID_y']]
     
-    graph = connected.groupby([accessionID, 'ID_x']).agg(list)
+    graph = connected.groupby([accessionID, 'ID_x']).agg(list) #creating graph
                                                   
-    def connections(graph, id):
+    def connections(graph, id): #function to create depth first search from graph
         def dict_to_df(d):
             df = pd.DataFrame(data=[d.keys(), d.values()], index=['ID', 'Subgraph']).T
             df['id'] = id
@@ -74,7 +74,7 @@ def totident(df):
     
     data = df.merge(conns[['Subgraph', 'ID']], on=['ID'])
     
-    def select_max(x):
+    def select_max(x): # function that uses graph to find maximum length in overlapping hsps
         m = x['nident'].max()
         if len(x) > 1 and (x['nident'] == m).all():
             return -1
@@ -91,6 +91,7 @@ def totident(df):
     df_new = df_new.rename(columns = {'nident':'totident'})
     
     return(pd.merge(left=max_only, right=df_new[[accessionID,'totident']], how='right', on=accessionID))
+#merging totident columns to A and B file
 
 
 with open(current + '/results/totidentA.csv','w') as f: #open csv file to write
