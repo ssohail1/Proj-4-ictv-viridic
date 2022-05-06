@@ -9,7 +9,7 @@ This builds a database that simplifies the process of classifying new viral sequ
 ICTV publishes a Master Species List every year which includes the new additions and updates to viral taxonomy. The complete list of files can be found [here](https://talk.ictvonline.org/files/master-species-lists/m/msl) on the ICTV website. The database currenty uses [ICTV Master Species List MSL #37](https://talk.ictvonline.org/files/master-species-lists/m/msl/13425) which was published in March 2022.
 
 #### Virus Repository Resource
-ICTV also publishes a developing resource that includes key pieces of information such as viral taxonomy, GenBank accession numbers, RefSeq IDs, and exemplar isolates. The complete list of files can be found [here](https://talk.ictvonline.org/taxonomy/vmr/) on the ICTV website. The database currently uses [Virus Metadata Repository 36](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13181) which was published in October 2021. 
+ICTV also publishes a developing resource that includes key pieces of information such as viral taxonomy, GenBank accession numbers, RefSeq IDs, and exemplar isolates. The complete list of files can be found [here](https://talk.ictvonline.org/taxonomy/vmr/) on the ICTV website. The database currently uses [Virus Metadata Repository #36](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13181) which was published in October 2021. 
 
 ### Installation and Dependencies
 
@@ -40,12 +40,12 @@ ICTV also publishes a developing resource that includes key pieces of informatio
 #### User Instructions
 1. Run below code to download necessary run files from github
 - ```sudo apt install subversion```
-- ```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/run```
+- For using full complete data: ```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/run```
 - For test data: ```svn checkout https://github.com/ssohail1/Proj-4-ictv-viridic/trunk/sample_data```
-2. Copy/move your input fasta into the run folder, and modify the user path in the run.py code
+3. Copy/move your input fasta into the run folder, and modify the user path in the run.py code
 - A sample input fasta is included, so by default the code will be run with that data
     - The SIRV3.fasta is the sample input multi-fasta and contains three fasta sequences (for the run folder) and two sequences (for the sample_data folder)
-3. Once in the downloaded folder, run the lines of code below
+4. Once in the downloaded folder, run the lines of code below
 - ```Rscript fullfastadownload.R```
 - ```Rscript accessions.R``` _(not applicable for the sample_data)_
 - ```python3 modify_fasta.py```
