@@ -33,7 +33,7 @@ ICTV also publishes a developing resource that includes key pieces of informatio
 
 ```sudo apt-get install ncbi-blast+```
 
-- to check that it is correctly installed type
+- to check that it is correctly installed
 
 ```blastn help```
 
