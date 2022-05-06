@@ -9,7 +9,7 @@ This builds a database that simplifies the process of classifying new viral sequ
 ICTV publishes a Master Species List every year which includes the new additions and updates to viral taxonomy. The complete list of files can be found [here](https://talk.ictvonline.org/files/master-species-lists/m/msl) on the ICTV website. The database currenty uses [ICTV Master Species List MSL #37](https://talk.ictvonline.org/files/master-species-lists/m/msl/13425) which was published in March 2022.
 
 #### Virus Repository Resource
-ICTV also publishes a developing resource that includes key pieces of information such as viral taxonomy, GenBank accession numbers, RefSeq IDs, and exemplar isolates. The complete list of files can be found [here](https://talk.ictvonline.org/taxonomy/vmr/) on the ICTV website. The database currently uses [Virus Metadata Repository MSL 36](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13181) which was published in October 2021. 
+ICTV also publishes a developing resource that includes key pieces of information such as viral taxonomy, GenBank accession numbers, RefSeq IDs, and exemplar isolates. The complete list of files can be found [here](https://talk.ictvonline.org/taxonomy/vmr/) on the ICTV website. The database currently uses [Virus Metadata Repository 36](https://talk.ictvonline.org/taxonomy/vmr/m/vmr-file-repository/13181) which was published in October 2021. 
 
 ### Installation and Dependencies
 
