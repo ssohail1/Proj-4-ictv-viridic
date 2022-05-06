@@ -14,17 +14,8 @@ def filetotxt(file):
     os.system(totxtcmmd)
 filetotxt('finfasta5')
 
+# split at ">" so that each fasta sequence is separated
 multifasta = open('finfasta5.txt','r').read().split('">')
-
-'''
-outfile = open('ictvheadermultifasta.txt','w')
-for i in range(0,len(multifasta)):
-  multifasta[i] = multifasta[i].replace(' ','_')
-  outfile.write(multifasta[i])
-outfile.close()
-'''
-
-# multifasta = open('ictvheadermultifasta.txt','r').read().split('">')
 
 outfile = open('ictvheadermultifasta_fin.txt','w')
 for i in range(0,len(multifasta)):
@@ -38,11 +29,7 @@ for i in range(0,len(multifasta)):
                 outfile.write(multifasta[i])
 outfile.close()
 
-
-
-# split at ">" so that each fasta sequence is separated
-#multifasta = open('ictvheadermultifasta_fin.txt','r').read().split('">')
-
+# some species have many accession IDs so those species names and accession ids from speciesaccessions.csv are saved to test_ictv2.csv
 out2 = open('test_ictv2.csv','w')
 with open('speciesaccessions.csv', 'r') as file:
     reader = csv.reader(file)
@@ -51,10 +38,9 @@ with open('speciesaccessions.csv', 'r') as file:
             out2.write(row[0] + '\t' + row[1] + '\n')
     out2.close()
     
-# take the test_ictv2.csv file and manually remove the text with the colons e.g. SegA: NC_...... or DNA-U2: NC_...., etc.. 
+# take the test_ictv2.csv file and manually remove the text with the colons e.g. SegA: NC_...... or DNA-U2: NC_...., etc.. through a text editor
 # and save it as a test_ictv_.txt file   
     
-#multifasta = open('ictvheadermultifasta.txt','r').read().split('">')
 outfile = open('accessionsandnameandseqs.txt','w')
 ictvaccession = open("test_ictv_.txt","r").read().split('\n')
 for i in range(0,len(ictvaccession)-1):
