@@ -74,6 +74,7 @@ Assuming that using the precompiled speciesaccessions.csv and speciestolookfor.t
 2. accessions.R: input is speciestolookfor.txt
 3. modify_fasta.py: input is the output from fullfastadownload.R and accessions.R files and the speciesaccesions.csv and the test_ictv_.txt files
 4. run2.py: input is the database multi-fasta output from modify_fasta.py file
+Other files that can be input to generating_species_list.R are in the inputsfile folder
 
 #### Output
 1. fullfastadownload.R: output is finfasta3.fasta file
