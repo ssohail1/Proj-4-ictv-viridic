@@ -6,6 +6,8 @@ results folder: Output from BLAST and distance calculation:
 
 SIRV3.fasta: sample user input multi-fasta file with two fasta sequences
 
+speciesaccessions.csv: file with subset of species from the ICTV MSL version 37 file - has 127 species
+
 fullfastadownload.R: R script for retrieving fasta sequences for the ICTV species names and output is a multi-fasta file
 
 modify_fasta.py: modify headers to include ICTV species names and modify spaces and quotes characters
