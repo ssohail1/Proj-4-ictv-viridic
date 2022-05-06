@@ -68,12 +68,22 @@ Using precompiled speciesaccessions.csv and speciestolookfor.txt files:
 - Run steps 6 - 9
     - For the sample_data folder, only the fullfastadownload.R file needs to be run for step 6 and one multi-fasta file will be output from step 6
 #### Input
+These are in the order that the files should be run:
+Assuming that using the precompiled speciesaccessions.csv and speciestolookfor.txt files
+1. fullfastadownload.R: input is speciesaccessions.csv
+2. accessions.R: input is speciestolookfor.txt
+3. modify_fasta.py: input is the output from fullfastadownload.R and accessions.R files and the speciesaccesions.csv and the test_ictv_.txt files
+4. run2.py: input is the database multi-fasta output from modify_fasta.py file
 
 #### Output
+1. fullfastadownload.R: output is finfasta3.fasta file
+2. accessions.R: output is fasta50_finalfin.fasta file and accessandname.txt file
+3. modify_fasta.py: final output is the multi-fasta database output
+4. run2.py: output is the csv file containing distances (results.csv), heatmap png file, and totident csv files containing total nident values
 
 #### Limitations
 The ICTV Master Species List and Virus Metadata Resource are updated on a yearly basis. It will be integral to download and implement the **most recent** version to return an accurate output. 
 
-Furthermore, the wrapper does not include species from the Master Species List that did not return hits from NCBI. These are excluded from the tool and put into a separate text file for the user. 
+Furthermore, the speciesaccessions.csv does not include species from the Master Species List that do not return hits from NCBI. These are excluded from the tool and put into a separate text file for the user. 
 
 The tool is also limited to distance calculations. While the BLAST does alignment, anything beyond distance calculations is not explored. It will be up to the user to how they want to address their questions.
