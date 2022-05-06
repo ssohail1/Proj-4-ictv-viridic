@@ -20,9 +20,9 @@ fileB.columns = ['index','database_accessionID', 'input_accessionID', 'qstart', 
 
 fileAB = pd.merge(left = fileA, right = fileB[['database_accessionID','lenB','totidentBA']], how='right', on = 'database_accessionID')
 
-fileAB = fileAB.dropna()
+fileAB = fileAB.dropna() #removing rows with NA because it means that there is no match between columns A and B; ie. no hsp overlap
 
-def distance_calc(A, B, AB, BA):
+def distance_calc(A, B, AB, BA): #function that implements distance calculation from VIRIDIC and Meier-Kolthoff paper
     simAB = ((int(AB)+int(BA))*100)/(int(A)+int(B))
     distAB = 100 - simAB
     distAB = round(distAB,2)
@@ -33,10 +33,10 @@ fileAB = fileAB.sort_values(by = 'distanceAB', ascending = True)
 
 fileABshort = fileAB[['input_accessionID','database_accessionID','distanceAB']].drop_duplicates(subset=None, keep='first', inplace=False)
 
-with open(current + '/results/results.csv','w') as f: #open csv file to write
+with open(current + '/results/results.csv','w') as f: #results csv has sorted distAB by lowest (most related) to highest (most different)
     fileABshort.to_csv(f) #write dataframe from list to csv
 
-fileABshort = fileABshort.head(100)
+fileABshort = fileABshort.head(100) # heatmap uses only the top 100 hits from the results to avoid clutter
 fileABshort = fileABshort.pivot_table(index='input_accessionID', columns='database_accessionID', values='distanceAB')
 
 fig, ax = plt.subplots(figsize=(len(fileABshort.columns),len(fileABshort)))
@@ -44,4 +44,4 @@ fig, ax = plt.subplots(figsize=(len(fileABshort.columns),len(fileABshort)))
 heatmap = sns.heatmap(fileABshort, annot=True, fmt="g", cmap='viridis', linewidths=5)
 
 figure = heatmap.get_figure()
-figure.savefig(current +'/results/heatmap.png', dpi = 300, bbox_inches='tight')
+figure.savefig(current +'/results/heatmap.png', dpi = 300, bbox_inches='tight') #output of heatmap
